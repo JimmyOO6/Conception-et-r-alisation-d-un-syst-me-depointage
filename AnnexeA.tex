@@ -1,0 +1,1443 @@
+\chapter*{Annexe A}\label{ch:annexeA}
+\fancyhead[R]{\textit{Annexe A}}
+\addcontentsline{toc}{part}{Annexe A}
+
+
+
+   \subsection*{Cas d'utilisation « Consulter mon tableau de bord »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                 \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Consulter mon tableau de bord} \\
+                 \hline
+                    Acteur & Employé, Manager, Responsable \\
+                    \hline
+                    Résumer & L’acteur accède au tableau de bord qui affiche son pointage et le planning du jour, ainsi qu’une liste des collaborateurs faisant partis de la même équipe que lui.  \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                        \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                              \item Le système affiche le tableau de bord avec les informations correspondant.
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchaînement alternatif &  \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                \caption{Description du cas d'utilisation « Consulter mon tableau de bord »}\\
+            \end{longtable}
+
+    \subsection*{Cas d'utilisation « Consulter le tableau de bord responsable  »}
+                \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+
+                 \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Consulter le tableau de bord responsable } \\
+                 \hline
+                    Acteur &  Responsable\\
+                    \hline
+                    Résumer &  Permet d’afficher un tableau de bord récapitulatif des informations de pointage (du responsable lui-même, des équipes de l’entreprise, de tous les employés).\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le système affiche un résumé des informations de pointage  concernant le responsable.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le responsable peut avoir une vue par équipe ou il a accès au résumé de pointage de chaque équipe.
+                                \item Le responsable peut avoir une vue par collaborateur dans laquelle on affiche le résumé de pointage de chaque  collaborateur.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                \caption{Description du cas d'utilisation « Consulter le tableau de bord responsable »}\\
+            \end{longtable}    
+   
+    \subsection*{Cas d'utilisation « Rechercher période »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                 \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Rechercher période} \\
+                 \hline
+                    Acteur & Employé, Manager, Responsable \\
+                    \hline
+                    Résumer &  L’acteur peut faire une recherche sur les données qui sont liées à une période donnée, en sélectionnant la date du début et de fin de cette dernière.  \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions & Être authentifier.  \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                        \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                              \item l'acteur choisi une date de début 
+                              \item l'acteur choisi une date de fin 
+                              \item le système retourne les informations liées a cette période 
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    
+                                    \begin{minipage}[t]{\linewidth}
+                        3a. Le système ne retrouve aucun résultat lié a cette période  
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item le système notifie l'acteur qu’aucun résultat n'a était trouvé.
+                        \end{enumerate}
+                    \end{minipage}
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                \caption{Description du cas d'utilisation « Rechercher période »}\\
+            \end{longtable}    
+    
+    \subsection*{Cas d'utilisation « Rechercher employé »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                 \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Rechercher employé} \\
+                 \hline
+                    Acteur & Manager, Responsable \\
+                    \hline
+                    Résumer &  L’acteur peut faire une recherche pour trouvé un employé (sous réserve de droit d'accès. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions & Être authentifier.  \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                        \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                              \item L'acteur saisie une chaîne de caractère 
+                              \item Le système effectue une rechercher dans la liste des employé enregistré en comparant la chaîne saisie avec le nom et le prénom de chaque employé
+                              \item le système retourne le ou les employés dont la chaîne saisie apparaît dans leurs nom ou prénom  
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    
+                    \begin{minipage}[t]{\linewidth}
+                        3a. Le système ne retrouve aucun employé dont le nom ou prénom comporte la chaine saisie.   \begin{enumerate}[nosep,after=\strut]
+                              \item le système notifie l'acteur qu’aucun employé n'a \linebreak était  trouvé.
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                \caption{Description du cas d'utilisation « Rechercher employé »}\\
+            \end{longtable}        
+
+    \subsection*{Cas d'utilisation « Modifier mon profil »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                 \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Modifier mon profil} \\
+                 \hline
+                    Acteur & Employé, Manager, Responsable \\
+                    \hline
+                    Résumer & L’acteur accède à une interface qui lui permet de modifier les informations présentes sur son profil (pas toutes les informations) \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                        \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                              \item L’acteur modifie les informations.
+                              \item L’acteur valide les modifications.
+                              \item Le système vérifie la conformité des informations saisie.
+                              \item Le système confirme la modification des informations à l’acteur.
+                        \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchainement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                    2a. L’employé ne valide pas les modifications.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système redirige l’employé vers le cas d’utilisations « Consulter mon profil ».
+                        \end{enumerate}
+                    \end{minipage}
+                    \begin{minipage}[t]{\linewidth}
+                    3a. L’employé a saisi des informations non conformes à celle exigée par le système.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système met en évidence les champs non valides et demande à l’utilisateur de les modifier , le cas d’utilisations reprend de l’étape 1 du scénario nominale.
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Postconditions &  Les informations de l’employé sont mises à jour dans la base de données. \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Modifier mon profil »}\\
+            \end{longtable}
+            
+    \subsection*{Cas d'utilisation « Consulter profil d'un collaborateur »}
+                \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter profil d'un collaborateur} \\
+                     \hline
+                        Acteur & Manager \\
+                        \hline
+                        Résumer & Le manager consulte le profil d’un collaborateur(un employé affecter à une équipe dont le manager est responsable. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                    \item L’acteur sélectionne un collaborateur (cas d’utilisation \underline{Consulter liste des collaborateurs}).
+                                    \item Le système affiche le profil d’un collaborateur. 
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \hline
+                    \caption{Description du cas d'utilisation « Consulter profil d'un collaborateur »}\\
+            \end{longtable}    
+
+    \subsection*{Cas d'utilisation « Consulter le résumé de pointage des collaborateurs »}
+                \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter le résumé de pointage des collaborateurs} \\
+                     \hline
+                        Acteur & Manager \\
+                        \hline
+                        Résumer & Le manager accède a une interface qui affiche la liste des collaborateurs ainsi que l'heure du dernier pointage ,le temps en poste depuis ce dernier. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                                      \item Le système affiche une liste des collaborateurs appartenant à l’équipe du manager avec leurs informations de pointage \linebreak le plus récent .
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                            1a Le manager n’a pas était affecté à une équipe.
+                                \begin{enumerate}[nosep,after=\strut, ]
+                                      \item Le système signale au manager qu’il n’est pas responsable d’une équipe.    
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \caption{Description du cas d'utilisation « Consulter le résumé de pointage des collaborateurs »}\\
+            \end{longtable}
+        
+    \subsection*{Cas d'utilisation « Consulter feuille de pointage d'un collaborateur »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter feuille de pointage d'un collaborateur} \\
+                     \hline
+                        Acteur & Manager \\
+                        \hline
+                        Résumer & Le manager consulte la feuille de pointage d’un collaborateur appartenant à son équipe. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                                    \item Le manager sélectionne un collaborateur (cas d’utilisation \underline{Consulter le résumé de pointage des collaborateurs}).
+                                    \item Le système affiche les informations de pointage du jour actuel et des 6 derniers jours.
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                            2 Le manager souhaite afficher les informations de pointage par mois.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le manager sélectionne le mode d’affichage par mois. 
+                                      \item Le système affiche les informations de pointage du mois.
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                                        \caption{Description du cas d'utilisation « Consulter feuille de pointage d'un collaborateur »}\\
+            \end{longtable}        
+        
+    \subsection*{Cas d'utilisation « Consulter résumer de pointage des employés »}
+            
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Consulter résumer de pointage des employés} \\
+                 \hline
+                    Acteur &  Responsable\\
+                    \hline
+                    Résumer &  Le responsable accède a un résumer de pointage du jour des tous les employés.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le système affiche un tableau des employés ordonné par ordre alphabétique qui contient les informations de  pointage du jour.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                       \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                      \item le responsable peut cliquer sur une ligne du tableau pour afficher les informations de pointage relatives à un employé, voir cas d’utilisations « consulter feuille de pointage individuelle » .    
+                                \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Consulter résumer de pointage des employés »}\\
+            \end{longtable}   
+        
+    \subsection*{Cas d'utilisation « Consulter feuille de pointage d'un employé »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter feuille de pointage d'un employé} \\
+                     \hline
+                        Acteur & Responsable \\
+                        \hline
+                        Résumer & Le responsable consulte la feuille de pointage d’un employé. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le responsable doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                                    \item Le responsable sélectionne un employé (Cas d’utilisation \underline{Consulter résumer de pointage des employés}).
+                                    \item Le système affiche les informations de pointage du jour actuel et des 6 derniers jours.
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                            2 Le resaponsable souhaite afficher les informations de pointage par mois.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le manager sélectionne le mode d’affichage par mois. 
+                                      \item Le système affiche les informations de pointage par mois.
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                        \caption{Description du cas d'utilisation « Consulter feuille de pointage d'un employé »}\\
+            \end{longtable}    
+        
+    \subsection*{Cas d'utilisation « Consulter la liste des collaborateurs »}
+                \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter la liste des collaborateurs} \\
+                     \hline
+                        Acteur & Manager \\
+                        \hline
+                        Résumer & Le manager consulte la liste des collaborateurs appartenant à son/ses équipe(s) qui contient les informations les plus pertinentes(nom d'utilisateur, nom, prénom, statut de présence). \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                    \item Le système affiche la liste des collaborateurs avec leurs informations. 
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                            2 Le manager souhaite afficher les collaborateurs présents.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le manager sélectionne le filtre présent.  
+                                      \item Le système affiche la liste des collaborateurs présents avec leurs informations.  
+                                \end{enumerate}
+                                2 Le manager souhaite afficher les collaborateurs sortis.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le manager sélectionne le filtre sortie.  
+                                      \item Le système affiche la liste des collaborateurs sorties avec leurs informations. 
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \caption{Description du cas d'utilisation « Consulter la liste des collaborateurs »}\\
+            \end{longtable}    
+        
+    \subsection*{Cas d'utilisation « Consulter la liste des employés »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Consulter la liste des employés } \\
+                 \hline
+                    Acteur &  Responsable\\
+                    \hline
+                    Résumer &  Le responsable consulte une liste de tous les employés qui contient les informations les plus pertinentes sur ces derniers.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le système affiche la liste de tous les employés avec leurs informations.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            2a Le responsable souhaite afficher les employés présents.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le responsable sélectionne l’onglet présent.    
+                                      \item Le système affiche la liste des employés avec leurs informations.  
+                                \end{enumerate}
+                                2b Le responsable souhaite afficher les employés sortis.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le responsable sélectionne l’onglet sortie.  
+                                      \item Le système affiche la liste des employés avec leurs informations. 
+                                \end{enumerate}
+                                2c Le responsable décide d’afficher le profil d’un employé
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item On déclenche le cas d’utilisations « Consulter profil d'un employé ». 
+                                \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Consulter la liste des employés »}\\
+            \end{longtable}    
+   
+    \subsection*{Cas d'utilisation « Modifier un employé »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Modifier employé} \\
+                 \hline
+                    Acteur & Responsable, Administrateur \\
+                    \hline
+                    Résumer & L’acteur accède à une interface qui lui permet de modifié les informations d'un employé. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal & 
+                    \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
+                        \item Le système affiche le formulaire avec les informations de l'employé.
+                        \item L'acteur modifie les informations.
+                        \item Le système vérifie la conformité des informations saisie et demande une confirmation.
+                        \item L'acteur confirme la modification.
+                        \item Le systéme met à jours les informations de l'employé dans la base de données.\\\\
+                    \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchaînement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                        4a. L'acteur annule la modification.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le systéme affiche la liste des employés.
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Modifier employé »}\\
+            \end{longtable}
+ 
+    \subsection*{Cas d'utilisation « Supprimer un employé »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Supprimer un employé} \\
+                 \hline
+                    Acteur &  Administrateur\\
+                    \hline
+                    Résumer &  L’administrateur supprime un employé.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item L’administrateur sélection un employé à supprimer.
+                                \item L’administrateur demande la suppression. 
+                                \item Le système demande une confirmation pour la suppression.
+                                \item L’administrateur confirme la suppression. 
+                                \item Le système supprime l’employé de la base de données.
+                                \item le ssystem supprime l'empreinte de l'employé ,voir cas d'utilisation \underline{Supprimer empreinte}
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            4a l’administrateur annule la suppression de l'employé. \begin{enumerate}[nosep,after=\strut]
+                                \item L’administrateur annule la suppression.
+                                \item L’administrateur est redirigé vers la liste des employés, voir cas d’utilisations \underline{Consulter liste des employés} .
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions & Mise à jour des données présentess dans la base de données.
+                    \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Supprimer un employé »}\\
+            \end{longtable}
+        
+    \subsection*{Cas d'utilisation « Ajouter une empreinte »}
+            \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Ajouter une empreinte} \\
+                 \hline
+                    Acteur &  Administrateur, Employé, Pointeuse.\\
+                    \hline
+                    Résumer &  L’administrateur ajoute l’empreinte d’un employé.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier/L’administrateur dois avoir 
+                    saisie les informations de l'employé.  \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item L’administrateur active la pointeuse en mode enregistrement.
+                                \item L’employé pose son empreinte sur la pointeuse, qui la scanne.
+                                \item La pointeuse demande de scanner une 2ème fois l'empreinte.
+                                \item L’employé pose  son empreinte de nouveau .
+                                \item La pointeuse enregistre l’empreinte.
+                                \item La pointeuse envoie l’identifiant de l’empreinte au système.
+                                \item Le système ajoute l’identifiant à l’employé.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            4a Échec du scan.
+                            \begin{enumerate}[nosep,after=\strut, leftmargin=*]
+                                \item La pointeuse affiche un message d’erreur.
+                                \item Le cas d’utilisation reprend de l’étape 3 du scénario nominal.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions & Mise à jour des données présente dans la base de données, ainsi que dans la pointeuse.
+                    \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Ajouter une empreinte »}\\
+            \end{longtable}
+            
+    \subsection*{Cas d'utilisation « Supprimer une empreinte »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Supprimer une empreinte} \\
+                 \hline
+                    Acteur &  Administrateur, Employé, Pointeuse.\\
+                    \hline
+                    Résumer &  L’administrateur supprime l’empreinte d’un employé.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier/empreinte déjà ajouté.
+                    \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item L’administrateur active la pointeuse en mode suppression.
+                                \item L’administrateur sélectionne l’employé. 
+                                \item Le système envoie l’identifiant de l’empreinte.
+                                \item La pointeuse supprime l’empreinte.
+                                \item La pointeuse renvoie une confirmation.
+                                \item Le système confirme la suppression.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            5a Le système renvoi un message d’erreur
+                            \begin{enumerate}[nosep,after=\strut]
+                                \item Le cas d’utilisation reprend de l’étape numéro 3 du scénario nominal.   
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions & Mise à jour des données présente dans la base de données, ainsi que dans la pointeuse.
+                    \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Supprimer une empreinte »}\\
+            \end{longtable}        
+        
+    \subsection*{Cas d'utilisation « Consulter la liste de mes équipes»}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter la liste de mes équipes} \\
+                     \hline
+                        Acteur & Manager \\
+                        \hline
+                        Résumer & Le manager consulte la liste des équipes dont il est responsable. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                    \item Le système affiche la liste des ses équipes avec pour chaque équipe le nombre des collaborateurs ainsi que le nombre des collaborateurs présents. 
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                            1 Le manager décide de sélectionner une équipe afin d'avoir les informations détaillés grâce au cas d'utilisation "Consulter résumer de mon équipe" .
+                                
+                            1 Le manager n'est responsable d'aucune équipe pour le moment .
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                \item Le système notifie le manager que il n'a aucune équipe sous sa responsabilité.  
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \caption{Description du cas d'utilisation « Consulter la liste de mes équipes »}\\
+            \end{longtable}
+        
+    \subsection*{Cas d'utilisation « Consulter le résumé de mon équipe»}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter le résumé de mon équipe} \\
+                     \hline
+                        Acteur & Manager \\
+                        \hline
+                        Résumer & Le manager accède a une interface affichant des informations détaillés sur son équipe. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                    \item Le système affiche le nom de l'équipe, sa description , le nombre de collaborateurs .
+                                    \item Le système affiche la liste des membres de l'équipe.
+                                    
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                        
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \caption{Description du cas d'utilisation « Consulter le résumé de mon équipe »}\\
+            \end{longtable}
+            
+    \subsection*{Cas d'utilisation « Consulter la liste des équipes »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Consulter la liste des équipes} \\
+                 \hline
+                    Acteur &  Responsable\\
+                    \hline
+                    Résumer &  Le responsable consulte une liste de toutes les équipes existantes dans le système.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le système affiche la liste des équipes existantes ainsi que les informations pertinentes de chaque équipe comme le titre de l’équipe et le manager ainsi que le nombre d'employés appartenant a cette équipe.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            2a Le responsable souhaite afficher les informations d’une équipe en détail.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le responsable sélectionne une équipe.    
+                                      \item Le système affiche une interface contenant les informations détaillées de l’équipe sélectionner, cas d’utilisations « Consulter résumé d'une équipe ». 
+                                \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Consulter la liste des équipes »}\\
+            \end{longtable}    
+        
+    \subsection*{Cas d'utilisation « Consulter le résumé d'une équipe »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter le résumé d'une équipe} \\
+                     \hline
+                        Acteur & Responsable \\
+                        \hline
+                        Résumer & Le responsable accède a une interface affichant des informations détaillés sur une équipe. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                    \item Le système affiche le nom de l'équipe, sa description , le nombre de collaborateurs .
+                                    \item Le système affiche la liste des membres de l'équipe.
+                                    
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                            3 Le responsable décide de supprimer l'équipe en question.
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                \item Voir le cas d'utilisation « supprimer une équipe »  
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \caption{Description du cas d'utilisation « Consulter le résumé d'une équipe »}\\
+            \end{longtable}
+
+    \subsection*{Cas d'utilisation « Modifier équipe »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Modifier équipe} \\
+                 \hline
+                    Acteur & Responsable, Administrateur \\
+                    \hline
+                    Résumer & L’acteur accède à une interface qui lui permet de modifié les informations d'une équipe. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal & 
+                    \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
+                        \item Le système affiche le formulaire avec les informations de l'équipe.
+                        \item L'acteur modifie les informations.
+                        \item Le système vérifie la conformité des informations saisie et demande une confirmation.
+                        \item L'acteur confirme la modification.
+                        \item Le système affiche l'interface qui permet d'ajouter des membres à l'équipe (voir le cas d’utilisations \underline{Ajouter membre}).
+                        \\\\
+                        
+                    \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchaînement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                        2a. Le nom de l'équipe est déjà existant.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système affiche un message d'erreur pour signaler que le nom de l'équipe existe dans la base de données.
+                              \item Le cas d’utilisation reprend de l’étape 1 du scénario nominal
+                        \end{enumerate}
+                        4a. L'acteur annule la modification.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système affiche l'interface liste des équipes (voir le cas d’utilisations \underline{Consulter liste des équipes}).
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Modifier équipe »}\\
+            \end{longtable}
+
+    \subsection*{Cas d'utilisation « Supprimer équipe »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Supprimer équipe} \\
+                 \hline
+                    Acteur & Responsable, Administrateur \\
+                    \hline
+                    Résumer & L’acteur supprime une équipe. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal & 
+                    \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
+                        \item L'acteur sélectionne une équipe.
+                        \item L'acteur supprime l'équipe sélectionné.
+                        \item Le système demande une confirmation de suppression.
+                        \item L'acteur confirme la suppression.
+                        \item Le système affiche l'interface liste des équipes (voir le cas d’utilisations \underline{Consulter liste des équipes}).\\\\
+                    \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchaînement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                        4a. L'acteur annule la suppression.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système affiche l'interface liste des équipes (voir le cas d’utilisations \underline{Consulter liste des équipes}).
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Supprimer équipe »}\\
+            \end{longtable}
+
+    \subsection*{Cas d'utilisation « Supprimer membre »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Supprimer membre} \\
+                 \hline
+                    Acteur & Responsable, Administrateur \\
+                    \hline
+                    Résumer & L’acteur accède à une interface qui lui permet de supprimer des employés de l'équipe'. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal & 
+                    \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
+                        \item L'acteur sélectionne une équipe.
+                        \item L'acteur sélectionne un employé et le supprime.
+                        \item le système demande un confirmation de suppression.
+                        \item l'acteur confirme la suppression.
+                        \item Le système affiche l'interface de suppression avec les données mis à jours.\\\\
+                    \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchaînement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                        2a. Suppression annuler. \begin{enumerate}[nosep,after=\strut]
+                              \item Le système affiche l'interface de suppression.
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Supprimer membre »}\\
+            \end{longtable}            
+            
+    \subsection*{Cas d'utilisation « Consulter liste des plannings »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Consulter liste des plannings} \\
+                 \hline
+                    Acteur &  Responsable\\
+                    \hline
+                    Résumer &  Le responsable consulte la liste des plannings, avec un résumé des informations pour chaque planning (Nom, nombre d’heures, nombre d’employés affectés).\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le système affiche la liste des différents plannings.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            1 Aucun planning.
+                            \begin{enumerate}[nosep,after=\strut, ]
+                                \item Le système affiche un message pour indiquer au responsable qu’il n’existe aucun planning.
+                            \end{enumerate}
+                            2a Le responsable souhaite afficher les informations d’un planning en détail.
+                            \begin{enumerate}[nosep,after=\strut, ]
+                                \item Le responsable sélectionne un planning. 
+                                \item Le système affiche une interface contenant les informations détaillées du planning sélectionner, cas d’utilisations « Consulter un planning ».
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &
+                    \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Consulter liste des plannings »}\\
+            \end{longtable}
+        
+    \subsection*{Cas d'utilisation « Consulter mon planning »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                 \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Consulter mon planning} \\
+                 \hline
+                    Acteur & Employé, Manager, Responsable \\
+                    \hline
+                    Résumer &  L’acteur accède aux informations relatives à son planning (Heures supposé d’arrivée et de sortie prévue par l'entreprise ) \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions & Être authentifier.  \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                        \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                              \item Le système affiche le planning de l’acteur concerné pour une semaine, ce dernier comporte les jours de travail et de congé ainsi que les horaires d'entrée , sortie et pauses.  
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+            
+                  \begin{minipage}[t]{\linewidth}
+                    1a. L'acteur ne possède pas un planning.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système notifie l’acteur qu'aucun planning ne lui a était attribué.
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                \caption{Description du cas d'utilisation « Consulter mon planning »}\\
+            \end{longtable}
+        
+    \subsection*{Cas d'utilisation « Consulter planning d'un collaborateur »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                    % header and footer information
+                    \endhead
+                    \endfoot
+                    % body of table
+                    \hline
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter planning d'un collaborateur} \\
+                     \hline
+                        Acteur & Manager \\
+                        \hline
+                          Résumer & Le manager consulte le planning d'un collaborateur. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le manager doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                                      \item Le système affiche le planning d'un collaborateur (les jours de travail et de repos pendant une semaine ainsi que les horaires supposé d'arriver et de sortis .
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                                      
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \caption{Description du cas d'utilisation « Consulter planning d'un collaborateur »}\\
+            \end{longtable}    
+        
+    \subsection*{Cas d'utilisation « Consulter le planning d'un employé »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                    % header and footer information
+                    \endhead
+                    \endfoot
+                    % body of table
+                    \hline
+                     \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                     \hline
+                     Titre & \textbf{Consulter planning} \\
+                     \hline
+                        Acteur & Responsable \\
+                        \hline
+                          Résumer & Le responsable consulte le planning. \\
+                        \hline
+                        \multicolumn{2}{|c|}{Description des scénarios} \\
+                        \hline
+                        Pré-conditions &  Le responsable doit être authentifié. \\
+                        \hline
+                        Scénario nominal &  
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                                      \item Le système affiche le planning (les jours de travail et de repos pendant une semaine ainsi que les horaires supposé d'arriver et de sortis.
+                                      \item L'acteur peut modifié le planning (voir le cas d’utilisations \underline{Modifier planning}).\\
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        \hline
+                        Enchainement alternatif & 
+                            \begin{minipage}[t]{\linewidth}
+                                \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip}]
+                                      
+                                \end{enumerate}
+                            \end{minipage}
+                        \\
+                        
+                        \hline
+                        Postconditions &   \\
+                        \hline
+                    \caption{Description du cas d'utilisation « Consulter planning d'un employé »}\\
+            \end{longtable}    
+
+    \subsection*{Cas d'utilisation « Modifier un planning »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Modifier un planning} \\
+                 \hline
+                    Acteur & Responsable, Administrateur \\
+                    \hline
+                    Résumer & L’acteur accède à une interface qui lui permet de modifié le planning. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal & 
+                    \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
+                        \item Le système affiche le formulaire avec les informations du planning.
+                        \item L'acteur modifie les informations.
+                        \item Le système vérifie la conformité des informations saisie et demande une confirmation.
+                        \item L'acteur confirme la modification.
+                        \item Le système affiche un message pour confirmer la modification
+                        \item Le system affiche la liste des plannings voir cas d'utilisation \underline{Consulter liste des plannings
+                        }
+                        \\\\
+                        
+                    \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchaînement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                        2a. Le nom de l'équipe est déjà existant.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système affiche un message d'erreur pour signaler que le nom de l'équipe existe dans la base de données.
+                              \item Le cas d’utilisation reprend de l’étape 1 du scénario nominal
+                        \end{enumerate}
+                        4a. L'acteur annule la modification.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système affiche l'interface liste des équipes (voir le cas d’utilisations \underline{Consulter liste des équipes}).
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Modifier un planning »}\\
+            \end{longtable}
+
+    \subsection*{Cas d'utilisation « Supprimer un planning »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Supprimer un planning} \\
+                 \hline
+                    Acteur & Responsable, Administrateur \\
+                    \hline
+                    Résumer & L’acteur supprime une équipe. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal & 
+                    \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
+                        \item L'acteur sélectionne une équipe.
+                        \item L'acteur supprime l'équipe sélectionné.
+                        \item Le système demande une confirmation de suppression.
+                        \item L'acteur confirme la suppression.
+                        \item Le système affiche l'interface liste des équipes (voir le cas d’utilisations \underline{Consulter liste des équipes}).\\\\
+                    \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchaînement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                        4a. L'acteur annule la suppression.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le système affiche l'interface liste des équipes (voir le cas d’utilisations \underline{Consulter liste des équipes}).
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Supprimer un planning»}\\
+            \end{longtable}  
+        
+    \subsection*{Cas d'utilisation « Affectation d'un planning »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                 \hline
+                 Titre & \textbf{Affectation d'un planning} \\
+                 \hline
+                    Acteur & Responsable, Administrateur \\
+                    \hline
+                    Résumer & L’acteur accède à une interface qui lui permet d'affecter le planning à un employé'. \\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier. \\
+                    \hline
+                    Scénario nominal & 
+                    \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
+                        \item L'acteur recherche un employé (voir le cas d’utilisations « Recherche employés »).
+                        \item Le systéme retourne une liste d'employés.
+                        \item L'acteur séléctionne un employé et l'ajoute.
+                        \item Le systéme affiche l'interface d'affectation avec les données  mis à jours.\\\\
+                    \end{enumerate}
+                    \end{minipage}
+                     \\
+                    \hline
+                    Enchaînement alternatif &  
+                    \begin{minipage}[t]{\linewidth}
+                        2a. Aucun employé trouver.
+                        \begin{enumerate}[nosep,after=\strut]
+                              \item Le systéme affiche un message d'erreur pour notifier l'acteur.
+                        \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &   \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Affectation d'un planning »}\\
+            \end{longtable}
+
+    \subsection*{Cas d'utilisation « Consulter le journal des affectations  »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Consulter le journal des affectations } \\
+                 \hline
+                    Acteur &  Responsable\\
+                    \hline
+                    Résumer &  Permet d’afficher un tableau regroupant les changements d’équipe pour les employés.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le système affiche les différentes affectations des employés selon les équipes, ainsi on peut savoir si un employé a changé d’équipe à travers sa carrière dans l'entreprise.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \\
+                    
+                    \hline
+                    Postconditions &
+                    \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Consulter le journal des affectations »}\\
+            \end{longtable}
+        
+    \subsection*{Cas d'utilisation « Importer/Exporter »}
+        \begin{longtable}{|p{4cm}|p{12cm}|}
+                % header and footer information
+                \endhead
+                \endfoot
+                % body of table
+                \hline
+                \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
+                \hline
+                Titre & \textbf{Importer/Exporter} \\
+                 \hline
+                    Acteur &  Responsable\\
+                    \hline
+                    Résumer &  Permet au responsable d’importer ou d’exporter des informations de pointage.\\
+                    \hline
+                    \multicolumn{2}{|c|}{Description des scénarios} \\
+                    \hline
+                    Pré-conditions &  Être authentifier   \\
+                    \hline
+                    Scénario nominal &  
+                    \begin{minipage}[t]{\linewidth}
+                            \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
+                                \item Le responsable choisit d’importer/exporter
+                                \item Le responsable choisit le format.
+                                \item Importation ou exportations des données selon le format choisi.
+                            \end{enumerate}
+                    \end{minipage}
+                    \\
+                    \hline
+                    Enchainement alternatif & 
+                    \begin{minipage}[t]{\linewidth}
+                            1 Erreur dans les données sélectionnées lors de l’importation  
+                                \begin{enumerate}[ nosep,after=\strut, ]
+                                      \item Le système signale l’erreur.    
+                                      \item Le cas d’utilisation redémarre de l’étape numéro 2.
+                                \end{enumerate}
+                    \end{minipage}
+                    \\
+                    
+                    \hline
+                    Postconditions &  Mise à jour de la BDD en cas d’importations / Création d’un fichier contenant les donnés exporter dans le format voulu.
+                    \\
+                    \hline
+                    \caption{Description du cas d'utilisation « Importer/Exporter »}\\
+            \end{longtable}     
+            
+            
+   
