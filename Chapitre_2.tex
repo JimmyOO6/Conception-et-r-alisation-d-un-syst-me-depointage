@@ -19,20 +19,10 @@ système, on peut identifier 4 acteurs humains :
     
     
 \begin{itemize}
-    \item[\textbullet] \textbf{L’Employé :} Joue le rôle d’une personne qui
-        occupe un emploi dans l’entreprise et qui interagit avec le système,
-        pour un pointage des horaires de travail réalisé, ainsi que la
-        possibilité de s’authentifier sur la plateforme pour consulter les
-        informations qui le concernent.
-    \item[\textbullet] \textbf{Le Manager :} Joue le rôle d’un employé très
-        important qui est le lien entre la direction et les autres employés. Les
-        managers s’occupent de l’organisation et du contrôle de leurs équipes et
-        employés à travers la plateforme.
-    \item[\textbullet] \textbf{Le Responsable :} Joue le rôle d’un responsable
-        qui gère les employés ainsi que les différentes équipes de l’entreprise.
-    \item[\textbullet] \textbf{L’administrateur :} Joue le rôle d’une personne
-        vitale pour le bon fonctionnement du système via l’espace
-        d’administration.
+    \item[\textbullet] \textbf{L’Employé :} Joue le rôle d’une personne 			qui occupe un emploi dans l’entreprise et qui interagit avec le 			système, pour un pointage des horaires de travail réalisé, ainsi 			que la possibilité de s’authentifier sur la plateforme pour 				consulter les informations qui le concernent.
+    \item[\textbullet] \textbf{Le Manager :} Joue le rôle d’un employé 				très important qui est le lien entre la direction et les autres 			employés. Les managers s’occupent de l’organisation et du contrôle 		de leurs équipes et employés à travers la plateforme.
+    \item[\textbullet] \textbf{Le Responsable :} Joue le rôle d’un 					responsable qui gère les employés ainsi que les différentes 				équipes de l’entreprise.
+    \item[\textbullet] \textbf{L’administrateur :} Joue le rôle d’une 				personne vitale pour le bon fonctionnement du système via l’espace 		d’administration.
 \end{itemize}
     
     
@@ -196,7 +186,7 @@ tous les acteurs tels que :
 \begin{itemize}
     \item [\textbullet] Authentification : Chaque utilisateur du futur système
         devrat être authentifié au préalable avec son nom d’utilisateur et son
-        mot de passe avant tout accès à ce dernier. Le système devrait ensuite
+        mot de passe avant tout accès à la plateforme. Le système devra ensuite
         rediriger l’utilisateur vers son espace utilisateur qui varie selon son
         rôle.
 
@@ -220,7 +210,7 @@ besoins non fonctionnels de notre système :
         puis stockés et jamais stockés en clair. Le système doit identifier la
         pointeuse afin d’accepter les informations reçues.
     
-    \item [\textbullet] Ergonomie : les informations doivent êtres lisibles et
+    \item [\textbullet] Ergonomie : les informations doivent être lisibles et
         facilement interprétables. Des graphiques résumant les informations
         pertinentes doivent être présentés à l’utilisateur. Une navigation
         simple et efficace. L’utilisation d’icônes explicites permettant de
@@ -230,7 +220,7 @@ besoins non fonctionnels de notre système :
         pour être utilisé, il doit offrir une prise en main rapide et facile
         sans beaucoup d’efforts.
     
-     \item [\textbullet] Modularité du code : contenu du contexte et de la
+     \item [\textbullet] Modularité du code : compte tenu du contexte et de la
          problématique traitée. On se doit de penser à l’évolution potentielle
          du système. Dans cette optique, il est primordial d’écrire un code
          lisible, modulaire et bien documenté pour faciliter la maintenance, la
@@ -312,7 +302,7 @@ de cas d’utilisation des différents acteurs.
     \hline
     Acteur & Employé, Manager, Responsable, Administrateur \\
     \hline
-    Résumer & L’acteur doit s’identifier en saisissant son nom d'utilisateur et mot de passe pour accéder a son espace personnel. \\
+    Résumé & L’acteur doit s’identifier en saisissant son nom d'utilisateur et mot de passe pour accéder a son espace personnel. \\
     \hline
     \multicolumn{2}{|c|}{Description des scénarios} \\
     \hline
@@ -334,11 +324,12 @@ de cas d’utilisation des différents acteurs.
         2a. Les identifiants saisis par l'acteur sont incorrects.
         \begin{enumerate}[nosep,after=\strut]
             \item Le système affiche un message d'erreur pour signaler que les identifiants sont incorrects.
-            \item Le cas d’utilisation reprend de l’étape 1 du scénario nominale.
+            \item Le cas d’utilisation reprend de l’étape 1 du scénario nominale.  
         \end{enumerate}
     \end{minipage}
+    \\
     \hline
-    Postconditions & L'utilisateur est authentfié et accède aux fonctionnalités qui lui sont dédiées.  \\
+    Postconditions & L'utilisateur est authentfié et accède aux fonctionnalités qui lui sont dédiées.  \\
     \hline
     \caption{Description du cas d'utilisation « S'authentifier »}\\
 \end{longtable}
@@ -356,7 +347,7 @@ de cas d’utilisation des différents acteurs.
     \hline
     Acteur & Employé, Manager, Responsable, Pointeuse  \\
     \hline
-    Résumer & Un acteur signale son entrée ou sa sortie de l'entreprise en posant son index sur la pointeuse. \\
+    Résumé & Un acteur signale son entrée ou sa sortie de l'entreprise en posant son index sur la pointeuse. \\
     \hline
     \multicolumn{2}{|c|}{Description des scénarios} \\
     \hline
@@ -386,8 +377,6 @@ de cas d’utilisation des différents acteurs.
     \hline
     Postconditions &  Le système enregistrent l’heure et l’ID de l’employé responsable de l’événement. \\
     \hline
-    Postconditions &   \\
-    \hline
     \caption{Description du cas d'utilisation « Se pointer »}\\
 \end{longtable}        
         
@@ -404,11 +393,11 @@ de cas d’utilisation des différents acteurs.
      \hline
         Acteur & Employé, Manager, Responsable \\
         \hline
-        Résumer & L’acteur accède aux informations qui constitue son profile. \\
+        Résumé & L’acteur accède aux informations qui constitue son profil. \\
         \hline
         \multicolumn{2}{|c|}{Description des scénarios} \\
         \hline
-        Pré-conditions &  Être authentifier. \\
+        Pré-conditions &  Être authentifié. \\
         \hline
         Scénario nominal & 
         \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
@@ -418,7 +407,7 @@ de cas d’utilisation des différents acteurs.
          \\
         \hline
         Enchaînement alternatif &  
-        1a. L’employé peut modifier ses informations (voir le cas d’utilisations « modifier mon profile »)
+        1a. L’employé peut modifier ses informations (voir le cas d’utilisations « modifier mon profil »)
         \\
         
         \hline
@@ -440,11 +429,11 @@ de cas d’utilisation des différents acteurs.
          \hline
             Acteur & Employé, Manager, Responsable \\
             \hline
-            Résumer &  L’acteur accède aux informations relatives à son pointage (Heures d’arrivée et de sortie) \\
+            Résumé &  L’acteur accède aux informations relatives à son pointage (Heures d’arrivée et de sortie) \\
             \hline
             \multicolumn{2}{|c|}{Description des scénarios} \\
             \hline
-            Pré-conditions & Être authentifier.  \\
+            Pré-conditions & Être authentifié.  \\
             \hline
             Scénario nominal &  
             \begin{minipage}[t]{\linewidth}
@@ -484,7 +473,7 @@ de cas d’utilisation des différents acteurs.
      \hline
         Acteur & Manager \\
         \hline
-        Résumer & Le manager consulte son tableau de bord, qui est constitué de deux parties.La première représente le tableau de bord du manager en tan que employé tendis que la deuxième qui est un récapitulatif des informations de pointage de son/ses équipes et de tous ses collaborateurs). \\
+        Résumé & Le manager consulte son tableau de bord, qui est constitué de deux parties. La première représente le tableau de bord du manager en tant que employé tandis que la deuxième est un récapitulatif des informations de pointage de son/ses équipes et de tous ses collaborateurs. \\
         \hline
         \multicolumn{2}{|c|}{Description des scénarios} \\
         \hline
@@ -526,11 +515,11 @@ de cas d’utilisation des différents acteurs.
      \hline
         Acteur & Responsable, Administrateur \\
         \hline
-        Résumer & L’acteur accède à une interface qui lui permet d'affecter des employés à l'équipe'. \\
+        Résumé & L’acteur accède à une interface qui lui permet d'affecter des employés à l'équipe. \\
         \hline
         \multicolumn{2}{|c|}{Description des scénarios} \\
         \hline
-        Pré-conditions &  Être authentifier. \\
+        Pré-conditions &  Être authentifié. \\
         \hline
         Scénario nominal & 
         \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
@@ -542,9 +531,9 @@ de cas d’utilisation des différents acteurs.
         \end{minipage}
          \\
         \hline
-        Enchaînement alternatif &  
+        Enchaînement d'erreur &  
         \begin{minipage}[t]{\linewidth}
-            2a. Aucun employé trouver. \begin{enumerate}[nosep,after=\strut]
+            2a. Aucun employé trouvé. \begin{enumerate}[nosep,after=\strut]
                   \item Le système affiche un message d'erreur.
             \end{enumerate}
         \end{minipage}
@@ -569,18 +558,18 @@ de cas d’utilisation des différents acteurs.
          \hline
             Acteur & Responsable, Administrateur \\
             \hline
-            Résumer & L’acteur accède à une interface qui lui permet la création d'un nouveau planning. \\
+            Résumé & L’acteur accède à une interface qui lui permet la création d'un nouveau planning. \\
             \hline
             \multicolumn{2}{|c|}{Description des scénarios} \\
             \hline
-            Pré-conditions &  Être authentifier. \\
+            Pré-conditions &  Être authentifié. \\
             \hline
             Scénario nominal & 
             \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
                 \item Le système affiche le formulaire.
                 \item L'acteur saisit le nom du planning ainsi que la description et les horaires de travail.
                 \item Le système vérifie la conformité des informations saisie.
-                \item Le système affiche la liste des plannings voir cas d'utilisations \underline{ Consulter liste des plannings}.\\\\
+                \item Le système affiche la liste des plannings (voir cas d'utilisations \underline{ Consulter liste des plannings}.)\\\\
             \end{enumerate}
             \end{minipage}
              \\
@@ -600,7 +589,7 @@ de cas d’utilisation des différents acteurs.
             \hline
             \caption{Description du cas d'utilisation « Ajouter un planning »}\\
 \end{longtable}        
-        
+\vspace{-15pt}        
 \subsection*{Cas d'utilisation « Ajouter équipe »}  
     \begin{longtable}{|p{4cm}|p{12cm}|}
             % header and footer information
@@ -614,11 +603,11 @@ de cas d’utilisation des différents acteurs.
              \hline
                 Acteur & Responsable, Administrateur \\
                 \hline
-                Résumer & L’acteur accède à une interface qui lui permet la création d'une nouvelle équipe. \\
+                Résumé & L’acteur accède à une interface qui lui permet la création d'une nouvelle équipe. \\
                 \hline
                 \multicolumn{2}{|c|}{Description des scénarios} \\
                 \hline
-                Pré-conditions &  Être authentifier. \\
+                Pré-conditions &  Être authentifié. \\
                 \hline
                 Scénario nominal & 
                 \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
@@ -659,11 +648,11 @@ de cas d’utilisation des différents acteurs.
              \hline
                 Acteur &  Administrateur\\
                 \hline
-                Résumer &  L’administrateur ajoute un employé.\\
+                Résumé &  L’administrateur ajoute un employé.\\
                 \hline
                 \multicolumn{2}{|c|}{Description des scénarios} \\
                 \hline
-                Pré-conditions &  Être authentifier   \\
+                Pré-conditions &  Être authentifié   \\
                 \hline
                 Scénario nominal &  
                 \begin{minipage}[t]{\linewidth}
@@ -705,7 +694,7 @@ de cas d’utilisation des différents acteurs.
                  \hline
                     Acteur & Responsable \\
                     \hline
-                    Résumer & Le responsable consulte le profil d’un employé. \\
+                    Résumé & Le responsable consulte le profil d’un employé. \\
                     \hline
                     \multicolumn{2}{|c|}{Description des scénarios} \\
                     \hline
@@ -721,10 +710,7 @@ de cas d’utilisation des différents acteurs.
                         \end{minipage}
                     \\
                     \hline
-                    Enchaînement alternatif & 
-                        
-                    \\
-                    
+                    Enchaînement alternatif & \\
                     \hline
                     Postconditions &   \\
                     \hline
@@ -735,8 +721,7 @@ de cas d’utilisation des différents acteurs.
             
 Nous avons établi la totalité des descriptions des cas d’utilisation, mais nous
 avons décidé de ne pas inclure tous des tableaux afin de ne pas encombrer le
-lecteur. Néanmoins, le reste des descriptions est cité dans l’annexe A.
-\ref{ch:annexeA}.  
+lecteur. Néanmoins, le reste des descriptions est cité dans l’annexe A.  
     
                 
 \section{Diagramme de séquence système DSS}
@@ -861,10 +846,10 @@ que de consulter son planning.
 \end{figure}
 
 Dans un souci de lisibilité, nous avons déplacé le reste des diagrammes de
-séquence système vers l’annexe B \ref{ch:annexeB}.  
+séquence système vers l’annexe B.  
     
 \section{Les maquettes IHM }
-    
+\vspace{-5pt}    
 \subsection{Employé}
 La figure \ref{fig6} : Une fois, authentifié, cette interface sera la première
 affichée à l’utilisateur ayant le rôle d’un employé. On remarque un menu sur le
@@ -970,18 +955,18 @@ vision générale du projet sur son aspect graphique, et la composition globale 
 certaines interfaces. Le reste des maquettes sera présenté de manière détaillée
 dans l’annexe.
         
-\subsection{la navigation}
+\subsection{La navigation}
 L’outil utilisé pour réaliser les maquettes offre la possibilité de créer un
 prototype complet et très représentatif du résultat final. Ci-dessous, des liens
 vers les prototypes réalisés comportant toutes les interfaces et les liens de
 navigations.\\
 
-Prototype employé: \href{https://xd.adobe.com/view/9afd474c-7053-4831-4a92-bb9d2f4d8c65-eccc/?fullscreen&hints=off}{lien du prototype 1}
-URL :<https://xd.adobe.com/view/9afd474c-7053-4831-4a92-bb9d2f4d8c65-eccc/?fullscreen&hints=off>\\
-Prototype manager: \href{https://xd.adobe.com/view/855f8afc-8c35-451d-7b50-838460e72c7e-f36e/?fullscreen&hints=off}{lien du prototype 2}
-URL :<https://xd.adobe.com/view/855f8afc-8c35-451d-7b50-838460e72c7e-f36e/?fullscreen&hints=off>\\
-Prototype responsable: \href{https://xd.adobe.com/view/8c62407e-81ae-4950-60f2-88006b652695-fa53/?fullscreen&hints=off}{lien du prototype 3}
-URL :<https://xd.adobe.com/view/8c62407e-81ae-4950-60f2-88006b652695-fa53/?fullscreen&hints=off>
+Prototype employé: \href{https://xd.adobe.com/view/9afd474c-7053-4831-4a92-bb9d2f4d8c65-eccc/?fullscreen\&hints=off}{lien du prototype 1}
+URL :<https://xd.adobe.com/view/9afd474c-7053-4831-4a92-bb9d2f4d8c65-eccc/?fullscreen\&hints=off>\\
+Prototype manager: \href{https://xd.adobe.com/view/855f8afc-8c35-451d-7b50-838460e72c7e-f36e/?fullscreen\&hints=off}{lien du prototype 2}
+URL :<https://xd.adobe.com/view/855f8afc-8c35-451d-7b50-838460e72c7e-f36e/?fullscreen\&hints=off>\\
+Prototype responsable: \href{https://xd.adobe.com/view/8c62407e-81ae-4950-60f2-88006b652695-fa53/?fullscreen\&hints=off}{lien du prototype 3}
+URL :<https://xd.adobe.com/view/8c62407e-81ae-4950-60f2-88006b652695-fa53/?fullscreen\&hints=off>
 
         
 \section{Conclusion}

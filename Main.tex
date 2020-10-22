@@ -35,18 +35,25 @@
 
 \usepackage{wrapfig}
 
-\usepackage{minted}
+
 
 \usepackage{pdflscape}
 
+\usepackage{minted}
+
+\usepackage{acronym}
 
 
-\makenomenclature
+
+
+
+
 
 \definecolor{lightgray}{gray}{0.85}
 \pagestyle{fancy}
 
 \fancyhead[L]{}
+
 
 \begin{document} 
 
@@ -69,7 +76,6 @@
 \fancyhead[R]{}
 \renewcommand{\headrulewidth}{0pt}
 
-%Construire la table des figures
 \listoffigures
 \addcontentsline{toc}{part}{Table des figures}
 
@@ -77,9 +83,9 @@
 \listoftables
 \addcontentsline{toc}{part}{Liste des tableaux}
 
+\makenomenclature
 %Construire la liste des abréviations
-\input{Liste_des_Abreviations}
-
+\input{Abreviations}
 %Début de la numérotation arabe pour le reste du mémoire
 \newpage
 \pagenumbering{arabic}
@@ -111,6 +117,7 @@
 
 %%%% Profondeur des sous-titres jusqu'à 4 chiffres %%%%
 \setcounter{tocdepth}{3}
+
 
 
 %%%% Introduction Générale %%%%

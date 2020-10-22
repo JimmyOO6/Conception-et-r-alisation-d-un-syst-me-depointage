@@ -1,0 +1,32 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{k+kt}{void} \PYG{n+nf}{setup}\PYG{p}{()\PYGZob{}}
+        \PYG{n}{pinMode}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{OUTPUT}\PYG{p}{);}
+        \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{begin}\PYG{p}{(}\PYG{l+m+mi}{115200}\PYG{p}{);}
+        \PYG{n}{connectToWiFi}\PYG{p}{();}
+
+        \PYG{c+c1}{// set the data rate for the sensor serial port}
+        \PYG{n}{finger}\PYG{p}{.}\PYG{n}{begin}\PYG{p}{(}\PYG{l+m+mi}{57600}\PYG{p}{);}
+        \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s}{Adafruit finger detect test\PYGZdq{}}\PYG{p}{);}
+
+        \PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}*test the connection*\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{finger}\PYG{p}{.}\PYG{n}{verifyPassword}\PYG{p}{())\PYGZob{}}
+            \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Found fingerprint sensor!\PYGZdq{}}\PYG{p}{);}
+        \PYG{p}{\PYGZcb{}}\PYG{k}{else}\PYG{p}{\PYGZob{}}
+            \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Did not find fingerprint sensor:(\PYGZdq{}}\PYG{p}{);}
+            \PYG{k}{while} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+            \PYG{p}{\PYGZob{}}
+                \PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{);}
+            \PYG{p}{\PYGZcb{}}
+        \PYG{p}{\PYGZcb{}}
+        \PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+        \PYG{n}{finger}\PYG{p}{.}\PYG{n}{getTemplateCount}\PYG{p}{();}
+        \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Sensor contains \PYGZdq{}}\PYG{p}{);}
+        \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{print}\PYG{p}{(}\PYG{n}{finger}\PYG{p}{.}\PYG{n}{templateCount}\PYG{p}{);}
+        \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{} templates\PYGZdq{}}\PYG{p}{);}
+
+        \PYG{c+c1}{//SendFingerprintID( FingerID );}
+        \PYG{c+c1}{//\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}* deleting all templates\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+        \PYG{c+c1}{//emptyDataBase();}
+
+    \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

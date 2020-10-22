@@ -1,0 +1,143 @@
+\babel@toc {french}{}
+\contentsline {paragraph}{}{1}{section*.2}%
+\contentsline {paragraph}{}{1}{section*.3}%
+\contentsline {paragraph}{}{1}{section*.4}%
+\contentsline {paragraph}{}{1}{section*.5}%
+\contentsline {paragraph}{}{1}{table.caption.7}%
+\contentsline {paragraph}{}{1}{section*.8}%
+\contentsline {paragraph}{}{1}{section*.10}%
+\contentsline {paragraph}{}{1}{section*.11}%
+\contentsline {paragraph}{}{1}{section*.12}%
+\contentsline {paragraph}{}{1}{section*.13}%
+\contentsline {paragraph}{}{1}{section*.14}%
+\contentsline {paragraph}{}{1}{section*.15}%
+\contentsline {paragraph}{}{1}{section*.16}%
+\contentsline {part}{Table des matières}{i}{section*.16}%
+\contentsline {part}{Table des figures}{vii}{chapter*.18}%
+\contentsline {part}{Liste des tableaux}{ix}{chapter*.19}%
+\contentsline {part}{Liste des abréviations}{ix}{chapter*.19}%
+\contentsline {part}{Introduction générale}{1}{chapter*.21}%
+\contentsline {chapter}{\numberline {1}Contexte du projet et méthodologie de conception}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Contexte du projet}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problématique}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Les applications Web}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Définition}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Quelle est la différence avec les applications Web et les applications natives?}{4}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Pourquoi une application Web ?}{4}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Empreinte digitale}{5}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Caractéristique d’une empreinte digitale}{5}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Pourquoi l’empreinte digitale ?}{6}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Processus du développement}{6}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Processus unifié (UP)}{6}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Les méthodes agiles}{7}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Le processus choisi }{7}{subsection.1.6.3}%
+\contentsline {section}{\numberline {1.7}Conclusion}{9}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Spécification et analyse des besoins }{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Identification des acteurs}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Identifications des cas d'utilisation}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Spécification des exigences}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Exigences fonctionnelles}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Exigences non fonctionnelles}{13}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Diagramme des cas d'utilisation}{13}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Diagramme de cas d'utilisation de l'employé}{14}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Diagramme de cas d'utilisation du manager}{15}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Diagramme de cas d'utilisation du responsable}{16}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Diagramme de cas d'utilisation de l'administrateur}{17}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Descriptions de cas d'utilisation}{18}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Diagramme de séquence système DSS}{24}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Cas d'utilisation « Se pointer »}{24}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Cas d'utilisation « Consulter mon profil »}{25}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Cas d'utilisation « Consulter ma fiche de pointage »}{26}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Cas d'utilisation « Consulter tableau de bord manager »}{26}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}Cas d'utilisation « Ajouter membre »}{27}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6}Cas d'utilisation « Ajouter planning »}{28}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.7}Cas d'utilisation « Ajouter équipe »}{28}{subsection.2.7.7}%
+\contentsline {subsection}{\numberline {2.7.8}Cas d'utilisation « Ajouter employé »}{29}{subsection.2.7.8}%
+\contentsline {subsection}{\numberline {2.7.9}Cas d'utilisation « Consulter le profil d'un employé »}{30}{subsection.2.7.9}%
+\contentsline {section}{\numberline {2.8}Les maquettes IHM }{31}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Employé}{31}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Manager}{33}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Responsable}{34}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}La navigation}{36}{subsection.2.8.4}%
+\contentsline {section}{\numberline {2.9}Conclusion}{36}{section.2.9}%
+\contentsline {chapter}{\numberline {3}Conception}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{37}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modèle de domaine}{37}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Diagrammes de classes participantes}{44}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Définitions et formalisme}{44}{subsection.3.3.1}%
+\contentsline {subsubsection}{Les classes de dialogue}{45}{section*.69}%
+\contentsline {subsubsection}{Les classes de contrôle}{45}{section*.71}%
+\contentsline {subsubsection}{Les classes entités}{45}{section*.73}%
+\contentsline {section}{\numberline {3.4}Diagrammes de séquence}{54}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Diagramme de classes conception préliminaire}{63}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Diagramme de classe conception}{67}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Modèle relationnel}{68}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Conclusion}{69}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Réalisations de la pointeuse}{70}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{70}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Arduino}{70}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Matériel}{71}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Logiciel}{71}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}ESP32}{71}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Caractéristiques techniques}{72}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Capteur d'empreinte DY 50}{73}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Principe de fonctionnement}{75}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Caractéristiques techniques }{75}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Schémas et branchement}{76}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Prototype}{78}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Programmation}{80}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Environnement de travail}{81}{subsection.4.7.1}%
+\contentsline {subsubsection}{Arduino IDE }{81}{section*.134}%
+\contentsline {subsubsection}{Langage de programmation C}{81}{section*.136}%
+\contentsline {subsubsection}{esspresif/arduino-esp32 library}{82}{section*.137}%
+\contentsline {subsubsection}{Adafruit fingerprint sensor library}{82}{section*.138}%
+\contentsline {subsection}{\numberline {4.7.2}Code et fonctionnement}{83}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Conclusion}{86}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Implémentations, mise en service et test}{87}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{87}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Environnement de développement}{87}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Plateformes utilisés}{87}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Logiciels utilisés}{88}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Technologie utilisée}{89}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}HTML}{89}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}CSS}{89}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Sass}{89}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}JavaScript}{90}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Python}{90}{subsection.5.2.8}%
+\contentsline {subsection}{\numberline {5.2.9}Django}{90}{subsection.5.2.9}%
+\contentsline {section}{\numberline {5.3}Persistance des données}{91}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}MySql}{91}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}ORM}{91}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Les librairies utilisées}{92}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Bootstrap}{92}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}JQuery}{92}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Crispy forms}{92}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Pillow}{92}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Django import/export}{92}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Popper}{92}{subsection.5.4.6}%
+\contentsline {subsection}{\numberline {5.4.7}Font Awesome}{93}{subsection.5.4.7}%
+\contentsline {subsection}{\numberline {5.4.8}Chart.js}{93}{subsection.5.4.8}%
+\contentsline {section}{\numberline {5.5}Architecture du système}{93}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Présentation de l'application}{94}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Nom et logo de l'application}{94}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Palette de couleurs}{95}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Typographie}{95}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Squelette de l'application web}{95}{subsection.5.6.4}%
+\contentsline {section}{\numberline {5.7}Présentation des interfaces}{97}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Espace employé}{97}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Espace manager}{100}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Espace responsable}{102}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}Espace administrateur}{105}{subsection.5.7.4}%
+\contentsline {section}{\numberline {5.8}Sécurité de l’application}{105}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Protection contre Cross Site Scripting}{106}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Protection contre Cross site request forgery}{106}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Protection contre SQL injection}{106}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Protection contre le Clickjacking}{106}{subsection.5.8.4}%
+\contentsline {section}{\numberline {5.9}Tests}{106}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Conclusion}{107}{section.5.10}%
+\contentsline {part}{Conclusion générale et perspectives}{108}{chapter*.194}%
+\contentsline {part}{Bibliographie}{110}{chapter*.195}%
+\contentsline {part}{Annexe A}{113}{chapter*.196}%
+\contentsline {part}{Annexe B}{132}{chapter*.229}%

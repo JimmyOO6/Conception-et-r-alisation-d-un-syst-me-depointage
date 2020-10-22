@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{k+kt}{void} \PYG{n+nf}{loop}\PYG{p}{()\PYGZob{}}
+        \PYG{c+c1}{//check if there\PYGZsq{}s a connection to WiFi or not}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{WiFi}\PYG{p}{.}\PYG{n}{status}\PYG{p}{()} \PYG{o}{!=} \PYG{n}{WL\PYGZus{}CONNECTED}\PYG{p}{)\PYGZob{}}
+            \PYG{n}{connectToWiFi}\PYG{p}{();}
+        \PYG{p}{\PYGZcb{}}
+        \PYG{c+c1}{//The ID start form 1 to 127}
+        \PYG{c+c1}{// Get the Fingerprint ID from the Scanner}
+        \PYG{n}{FingerID} \PYG{o}{=} \PYG{n}{getFingerprintID}\PYG{p}{();}
+        \PYG{c+c1}{//don\PYGZsq{}t need to run this at full speed.}
+        \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{n}{FingerID}\PYG{p}{);}
+        \PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{50}\PYG{p}{);}
+        \PYG{n}{checkfinger}\PYG{p}{();}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{FingerID} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{p}{)\PYGZob{}}
+            \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}mode Enregistrement/Suppression \PYGZdq{}}\PYG{p}{);}
+            \PYG{n}{checkToDelete}\PYG{p}{();}
+            \PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{5000}\PYG{p}{);}
+            \PYG{n}{checkToAdd}\PYG{p}{();}
+        \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{k+kt}{void} \PYG{n+nf}{checkToAdd}\PYG{p}{()\PYGZob{}}
+        \PYG{n}{HTTPClient} \PYG{n}{http}\PYG{p}{;} \PYG{c+c1}{//Declare object of class HTTPClient}
+        \PYG{c+c1}{//Post Data}
+        \PYG{c+c1}{// Add the Fingerprint ID to the Post array in order to send it}
+        \PYG{n}{postData} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Get\PYGZus{}Fingerid=get\PYGZus{}id\PYGZdq{}}\PYG{p}{;}
+        \PYG{c+c1}{// Post methode}
+        \PYG{c+c1}{//initiate HTTP  request, put your Website URL or Your Computer IP}
+        \PYG{n}{http}\PYG{p}{.}\PYG{n}{begin}\PYG{p}{(}\PYG{n}{linkee}\PYG{p}{);}
+        \PYG{c+c1}{//Specify content\PYGZhy{}type header}
+        \PYG{n}{http}\PYG{p}{.}\PYG{n}{addHeader}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Content\PYGZhy{}Type\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}application/x\PYGZhy{}www\PYGZhy{}form\PYGZhy{}urlencoded\PYGZdq{}}\PYG{p}{);}
+
+        \PYG{k+kt}{int} \PYG{n}{httpCode} \PYG{o}{=} \PYG{n}{http}\PYG{p}{.}\PYG{n}{POST}\PYG{p}{(}\PYG{n}{postData}\PYG{p}{);} \PYG{c+c1}{//Send the request}
+        \PYG{n}{String} \PYG{n}{payload} \PYG{o}{=} \PYG{n}{http}\PYG{p}{.}\PYG{n}{getString}\PYG{p}{();}  \PYG{c+c1}{//Get the response payload}
+
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{payload}\PYG{p}{.}\PYG{n}{substring}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{)} \PYG{o}{==} \PYG{l+s}{\PYGZdq{}add\PYGZhy{}id\PYGZdq{}}\PYG{p}{)\PYGZob{}}
+            \PYG{c+c1}{// Serial.println(\PYGZdq{}j’ai reçu une réponse qui contient add id\PYGZdq{});}
+            \PYG{n}{String} \PYG{n}{add\PYGZus{}id} \PYG{o}{=} \PYG{n}{payload}\PYG{p}{.}\PYG{n}{substring}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{);}
+            \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{n}{add\PYGZus{}id}\PYG{p}{);}
+            \PYG{n}{id} \PYG{o}{=} \PYG{n}{add\PYGZus{}id}\PYG{p}{.}\PYG{n}{toInt}\PYG{p}{();}
+            \PYG{k}{if} \PYG{p}{(}\PYG{n}{id} \PYG{o}{!=} \PYG{l+m+mi}{0}\PYG{p}{)\PYGZob{}}
+                \PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}posez votre empreinte \PYGZdq{}}\PYG{p}{);}
+                \PYG{n}{getFingerprintEnroll}\PYG{p}{();}
+            \PYG{p}{\PYGZcb{}}
+        \PYG{p}{\PYGZcb{}}
+        \PYG{c+c1}{//Close connection}
+        \PYG{n}{http}\PYG{p}{.}\PYG{n}{end}\PYG{p}{();}
+    \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

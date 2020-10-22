@@ -1,0 +1,129 @@
+\BOOKMARK [-1][-]{section*.16}{Table des mati\350res}{}% 1
+\BOOKMARK [-1][-]{chapter*.18}{Table des figures}{}% 2
+\BOOKMARK [-1][-]{chapter*.19}{Liste des tableaux}{}% 3
+\BOOKMARK [-1][-]{chapter*.19}{Liste des abr\351viations}{}% 4
+\BOOKMARK [-1][-]{chapter*.21}{Introduction g\351n\351rale}{}% 5
+\BOOKMARK [0][-]{chapter.1}{Contexte du projet et m\351thodologie de conception}{chapter*.21}% 6
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Contexte du projet}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Probl\351matique}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.4}{Les applications Web}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.4.1}{D\351finition}{section.1.4}% 11
+\BOOKMARK [2][-]{subsection.1.4.2}{Quelle est la diff\351rence avec les applications Web et les applications natives?}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.3}{Pourquoi une application Web ?}{section.1.4}% 13
+\BOOKMARK [1][-]{section.1.5}{Empreinte digitale}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.5.1}{Caract\351ristique d\220une empreinte digitale}{section.1.5}% 15
+\BOOKMARK [2][-]{subsection.1.5.2}{Pourquoi l\220empreinte digitale ?}{section.1.5}% 16
+\BOOKMARK [1][-]{section.1.6}{Processus du d\351veloppement}{chapter.1}% 17
+\BOOKMARK [2][-]{subsection.1.6.1}{Processus unifi\351 \(UP\)}{section.1.6}% 18
+\BOOKMARK [2][-]{subsection.1.6.2}{Les m\351thodes agiles}{section.1.6}% 19
+\BOOKMARK [2][-]{subsection.1.6.3}{Le processus choisi }{section.1.6}% 20
+\BOOKMARK [1][-]{section.1.7}{Conclusion}{chapter.1}% 21
+\BOOKMARK [0][-]{chapter.2}{Sp\351cification et analyse des besoins }{chapter*.21}% 22
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.2}{Identification des acteurs}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.3}{Identifications des cas d'utilisation}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.4}{Sp\351cification des exigences}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.4.1}{Exigences fonctionnelles}{section.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.4.2}{Exigences non fonctionnelles}{section.2.4}% 28
+\BOOKMARK [1][-]{section.2.5}{Diagramme des cas d'utilisation}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.5.1}{Diagramme de cas d'utilisation de l'employ\351}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.2}{Diagramme de cas d'utilisation du manager}{section.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.5.3}{Diagramme de cas d'utilisation du responsable}{section.2.5}% 32
+\BOOKMARK [2][-]{subsection.2.5.4}{Diagramme de cas d'utilisation de l'administrateur}{section.2.5}% 33
+\BOOKMARK [1][-]{section.2.6}{Descriptions de cas d'utilisation}{chapter.2}% 34
+\BOOKMARK [1][-]{section.2.7}{Diagramme de s\351quence syst\350me DSS}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.7.1}{Cas d'utilisation \253 Se pointer \273}{section.2.7}% 36
+\BOOKMARK [2][-]{subsection.2.7.2}{Cas d'utilisation \253 Consulter mon profil \273}{section.2.7}% 37
+\BOOKMARK [2][-]{subsection.2.7.3}{Cas d'utilisation \253 Consulter ma fiche de pointage \273}{section.2.7}% 38
+\BOOKMARK [2][-]{subsection.2.7.4}{Cas d'utilisation \253 Consulter tableau de bord manager \273}{section.2.7}% 39
+\BOOKMARK [2][-]{subsection.2.7.5}{Cas d'utilisation \253 Ajouter membre \273}{section.2.7}% 40
+\BOOKMARK [2][-]{subsection.2.7.6}{Cas d'utilisation \253 Ajouter planning \273}{section.2.7}% 41
+\BOOKMARK [2][-]{subsection.2.7.7}{Cas d'utilisation \253 Ajouter \351quipe \273}{section.2.7}% 42
+\BOOKMARK [2][-]{subsection.2.7.8}{Cas d'utilisation \253 Ajouter employ\351 \273}{section.2.7}% 43
+\BOOKMARK [2][-]{subsection.2.7.9}{Cas d'utilisation \253 Consulter le profil d'un employ\351 \273}{section.2.7}% 44
+\BOOKMARK [1][-]{section.2.8}{Les maquettes IHM }{chapter.2}% 45
+\BOOKMARK [2][-]{subsection.2.8.1}{Employ\351}{section.2.8}% 46
+\BOOKMARK [2][-]{subsection.2.8.2}{Manager}{section.2.8}% 47
+\BOOKMARK [2][-]{subsection.2.8.3}{Responsable}{section.2.8}% 48
+\BOOKMARK [2][-]{subsection.2.8.4}{La navigation}{section.2.8}% 49
+\BOOKMARK [1][-]{section.2.9}{Conclusion}{chapter.2}% 50
+\BOOKMARK [0][-]{chapter.3}{Conception}{chapter*.21}% 51
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 52
+\BOOKMARK [1][-]{section.3.2}{Mod\350le de domaine}{chapter.3}% 53
+\BOOKMARK [1][-]{section.3.3}{Diagrammes de classes participantes}{chapter.3}% 54
+\BOOKMARK [2][-]{subsection.3.3.1}{D\351finitions et formalisme}{section.3.3}% 55
+\BOOKMARK [3][-]{section*.69}{Les classes de dialogue}{subsection.3.3.1}% 56
+\BOOKMARK [3][-]{section*.71}{Les classes de contr\364le}{subsection.3.3.1}% 57
+\BOOKMARK [3][-]{section*.73}{Les classes entit\351s}{subsection.3.3.1}% 58
+\BOOKMARK [1][-]{section.3.4}{Diagrammes de s\351quence}{chapter.3}% 59
+\BOOKMARK [1][-]{section.3.5}{Diagramme de classes conception pr\351liminaire}{chapter.3}% 60
+\BOOKMARK [1][-]{section.3.6}{Diagramme de classe conception}{chapter.3}% 61
+\BOOKMARK [1][-]{section.3.7}{Mod\350le relationnel}{chapter.3}% 62
+\BOOKMARK [1][-]{section.3.8}{Conclusion}{chapter.3}% 63
+\BOOKMARK [0][-]{chapter.4}{R\351alisations de la pointeuse}{chapter*.21}% 64
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.2}{Arduino}{chapter.4}% 66
+\BOOKMARK [2][-]{subsection.4.2.1}{Mat\351riel}{section.4.2}% 67
+\BOOKMARK [2][-]{subsection.4.2.2}{Logiciel}{section.4.2}% 68
+\BOOKMARK [1][-]{section.4.3}{ESP32}{chapter.4}% 69
+\BOOKMARK [2][-]{subsection.4.3.1}{Caract\351ristiques techniques}{section.4.3}% 70
+\BOOKMARK [1][-]{section.4.4}{Capteur d'empreinte DY 50}{chapter.4}% 71
+\BOOKMARK [2][-]{subsection.4.4.1}{Principe de fonctionnement}{section.4.4}% 72
+\BOOKMARK [2][-]{subsection.4.4.2}{Caract\351ristiques techniques }{section.4.4}% 73
+\BOOKMARK [1][-]{section.4.5}{Sch\351mas et branchement}{chapter.4}% 74
+\BOOKMARK [1][-]{section.4.6}{Prototype}{chapter.4}% 75
+\BOOKMARK [1][-]{section.4.7}{Programmation}{chapter.4}% 76
+\BOOKMARK [2][-]{subsection.4.7.1}{Environnement de travail}{section.4.7}% 77
+\BOOKMARK [3][-]{section*.134}{Arduino IDE }{subsection.4.7.1}% 78
+\BOOKMARK [3][-]{section*.136}{Langage de programmation C}{subsection.4.7.1}% 79
+\BOOKMARK [3][-]{section*.137}{esspresif/arduino-esp32 library}{subsection.4.7.1}% 80
+\BOOKMARK [3][-]{section*.138}{Adafruit fingerprint sensor library}{subsection.4.7.1}% 81
+\BOOKMARK [2][-]{subsection.4.7.2}{Code et fonctionnement}{section.4.7}% 82
+\BOOKMARK [1][-]{section.4.8}{Conclusion}{chapter.4}% 83
+\BOOKMARK [0][-]{chapter.5}{Impl\351mentations, mise en service et test}{chapter*.21}% 84
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 85
+\BOOKMARK [1][-]{section.5.2}{Environnement de d\351veloppement}{chapter.5}% 86
+\BOOKMARK [2][-]{subsection.5.2.1}{Plateformes utilis\351s}{section.5.2}% 87
+\BOOKMARK [2][-]{subsection.5.2.2}{Logiciels utilis\351s}{section.5.2}% 88
+\BOOKMARK [2][-]{subsection.5.2.3}{Technologie utilis\351e}{section.5.2}% 89
+\BOOKMARK [2][-]{subsection.5.2.4}{HTML}{section.5.2}% 90
+\BOOKMARK [2][-]{subsection.5.2.5}{CSS}{section.5.2}% 91
+\BOOKMARK [2][-]{subsection.5.2.6}{Sass}{section.5.2}% 92
+\BOOKMARK [2][-]{subsection.5.2.7}{JavaScript}{section.5.2}% 93
+\BOOKMARK [2][-]{subsection.5.2.8}{Python}{section.5.2}% 94
+\BOOKMARK [2][-]{subsection.5.2.9}{Django}{section.5.2}% 95
+\BOOKMARK [1][-]{section.5.3}{Persistance des donn\351es}{chapter.5}% 96
+\BOOKMARK [2][-]{subsection.5.3.1}{MySql}{section.5.3}% 97
+\BOOKMARK [2][-]{subsection.5.3.2}{ORM}{section.5.3}% 98
+\BOOKMARK [1][-]{section.5.4}{Les librairies utilis\351es}{chapter.5}% 99
+\BOOKMARK [2][-]{subsection.5.4.1}{Bootstrap}{section.5.4}% 100
+\BOOKMARK [2][-]{subsection.5.4.2}{JQuery}{section.5.4}% 101
+\BOOKMARK [2][-]{subsection.5.4.3}{Crispy forms}{section.5.4}% 102
+\BOOKMARK [2][-]{subsection.5.4.4}{Pillow}{section.5.4}% 103
+\BOOKMARK [2][-]{subsection.5.4.5}{Django import/export}{section.5.4}% 104
+\BOOKMARK [2][-]{subsection.5.4.6}{Popper}{section.5.4}% 105
+\BOOKMARK [2][-]{subsection.5.4.7}{Font Awesome}{section.5.4}% 106
+\BOOKMARK [2][-]{subsection.5.4.8}{Chart.js}{section.5.4}% 107
+\BOOKMARK [1][-]{section.5.5}{Architecture du syst\350me}{chapter.5}% 108
+\BOOKMARK [1][-]{section.5.6}{Pr\351sentation de l'application}{chapter.5}% 109
+\BOOKMARK [2][-]{subsection.5.6.1}{Nom et logo de l'application}{section.5.6}% 110
+\BOOKMARK [2][-]{subsection.5.6.2}{Palette de couleurs}{section.5.6}% 111
+\BOOKMARK [2][-]{subsection.5.6.3}{Typographie}{section.5.6}% 112
+\BOOKMARK [2][-]{subsection.5.6.4}{Squelette de l'application web}{section.5.6}% 113
+\BOOKMARK [1][-]{section.5.7}{Pr\351sentation des interfaces}{chapter.5}% 114
+\BOOKMARK [2][-]{subsection.5.7.1}{Espace employ\351}{section.5.7}% 115
+\BOOKMARK [2][-]{subsection.5.7.2}{Espace manager}{section.5.7}% 116
+\BOOKMARK [2][-]{subsection.5.7.3}{Espace responsable}{section.5.7}% 117
+\BOOKMARK [2][-]{subsection.5.7.4}{Espace administrateur}{section.5.7}% 118
+\BOOKMARK [1][-]{section.5.8}{S\351curit\351 de l\220application}{chapter.5}% 119
+\BOOKMARK [2][-]{subsection.5.8.1}{Protection contre Cross Site Scripting}{section.5.8}% 120
+\BOOKMARK [2][-]{subsection.5.8.2}{Protection contre Cross site request forgery}{section.5.8}% 121
+\BOOKMARK [2][-]{subsection.5.8.3}{Protection contre SQL injection}{section.5.8}% 122
+\BOOKMARK [2][-]{subsection.5.8.4}{Protection contre le Clickjacking}{section.5.8}% 123
+\BOOKMARK [1][-]{section.5.9}{Tests}{chapter.5}% 124
+\BOOKMARK [1][-]{section.5.10}{Conclusion}{chapter.5}% 125
+\BOOKMARK [-1][-]{chapter*.194}{Conclusion g\351n\351rale et perspectives}{}% 126
+\BOOKMARK [-1][-]{chapter*.195}{Bibliographie}{}% 127
+\BOOKMARK [-1][-]{chapter*.196}{Annexe A}{}% 128
+\BOOKMARK [-1][-]{chapter*.229}{Annexe B}{}% 129

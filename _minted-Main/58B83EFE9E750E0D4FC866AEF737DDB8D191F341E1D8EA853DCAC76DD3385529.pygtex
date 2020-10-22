@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}Adafruit\PYGZus{}Fingerprint.h\PYGZgt{}}
+    \PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}HardwareSerial.h\PYGZgt{}}
+    \PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}WiFi.h\PYGZgt{}}
+    \PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}HTTPClient.h\PYGZgt{}}
+
+    \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{ssid} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}TP\PYGZhy{}LINK\PYGZus{}9C42F4\PYGZdq{}}\PYG{p}{;}
+    \PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{password} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}********\PYGZdq{}}\PYG{p}{;}
+    \PYG{c+c1}{// post array that will be send to the website}
+    \PYG{n}{String} \PYG{n}{postData}\PYG{p}{;}
+    \PYG{c+c1}{//computer IP or the server domain}
+    \PYG{n}{String} \PYG{n}{linkee} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}http://192.168.1.222:8000/pointage/getid\PYGZdq{}}\PYG{p}{;}
+    \PYG{c+c1}{// The Fingerprint ID from the scanner}
+    \PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{id}\PYG{p}{;}
+
+    \PYG{n}{Adafruit\PYGZus{}Fingerprint} \PYG{n}{finger} \PYG{o}{=} \PYG{n}{Adafruit\PYGZus{}Fingerprint}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{Serial2}\PYG{p}{);}
+    \PYG{k+kt}{int} \PYG{n}{FingerID} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+\end{Verbatim}

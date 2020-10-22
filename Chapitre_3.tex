@@ -684,7 +684,7 @@ En appliquant les règles de passage\cite{12}, nous obtenons les relations suiva
 \begin{itemize}
     \item [\textbullet]\textbf{Employé}(\underline{id\_employé}, nom, prénom, genre, 
         username, email,pwd, date\_naissance,lieu-naissance, adresse, présence, poste, 
-        observations, tél\_professionnel, tél\_personnel, photo, \#ggid\_équipe, 
+        observations, tél\_professionnel, tél\_personnel, photo, type,\#ggid\_équipe, 
         \#ggid\_planning, \#id\_empreinte).
 
 	\item [\textbullet]\textbf{Planning}(\underline{id\_planning}, intitulé, 
@@ -694,7 +694,7 @@ En appliquant les règles de passage\cite{12}, nous obtenons les relations suiva
         h\_entrée2, h\_sortie2, \#ggid\_planning).
     
     \item [\textbullet]\textbf{Équipe}(\underline{id\_équipe}, intitulé, 
-        description, \#ggid\_manager).
+        description, \#ggid\_employé).
     
     \item [\textbullet]\textbf{Affectation}(\underline{id\_affectation}, 
         rejoint\_jour, quitté\_jour, \#ggid\_équipe, \#id\_employé).

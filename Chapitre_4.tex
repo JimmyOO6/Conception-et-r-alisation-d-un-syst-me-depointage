@@ -143,7 +143,7 @@ systèmes.\cite{32}
         \begin{itemize}
             \item low-dropout regulator (en) interne;
             \item Domaines d'alimentation individuels pour le RTC;
-            \item Alimentation en sommeil profond de 5 μA ;
+            \item Alimentation en sommeil profond de 5 $\mu$ A ;
             \item Réveil depuis des interruptions GPIO, timer, mesure ADC,
                 interruption du capteur de touché capacitif.
         \end{itemize}
@@ -182,11 +182,11 @@ de l’empreinte tout en étant intrinsèquement protégé contre les décharges
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[scale=0.8]{images/dy50.jpg}
+    \includegraphics[scale=0.7]{images/dy50.jpg}
     \caption{Capteur optique DY50}
     \label{fig51}
 \end{figure}
-
+\clearpage
 \subsection{Principe de fonctionnement}
 Grâce au principe de l’imagerie optique, les lignes créées par l’irrégularité de 
 la peau sur la face interne du doigt formeront diverses images d’empreintes 
@@ -244,8 +244,8 @@ des valeurs des caractéristiques.\cite{34}
     \item Fichier de Signature: 256 octets.
     \item Fichiers de modèle: 512 octets.
     \item Capacité de stockage: 127.
-    \item Niveau de sécurité: cinq (de bas à haut: 1,2,3,4,5).
-    \item Faux taux d'acceptation (FAR): <0.001\% (niveau de sécurité 3).
+    \item Niveau de sécurité: cinq (min à max: 1,2,3,4,5).
+    \item Taux  de fausses acceptations: <0.001\% (niveau de sécurité 3).
     \item Taux de faux rejet (FRR): <1.0\% (niveau de sécurité 3).
     \item Temps de recherche: <1.0 seconde (1:500, la moyenne).
     \item Interface PC: UART (niveau logique TTL) ou USB2.0 / USB1.1.
@@ -382,7 +382,7 @@ d’avoir une idée du résultat final.
         \centering
         \includegraphics[scale=0.16]{images/prototype/4.png}
         \vspace{-40pt}
-        \caption{Pointeuse fermer}\label{ }
+        \caption{Pointeuse fermée}\label{ }
     \end{minipage}
 \end{figure}
 
@@ -403,12 +403,12 @@ cache rétractable, une manœuvre obligatoire lorsque:
 
 \section{Programmation}
 Une fois les parties matérielles correctement assemblées, nous allons passer à 
-la partie programmations de la pointeuse. En premier lieu, nous allons définir 
+la partie programmation de la pointeuse. En premier lieu, nous allons définir 
 le rôle de chaque composant ainsi que son champ d’action.
 
 \begin{itemize}
     \item[\textbullet] \textbf{Le module ESP32 DevKit:} Ce dernier représente le
-        cerveau de la pointeuse. Car le programme de la pointeuse sera logé en
+        cerveau de la pointeuse, car le programme de la pointeuse sera logé en
         lui. Il sera responsable de la communication entre la pointeuse et
         l’application. Il exécutera les différentes commandes exigées par
         l’administrateur (changement de mode
@@ -448,7 +448,7 @@ et de compiler les programmes via l'interface en ligne de commande.
 le C est un langage de programmation impératif généraliste de bas niveau. Inventé 
 au début des années 1970 pour réécrire UNIX. C’est devenu un des langages les 
 plus utilisés, encore de nos jours. De nombreux langages plus modernes comme 
-C++, C#, Java et PHP ou JavaScript ont repris une syntaxe similaire et 
+C++, C\#\\, Java et PHP ou JavaScript ont repris une syntaxe similaire et 
 reprennent en partie sa logique. Il offre aux développeurs une marge de contrôle 
 importante sur la machine (notamment sur la gestion de la mémoire) et est de ce 
 fait utilisé pour réaliser les « fondations » (compilateurs, interpréteurs…) de 
@@ -618,7 +618,7 @@ et le capteur correctement connecté.
 
 \begin{itemize}
     \item[\textbullet] une partie pour les différentes procédures et méthodes
-        utiliser 
+        utilisées
 \end{itemize}
 
 \begin{minted}{c}
