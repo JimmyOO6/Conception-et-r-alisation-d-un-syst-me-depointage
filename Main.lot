@@ -2,11 +2,12 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Tableau comparatif entre les applications Web et natives.\relax }}{5}{table.caption.22}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Identification des cas d'utilisation\relax }}{12}{table.2.1}%
 \contentsline {table}{\numberline {2.2}{\ignorespaces Description du cas d'utilisation « S'authentifier »\relax }}{18}{Item.6}%
 \contentsline {table}{\numberline {2.3}{\ignorespaces Description du cas d'utilisation « Se pointer »\relax }}{19}{Item.12}%
 \contentsline {table}{\numberline {2.4}{\ignorespaces Description du cas d'utilisation « Consulter mon profil »\relax }}{19}{Item.13}%
 \contentsline {table}{\numberline {2.5}{\ignorespaces Description du cas d'utilisation « Consulter ma fiche de pointage »\relax }}{20}{Item.15}%
-\contentsline {table}{\numberline {2.6}{\ignorespaces Description du cas d'utilisation « Consulter tableau de bord manager »\relax }}{21}{Item.17}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Description du cas d'utilisation « Consulter tableau de bord manager »\relax }}{20}{Item.17}%
 \contentsline {table}{\numberline {2.7}{\ignorespaces Description du cas d'utilisation « Ajouter membre »\relax }}{21}{Item.22}%
 \contentsline {table}{\numberline {2.8}{\ignorespaces Description du cas d'utilisation « Ajouter un planning »\relax }}{22}{Item.28}%
 \contentsline {table}{\numberline {2.9}{\ignorespaces Description du cas d'utilisation « Ajouter équipe »\relax }}{22}{Item.34}%
@@ -14,38 +15,38 @@
 \contentsline {table}{\numberline {2.11}{\ignorespaces Description du cas d'utilisation « Consulter profil d'un employé »\relax }}{23}{Item.42}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Interface de connexion\relax }}{75}{table.4.1}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Interface de connexion \cite {34}\relax }}{74}{table.4.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Endpoint de l'api RESTful\relax }}{93}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Description du cas d'utilisation « Consulter mon tableau de bord »\relax }}{113}{Item.43}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Description du cas d'utilisation « Consulter le tableau de bord responsable »\relax }}{114}{Item.46}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Description du cas d'utilisation « Rechercher période »\relax }}{114}{Item.50}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Description du cas d'utilisation « Rechercher employé »\relax }}{115}{Item.54}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Description du cas d'utilisation « Modifier mon profil »\relax }}{115}{Item.60}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Description du cas d'utilisation « Consulter profil d'un collaborateur »\relax }}{116}{Item.62}%
-\contentsline {table}{\numberline {5.8}{\ignorespaces Description du cas d'utilisation « Consulter le résumé de pointage des collaborateurs »\relax }}{116}{Item.64}%
-\contentsline {table}{\numberline {5.9}{\ignorespaces Description du cas d'utilisation « Consulter feuille de pointage d'un collaborateur »\relax }}{117}{Item.68}%
-\contentsline {table}{\numberline {5.10}{\ignorespaces Description du cas d'utilisation « Consulter résumer de pointage des employés »\relax }}{117}{Item.70}%
-\contentsline {table}{\numberline {5.11}{\ignorespaces Description du cas d'utilisation « Consulter feuille de pointage d'un employé »\relax }}{118}{Item.74}%
-\contentsline {table}{\numberline {5.12}{\ignorespaces Description du cas d'utilisation « Consulter la liste des collaborateurs »\relax }}{119}{Item.79}%
-\contentsline {table}{\numberline {5.13}{\ignorespaces Description du cas d'utilisation « Consulter la liste des employés »\relax }}{119}{Item.85}%
-\contentsline {table}{\numberline {5.14}{\ignorespaces Description du cas d'utilisation « Modifier employé »\relax }}{120}{Item.91}%
-\contentsline {table}{\numberline {5.15}{\ignorespaces Description du cas d'utilisation « Supprimer un employé »\relax }}{121}{Item.99}%
-\contentsline {table}{\numberline {5.16}{\ignorespaces Description du cas d'utilisation « Ajouter une empreinte »\relax }}{121}{Item.108}%
-\contentsline {table}{\numberline {5.17}{\ignorespaces Description du cas d'utilisation « Supprimer une empreinte »\relax }}{122}{Item.115}%
-\contentsline {table}{\numberline {5.18}{\ignorespaces Description du cas d'utilisation « Consulter la liste de mes équipes »\relax }}{123}{Item.117}%
-\contentsline {table}{\numberline {5.19}{\ignorespaces Description du cas d'utilisation « Consulter le résumé de mon équipe »\relax }}{123}{Item.119}%
-\contentsline {table}{\numberline {5.20}{\ignorespaces Description du cas d'utilisation « Consulter la liste des équipes »\relax }}{124}{Item.122}%
-\contentsline {table}{\numberline {5.21}{\ignorespaces Description du cas d'utilisation « Consulter le résumé d'une équipe »\relax }}{124}{Item.125}%
-\contentsline {table}{\numberline {5.22}{\ignorespaces Description du cas d'utilisation « Modifier équipe »\relax }}{125}{Item.133}%
-\contentsline {table}{\numberline {5.23}{\ignorespaces Description du cas d'utilisation « Supprimer équipe »\relax }}{126}{Item.139}%
-\contentsline {table}{\numberline {5.24}{\ignorespaces Description du cas d'utilisation « Supprimer membre »\relax }}{126}{Item.145}%
-\contentsline {table}{\numberline {5.25}{\ignorespaces Description du cas d'utilisation « Consulter liste des plannings »\relax }}{127}{Item.149}%
-\contentsline {table}{\numberline {5.26}{\ignorespaces Description du cas d'utilisation « Consulter mon planning »\relax }}{127}{Item.151}%
-\contentsline {table}{\numberline {5.27}{\ignorespaces Description du cas d'utilisation « Consulter planning d'un collaborateur »\relax }}{128}{Item.152}%
-\contentsline {table}{\numberline {5.28}{\ignorespaces Description du cas d'utilisation « Consulter planning d'un employé »\relax }}{128}{Item.154}%
-\contentsline {table}{\numberline {5.29}{\ignorespaces Description du cas d'utilisation « Modifier un planning »\relax }}{129}{Item.163}%
-\contentsline {table}{\numberline {5.30}{\ignorespaces Description du cas d'utilisation « Supprimer un planning»\relax }}{130}{Item.169}%
-\contentsline {table}{\numberline {5.31}{\ignorespaces Description du cas d'utilisation « Affectation d'un planning »\relax }}{130}{Item.173}%
-\contentsline {table}{\numberline {5.32}{\ignorespaces Description du cas d'utilisation « Consulter le journal des affectations »\relax }}{131}{Item.174}%
-\contentsline {table}{\numberline {5.33}{\ignorespaces Description du cas d'utilisation « Importer/Exporter »\relax }}{131}{Item.179}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Endpoint de l'api RESTful\relax }}{92}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Description du cas d'utilisation « Consulter mon tableau de bord »\relax }}{112}{Item.43}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Description du cas d'utilisation « Consulter le tableau de bord responsable »\relax }}{113}{Item.46}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Description du cas d'utilisation « Rechercher période »\relax }}{113}{Item.50}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Description du cas d'utilisation « Rechercher employé »\relax }}{114}{Item.54}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Description du cas d'utilisation « Modifier mon profil »\relax }}{114}{Item.60}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Description du cas d'utilisation « Consulter profil d'un collaborateur »\relax }}{115}{Item.62}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Description du cas d'utilisation « Consulter le résumé de pointage des collaborateurs »\relax }}{115}{Item.64}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Description du cas d'utilisation « Consulter feuille de pointage d'un collaborateur »\relax }}{116}{Item.68}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Description du cas d'utilisation « Consulter résumer de pointage des employés »\relax }}{116}{Item.70}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Description du cas d'utilisation « Consulter feuille de pointage d'un employé »\relax }}{117}{Item.74}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces Description du cas d'utilisation « Consulter la liste des collaborateurs »\relax }}{118}{Item.79}%
+\contentsline {table}{\numberline {5.13}{\ignorespaces Description du cas d'utilisation « Consulter la liste des employés »\relax }}{118}{Item.85}%
+\contentsline {table}{\numberline {5.14}{\ignorespaces Description du cas d'utilisation « Modifier employé »\relax }}{119}{Item.91}%
+\contentsline {table}{\numberline {5.15}{\ignorespaces Description du cas d'utilisation « Supprimer un employé »\relax }}{120}{Item.99}%
+\contentsline {table}{\numberline {5.16}{\ignorespaces Description du cas d'utilisation « Ajouter une empreinte »\relax }}{120}{Item.108}%
+\contentsline {table}{\numberline {5.17}{\ignorespaces Description du cas d'utilisation « Supprimer une empreinte »\relax }}{121}{Item.115}%
+\contentsline {table}{\numberline {5.18}{\ignorespaces Description du cas d'utilisation « Consulter la liste de mes équipes »\relax }}{122}{Item.117}%
+\contentsline {table}{\numberline {5.19}{\ignorespaces Description du cas d'utilisation « Consulter le résumé de mon équipe »\relax }}{122}{Item.119}%
+\contentsline {table}{\numberline {5.20}{\ignorespaces Description du cas d'utilisation « Consulter la liste des équipes »\relax }}{123}{Item.122}%
+\contentsline {table}{\numberline {5.21}{\ignorespaces Description du cas d'utilisation « Consulter le résumé d'une équipe »\relax }}{123}{Item.125}%
+\contentsline {table}{\numberline {5.22}{\ignorespaces Description du cas d'utilisation « Modifier équipe »\relax }}{124}{Item.133}%
+\contentsline {table}{\numberline {5.23}{\ignorespaces Description du cas d'utilisation « Supprimer équipe »\relax }}{125}{Item.139}%
+\contentsline {table}{\numberline {5.24}{\ignorespaces Description du cas d'utilisation « Supprimer membre »\relax }}{125}{Item.145}%
+\contentsline {table}{\numberline {5.25}{\ignorespaces Description du cas d'utilisation « Consulter liste des plannings »\relax }}{126}{Item.149}%
+\contentsline {table}{\numberline {5.26}{\ignorespaces Description du cas d'utilisation « Consulter mon planning »\relax }}{126}{Item.151}%
+\contentsline {table}{\numberline {5.27}{\ignorespaces Description du cas d'utilisation « Consulter planning d'un collaborateur »\relax }}{127}{Item.152}%
+\contentsline {table}{\numberline {5.28}{\ignorespaces Description du cas d'utilisation « Consulter planning d'un employé »\relax }}{127}{Item.154}%
+\contentsline {table}{\numberline {5.29}{\ignorespaces Description du cas d'utilisation « Modifier un planning »\relax }}{128}{Item.163}%
+\contentsline {table}{\numberline {5.30}{\ignorespaces Description du cas d'utilisation « Supprimer un planning»\relax }}{129}{Item.169}%
+\contentsline {table}{\numberline {5.31}{\ignorespaces Description du cas d'utilisation « Affectation d'un planning »\relax }}{129}{Item.173}%
+\contentsline {table}{\numberline {5.32}{\ignorespaces Description du cas d'utilisation « Consulter le journal des affectations »\relax }}{130}{Item.174}%
+\contentsline {table}{\numberline {5.33}{\ignorespaces Description du cas d'utilisation « Importer/Exporter »\relax }}{130}{Item.179}%

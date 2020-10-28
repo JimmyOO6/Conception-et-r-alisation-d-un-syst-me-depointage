@@ -1,6 +1,6 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Récapitulatif du processus de développement \cite {5}\relax }}{8}{figure.caption.23}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Récapitulatif du processus de développement \cite {5}\relax }}{9}{figure.caption.23}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation associé à l'acteur «Employé»\relax }}{14}{figure.caption.24}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d'utilisation associé à l'acteur «Manager»\relax }}{15}{figure.caption.25}%
@@ -18,7 +18,7 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Maquette tableau de bord Employé\relax }}{32}{figure.caption.47}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Maquette profil Employé\relax }}{32}{figure.caption.48}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Maquette tableau de bord Manager\relax }}{33}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Maquette les équipes d'un Manager\relax }}{34}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Maquette des équipes d'un Manager\relax }}{34}{figure.caption.50}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Maquette création d'un planning\relax }}{35}{figure.caption.51}%
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Maquette affectations d'un employé a une équipe \relax }}{35}{figure.caption.52}%
 \addvspace {10\p@ }
@@ -58,48 +58,47 @@
 \contentsline {figure}{\numberline {3.34}{\ignorespaces Diagramme de classes conception préliminaire « Ajouter un planning»\relax }}{65}{figure.caption.118}%
 \contentsline {figure}{\numberline {3.35}{\ignorespaces Diagramme de classes conception préliminaire « Ajouter un employé»\relax }}{66}{figure.caption.120}%
 \contentsline {figure}{\numberline {3.36}{\ignorespaces Diagramme de classes conception préliminaire « Consulter profil d'un employé»\relax }}{66}{figure.caption.122}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Diagramme de classe\relax }}{67}{figure.caption.123}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Diagramme de classes conception\relax }}{67}{figure.caption.123}%
 \contentsline {figure}{\numberline {3.38}{\ignorespaces Le père du modèle relationnel\relax }}{68}{figure.caption.124}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ESP32 DevKit\relax }}{72}{figure.caption.125}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Schéma fonctionnel\relax }}{74}{figure.caption.126}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Capteur optique DY50\relax }}{74}{figure.caption.127}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Schéma expliquant le montage préliminaire des différents modules \relax }}{76}{figure.caption.128}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Schéma expliquant le montage préliminaire des différents modules\relax }}{77}{figure.caption.129}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Schéma expliquant le montage préliminaire des différents modules\relax }}{78}{figure.caption.130}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Pointeuse vue de face\relax }}{79}{figure.caption.131}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Pointeuse vue de haut\relax }}{79}{figure.caption.131}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Côté gauche extérieure\relax }}{79}{figure.caption.132}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Côté gauche intérieure\relax }}{79}{figure.caption.132}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Pointeuse ouverte\relax }}{80}{figure.caption.133}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Pointeuse fermée\relax }}{80}{figure.caption.133}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces interface Arduino IDE et un programme qui clignote une LED\relax }}{81}{figure.caption.135}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ESP32 DevKit\relax }}{71}{figure.caption.125}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schéma fonctionnel\relax }}{73}{figure.caption.126}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Capteur optique DY50\relax }}{73}{figure.caption.127}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schéma expliquant le montage préliminaire des différents modules \relax }}{75}{figure.caption.128}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schéma expliquant le montage préliminaire des différents modules\relax }}{76}{figure.caption.129}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Pointeuse vue de face\relax }}{77}{figure.caption.130}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Pointeuse vue de haut\relax }}{77}{figure.caption.130}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Côté gauche extérieure\relax }}{78}{figure.caption.131}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Côté gauche intérieure\relax }}{78}{figure.caption.131}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Pointeuse ouverte\relax }}{78}{figure.caption.132}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Pointeuse fermée\relax }}{78}{figure.caption.132}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces interface Arduino IDE et un programme qui clignote une LED\relax }}{80}{figure.caption.134}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Fonctionnement de l'ORM de Django\relax }}{91}{figure.caption.162}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Architecture du système\relax }}{93}{figure.caption.169}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Nom de l'application\relax }}{94}{figure.caption.170}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Logo avec couleur uniforme\relax }}{94}{figure.caption.171}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Logo sur fond bleu\relax }}{94}{figure.caption.171}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Logo sur fond blanc\relax }}{94}{figure.caption.172}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Palette de couleur utilisé\relax }}{95}{figure.caption.173}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Squelette de l'application web\relax }}{96}{figure.caption.174}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces User flow de l'employé\relax }}{97}{figure.caption.175}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Interface dashbord employé\relax }}{98}{figure.caption.177}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Interface ma fiche de pointage\relax }}{99}{figure.caption.179}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Interface consulter mon profil\relax }}{99}{figure.caption.181}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces User flow du manager\relax }}{100}{figure.caption.182}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Interface dashbord manager\relax }}{101}{figure.caption.184}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Interface résumer d'une équipe\relax }}{102}{figure.caption.186}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces User flow du responsable\relax }}{103}{figure.caption.187}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces interface créer un planning\relax }}{104}{figure.caption.189}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Interface affecter un employé\relax }}{104}{figure.caption.191}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces User flow de l'administrateur\relax }}{105}{figure.caption.193}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Diagramme de séquence système « Consulter résumé de pointage des collaborateur »\relax }}{132}{figure.caption.231}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Diagramme de séquence système « Consulter la liste des collaborateurs »\relax }}{133}{figure.caption.233}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Diagramme de séquence système « Consulter mes équipes »\relax }}{133}{figure.caption.235}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Diagramme de séquence système « Consulter mon profil »\relax }}{134}{figure.caption.237}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Diagramme de séquence système « Modifier mon profil »\relax }}{135}{figure.caption.239}%
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Diagramme de séquence système « Affectation d'un planning »\relax }}{136}{figure.caption.241}%
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Diagramme de séquence système « Consulter liste des équipes »\relax }}{137}{figure.caption.243}%
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Diagramme de séquence système « Ajouter empreinte »\relax }}{138}{figure.caption.245}%
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Diagramme de séquence système « Supprimer empreinte »\relax }}{139}{figure.caption.247}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fonctionnement de l'ORM de Django \cite {49}\relax }}{90}{figure.caption.161}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Architecture du système\relax }}{92}{figure.caption.168}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Nom de l'application\relax }}{93}{figure.caption.169}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Logo avec couleur uniforme\relax }}{93}{figure.caption.170}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Logo sur fond bleu\relax }}{93}{figure.caption.170}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Logo sur fond blanc\relax }}{93}{figure.caption.171}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Palette de couleurs utilisées\relax }}{94}{figure.caption.172}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Squelette de l'application web\relax }}{95}{figure.caption.173}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces User flow de l'employé\relax }}{96}{figure.caption.174}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Interface dashbord employé\relax }}{97}{figure.caption.176}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Interface ma fiche de pointage\relax }}{98}{figure.caption.178}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Interface consulter mon profil\relax }}{98}{figure.caption.180}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces User flow du manager\relax }}{99}{figure.caption.181}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Interface dashbord manager\relax }}{100}{figure.caption.183}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Interface résumé d'une équipe\relax }}{101}{figure.caption.185}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces User flow du responsable\relax }}{102}{figure.caption.186}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces interface créer un planning\relax }}{103}{figure.caption.188}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Interface affecter un employé\relax }}{103}{figure.caption.190}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces User flow de l'administrateur\relax }}{104}{figure.caption.192}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Diagramme de séquence système « Consulter résumé de pointage des collaborateur »\relax }}{131}{figure.caption.230}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Diagramme de séquence système « Consulter la liste des collaborateurs »\relax }}{132}{figure.caption.232}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Diagramme de séquence système « Consulter mes équipes »\relax }}{132}{figure.caption.234}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Diagramme de séquence système « Consulter mon profil »\relax }}{133}{figure.caption.236}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Diagramme de séquence système « Modifier mon profil »\relax }}{134}{figure.caption.238}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Diagramme de séquence système « Affectation d'un planning »\relax }}{135}{figure.caption.240}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Diagramme de séquence système « Consulter liste des équipes »\relax }}{136}{figure.caption.242}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Diagramme de séquence système « Ajouter empreinte »\relax }}{137}{figure.caption.244}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Diagramme de séquence système « Supprimer empreinte »\relax }}{138}{figure.caption.246}%

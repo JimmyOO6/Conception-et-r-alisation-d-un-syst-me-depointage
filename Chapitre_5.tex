@@ -16,11 +16,11 @@ réalisée.
 Un environnement de développement se réfère à une suite d’applications et 
 d’outils qui permettent un développement d’application facile. Par exemple, 
 gérer des fichiers sources, déboguer du code, et enfin tester l’application 
-avant de la lancer sur un environnement de test ou de production. Dans cette 
+avant de la lancer sur un environnement de production. Dans cette 
 section nous allons présenter l’environnement de développement utilisé pour 
 développer notre application web.
 
-\subsection{Plateformes utilisés}
+\subsection{Plateformes utilisées}
 
 \subsubsection*{Slack}
 \begin{wrapfigure}{r}{0.09\textwidth}
@@ -36,7 +36,7 @@ développer notre application web.
 Slack est une plateforme de communication collaborative propriétaire, elle 
 permet de faciliter l’organisation grâce à un système de canaux centralisant 
 tout ce qui concerne un projet, un sujet ou une équipe. Elle permet également 
-de conserver les fichiers et les messages partager dans ces canaux\cite{37}. 
+de conserver les fichiers et les messages partagés dans ces canaux\cite{37}. 
 
 \clearpage
 
@@ -69,7 +69,7 @@ souple et enrichissante\cite{38}.
     \vspace{-10pt}
 \end{wrapfigure}
 
-GitHub est une plateforme de développement qui offre un service d’hébergement 
+GitHub offre un service d’hébergement 
 qui permet aux développeurs de stocker et de partager, publiquement ou non, 
 le code qu’ils créent. Elle fournit aussi plusieurs fonctionnalités de 
 collaboration, telles que des wikis et des outils de gestion des tâches de base 
@@ -161,8 +161,8 @@ permet aussi de modifier et de partager facilement des prototypes interactifs
 avec des collaborateurs sur l’ensemble des appareils et des
 plates-formes\cite{45}.
 
-\subsection{Technologie utilisée}
-Dans cette section, nous allons présenter les différentes technologies utilisé
+\subsection{Technologie utilisées}
+Dans cette section, nous allons présenter les différentes technologies utilisées
 pour développer notre application web.
 
 \subsection{HTML}
@@ -322,7 +322,7 @@ possibilité d’exécuter des requêtes SQL brutes\cite{48}.
     \centering
     \includegraphics[scale=0.8 ]{images/ORM.png}
     \label{fig77}
-    \caption{Fonctionnement de l'ORM de Django}
+    \caption{Fonctionnement de l'ORM de Django \cite{49}}
     \label{}
 \end{figure}
 
@@ -435,9 +435,9 @@ la communauté, et permet la visualisation de données sur plusieurs types de
 graphiques tout en étant facile et flexible\cite{29}.
 
 \section{Architecture du système} 
-La figure présente l’architecture de notre système qui est composé en deux
-parties. la première partie permet d’interagir directement avec la pointeuse
-biométrique qui va consommer l’api RESTful fournie par notre application Django
+La figure présente l’architecture de notre système qui est composée en deux
+parties. La première partie permet d’interagir directement avec la pointeuse
+biométrique à l'aide d'une api RESTful fournie par notre application Django
 qui est accessible à travers les endpoint suivants:
 
 \begin{longtable}{|p{2.5cm}|p{4.5cm}|p{4.5cm}|p{4.5cm}|}
@@ -455,8 +455,8 @@ qui est accessible à travers les endpoint suivants:
     \caption{Endpoint de l'api RESTful}\\
 \end{longtable}
 
-La deuxième partie c’est l’application web est accessible via un navigateur
-web, est présentée en détail dans la section suivante.
+La deuxième partie c’est l’application web, qui est accessible via un navigateur
+web, et présentée en détail dans la section suivante.
 
 \vspace{10pt}
 \begin{figure}[h!]
@@ -515,7 +515,7 @@ longues sessions d'utilisations.
 \begin{figure}[h!]
     \centering
     \includegraphics[scale=0.3 ]{images/palette_couleurs.PNG}
-    \caption{Palette de couleur utilisé}
+    \caption{Palette de couleurs utilisées}
     \label{fig89}
 \end{figure} 
 
@@ -548,17 +548,17 @@ en fonction du nombre de clique(s) nécessaire(s) pour se rendre dessus.
 \clearpage
 
 \section{Présentation des interfaces}
-Notre application comporte 4 type utilisateur, afin de présenter les principales interfaces dans
+Notre application comporte 4 types utilisateurs, afin de présenter les principales interfaces dans
 les conditions réelles d’utilisation de l’application, nous allons les présenter par espace de chaque
 acteur.
-
+\vspace{-20pt}
 \subsection{Espace employé}
-En plus de l’employé cette espace est partager par plusieurs acteurs, car il comporte certains
-fonctionnalités communes, ci-dessous nous avons modéliser le parcours de ce dernier à travers les
+En plus de l’employé cette espace est partager par plusieurs acteurs, car il comporte certaines
+fonctionnalités communes, ci-dessous nous avons modélisé le parcours de ce dernier à travers les
 interfaces qui lui sont dédié.
 
 \begin{figure}[h!]
-    \vspace{-30pt}
+    \vspace{-10pt}
     \centering
     \includegraphics[scale=0.38 ]{images/interface/Espace employe.png}
     \vspace{-20pt}
@@ -569,14 +569,14 @@ interfaces qui lui sont dédié.
 \clearpage
 
 \subsubsection*{Interface dashbord employé}
-une fois que l’employé s'authentifie, il sera redirigé vers l’interface
+Une fois que l’employé s'authentifie, il sera redirigé vers l’interface
 \emph{Dashbord employé} sur laquelle il retrouve:
 
 \begin{itemize}
     \item[\textbullet] Le nombre d’heures en poste depuis son dernier pointage.
-    \item[\textbullet] Le nombre d’heures qu’il lui reste par rapport à son
+    \item[\textbullet] Le nombre d’heures restant par rapport à son
         planning du jour.
-    \item[\textbullet] Son planning journalier dans lequel Il a une vision
+    \item[\textbullet] Son planning journalier dans lequel il a une vision
         précise de ces horaires de travails.
     \item[\textbullet] Une liste de ces collaborateurs avec les informations les
         plus utiles telle que le nom, prénom, le rôle au sein de l’entreprise,
@@ -645,7 +645,7 @@ sont modélisées dans la figure \ref{fig95}.
 
 \subsubsection*{Interface consulter tableau de bord manager}
 Une fois que le manager s'authentifie il sera redirigé vers l’interface
-\emph{dashbord manager} qui contient deux onglets, le èmeer onglet est identique
+\emph{dashbord manager} qui contient deux onglets, le 1er onglet est identique
 à celui de l’employé, le deuxiième onglet «Mes équipes» résume les informations
 des collaborateurs de ses différentes équipes. 
 
@@ -657,7 +657,7 @@ des collaborateurs de ses différentes équipes.
     \label{fig96}
 \end{figure}
 
-\subsubsection*{Interface résumer d'une équipe}
+\subsubsection*{Interface résumé d'une équipe}
 Après avoir sélectionné une équipe, le manager est redirigé vers l'interface 
 ci-dessous qui lui permet d'avoir une vue d'ensemble, afin de superviser les 
 membres de cette dernière.
@@ -665,7 +665,7 @@ membres de cette dernière.
 \begin{figure}[h!]
     \centering
     \includegraphics[scale=0.35 ]{images/interface/team_view.png}
-    \caption{Interface résumer d'une équipe}
+    \caption{Interface résumé d'une équipe}
     \label{fig97}
 \end{figure}
 
@@ -747,13 +747,13 @@ JavaScript malveillant pour par exemple:
 
 \begin{itemize}
     \item[\textbullet] Changer les mots de passe des utilisateurs à leur insu.
-    \item[\textbullet] Collecter de données.
+    \item[\textbullet] Collecter des données.
     \item[\textbullet] Exécuter des actions arbitraires.
 \end{itemize}
 
 Django suppose que toutes les données de contexte sont non sécurisées, sauf sur 
 indication contraire. Cela signifie que la plupart des formes d'attaque XSS ne 
-fonctionnent pas avec les modèles Django.
+fonctionnent pas avec les modèles Django \cite{18}.
 
 \subsection{Protection contre Cross site request forgery}
 Les attaques CSRF permettent à un utilisateur malveillant d'exécuter des actions 
@@ -761,7 +761,7 @@ en utilisant les informations d'identification d'un autre utilisateur à son ins
 ou sans son consentement.
 
 Le middleware CSRF et le template tag csrf token de Django permet une protection 
-facile à mettre en place contre la plupart des types d'attaques CSRF.
+facile à mettre en place contre la plupart des types d'attaques CSRF \cite{18}.
 
 \subsection{Protection contre SQL injection}
 L'injection SQL est un type d'attaque où un utilisateur malveillant est capable 
@@ -769,7 +769,7 @@ d'exécuter du code SQL arbitraire sur une base de données. Cela peut entraîne
 la suppression d'enregistrements ou une fuite de données.
 
 L’ORM de Django est une protection contre ce type d’attaque, il permet de 
-protéger les requêtes en les construisant à l'aide du paramétrage des requêtes.
+protéger les requêtes en les construisant à l'aide du paramétrage des requêtes \cite{18}.
 
 \subsection{Protection contre le Clickjacking}
 Le détournement de clic est un type d'attaque où un site malveillant enveloppe 
@@ -778,7 +778,7 @@ utilisateur pour qu’il clique sur un élément caché d’un autre site que le
 malveillant a chargé. 
 
 Les middlewares et décorateurs de Django fournissent une protection facile à 
-utiliser contre le détournement de cliques.
+utiliser contre le détournement de cliques \cite{18}.
 
 \section{Tests}
 La phase de test est une partie fondamentale du processus de développement 
@@ -789,7 +789,7 @@ que possible.
 
 \section{Conclusion}
 Dans ce chapitre nous avons énoncé les différents logiciels, plateformes,
-libraires utilisés pour la réalisation de notre application. À savoir le
+librairies utilisés pour la réalisation de notre application. À savoir le
 framework Django, et le langage de programmation Python et ses différents
 packages.  Suite à cela, nous avons présenté notre application sous différentes
 facettes que ce soit le côté persistance de données, la charte graphique, la

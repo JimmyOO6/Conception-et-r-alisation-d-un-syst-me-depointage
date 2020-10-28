@@ -57,7 +57,7 @@ permet de sauvegarder ses pointages.
 \subsection*{Modèle du domaine du cas d'utilisation « Consulter ma fiche de pointage »}
 Ce diagramme du modèle du domaine représente les entités concernées par le cas 
 « Consulter ma fiche de pointage ». On peut distinguer deux entités: employé 
-et Shift (qui représente une période de temps délimité par un temps d’entrée et 
+et Shift (qui représente une période de temps délimitée par un temps d’entrée et 
 un temps de sortie et la date de ces deux évènements).
 
 \clearpage
@@ -336,7 +336,7 @@ employé afin de l’ajouter à l’équipe.
 Pour ce qui est des classes de contrôles, la première classe CtrEquipe aura la 
 responsabilité de gérer la recherche, et l’ajout des membres de l’équipe. Quant
 à la deuxième classe CtrAffectation, elle permettra de créer une affectation pour 
-chaque employé ajouter.
+chaque employé ajouté.
        
 \clearpage
             
@@ -368,7 +368,7 @@ L’interface « InterfaceConsulterProfilEmployé » permet au responsable de
 consulter le profil d’un employé où il aura accès à toutes ses informations. Il 
 pourra aussi à partir de cette interface accéder à l’interface de modification
 du profil et du planning de l’employé. Quant à la classe CtrEmployé, elle permet 
-de récupérer l’employé sélectionner. 
+de récupérer l’employé sélectionné. 
 
 \begin{figure}[h!]
     \centering
@@ -480,11 +480,11 @@ des pointages de ses collaborateurs.
 \end{figure}
         
 \subsection*{Diagramme d'interaction du cas d'utilisation « Ajouter équipe »}
-L’acteur pourra ajouter une équipe. Après avoir saisi les informations et
+Le responsable pourra ajouter une équipe. Après avoir saisi les informations et
 sélectionné un manager, une vérification est effectuée. Si aucune erreur n’est
 détectée il pourra l’enregistrer, le contrôle CtrEquipe s’occupera de la
 création et il déléguera la recherche du manager au contrôle CtrManager, une
-fois terminée, l’interface InterfaceAjouterEquipe est détruite et l’acteur sera
+fois terminée, il sera
 redirigé vers l’interface InterfaceGérerEquipe, où il pourra affecter des
 membres.
 
@@ -498,13 +498,13 @@ membres.
 \end{figure}
 
 \subsection*{Diagramme d'interaction du cas d'utilisation « Ajouter planning »}
-L’acteur aura la possibilité d’ajouter un planning. Pour ce, il doit saisir les
+Le responsable aura la possibilité d’ajouter un planning. Pour ce, il doit saisir les
 horaires de travail de la semaine ainsi que l’intitulé et la description du
 planning.  Après la validation, une vérification des informations sera
 effectuée. Si les données sont invalides un message d’erreur sera affiché et
-l’acteur devra les corriger. Si les informations sont valides, le contrôle
+il devra les corriger. Si les informations sont valides, le contrôle
 CtrPlanning vérifiera si aucun planning n’existe avec l’intitulé saisi afin de
-valider l’ajout du planning. Une fois terminé, l’acteur pourra affecter un
+valider l’ajout du planning. Une fois terminé, il pourra affecter un
 planning aux employés.
 
 \clearpage
@@ -517,7 +517,7 @@ planning aux employés.
 \end{figure}
         
 \subsection*{Diagramme d'interaction du cas d'utilisation « Ajouter membre »}
-L’acteur aura la possibilité d’ajouter un membre à une équipe, il devra 
+Le responsable aura la possibilité d’ajouter un membre à une équipe, il devra 
 effectuer une recherche qui lui permettra à travers l’interface 
 InterfaceAjouterMembre d’affecter un employé s’il existe à une équipe. Une fois 
 terminé, le contrôle CtrEmployé retournera un message de confirmation.
@@ -535,8 +535,7 @@ terminé, le contrôle CtrEmployé retournera un message de confirmation.
 possibilité d’ajouter un employé en saisissant les informations. Après la
 validation, une vérification des données est effectuée avant l’ajout de
 l’employé. Une fois créé, le contrôle ctrEmpreinte se chargera d’ajouter son
-empreinte qui déclenchera la destruction de l’interface d’ajout et
-l’administrateur sera redirigé vers l’interface InterfaceGestionEmployé avec la
+empreinte qui déclenchera la redirection vers l’interface InterfaceGestionEmployé avec la
 nouvelle liste des employés.
 
 \clearpage
@@ -551,7 +550,7 @@ nouvelle liste des employés.
 \subsection*{Diagramme d'interaction du cas d'utilisation « Consulter profil d'un employé »}
 Une fois authentifié, le responsable aura la possibilité de consulter le profil
 d’un employé. L’interface InterfaceProfileEmployé déléguera au contrôle
-CtrEmployé la recherche de l’employé sélectionner, puis lui retournera les
+CtrEmployé la recherche de l’employé sélectionné, puis lui retournera les
 informations concernant ce dernier. Il pourra aussi à travers cette interface
 être redirigé vers l’interface de modification du profil ainsi que vers
 l’interface qui lui permettra de consulter le planning de cet employé.
@@ -631,21 +630,21 @@ diagrammes de séquence que nous venons de réaliser pour:
     \label{fig46}
 \end{figure}
 
-\section{Diagramme de classe conception}
+\section{Diagramme de classes conception}
 Les diagrammes de classes décrivent la structure ou plutôt l’architecture d’un
 système et sont donc la base de presque toutes les autres techniques de
 description. En conséquence, les diagrammes de classes, et en particulier les
 classes, sont un concept qui est utilisé universellement en modélisation et en
 programmation. Ils permettent l’encapsulation des attributs et des méthodes et
-la représentation des instances sous forme d’objets\cite{10}.
+la représentation des instances sous forme d’objets \cite{10}.
 
-À l’aide des diagrammes de classe de conception établis dans la section
-précédente, nous avons modélisé le diagramme de classe ci-dessous.
+À l’aide des diagrammes de classes de conception établis dans la section
+précédente, nous avons modélisé le diagramme de classes ci-dessous.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[scale=0.69]{images/DCC/Diagramme de classe.png}
-    \caption{Diagramme de classe}
+    \caption{Diagramme de classes conception}
     \label{fig47}
 \end{figure}
 
@@ -683,9 +682,9 @@ En appliquant les règles de passage\cite{12}, nous obtenons les relations suiva
 
 \begin{itemize}
     \item [\textbullet]\textbf{Employé}(\underline{id\_employé}, nom, prénom, genre, 
-        username, email,pwd, date\_naissance,lieu-naissance, adresse, présence, poste, 
+        username, email,pwd, date\_naissance,lieu-naissance, adresse, présence, rôle, poste, 
         observations, tél\_professionnel, tél\_personnel, photo, type,\#ggid\_équipe, 
-        \#ggid\_planning, \#id\_empreinte).
+        \#ggid\_planning, \#id\_empreinte, empreinte\_hash).
 
 	\item [\textbullet]\textbf{Planning}(\underline{id\_planning}, intitulé, 
         description).
@@ -702,9 +701,6 @@ En appliquant les règles de passage\cite{12}, nous obtenons les relations suiva
     \item [\textbullet]\textbf{Shift}(\underline{id\_shift},num\_séquence, 
         h\_entrée, h\_sortien, \#ggid\_employé ).
     
-    \item [\textbullet]\textbf{Empreinte}(\underline{id\_empreinte}, 
-        empreinte\_hash)
-    
     \item [\textbullet]\textbf{Administrateur}(\underline{id\_administrateur}, 
         username, email, pwd).
 \end{itemize}
@@ -714,7 +710,7 @@ Au cours de ce chapitre, nous avons en premier lieu identifié les modèles du
 domaine pour avoir une vue globale sur les différentes entités de notre système,
 puis nous avons modélisé les diagrammes de classes participantes et
 d’interactions qui permettent l’enrichissement des diagrammes de séquences
-système. Par la suite, en modélisant les diagrammes de classe conception
-préliminaire, nous avons pu établir le diagramme de classe conception.  Enfin,
+système. Par la suite, en modélisant les diagrammes de classes conception
+préliminaire, nous avons pu établir le diagramme de classes conception.  Enfin,
 pour avoir une vue plus structurée et implémenter une base de données nous avons
 traduit ce dernier diagramme en un modèle relationnel. 

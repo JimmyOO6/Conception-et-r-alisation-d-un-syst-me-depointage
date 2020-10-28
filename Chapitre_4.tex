@@ -14,46 +14,6 @@ réaliserons un prototype en 3D pour avoir un aperçu de l’équipement à conc
 La dernière section de ce chapitre concerne la communication entre la pointeuse 
 et le système de gestions de pointage.
 
-\section{Arduino}
-Arduino est la marque d’une plateforme de prototypage open source, elle permet 
-aux utilisateurs de créer des objets électroniques interactifs à partir de 
-cartes électroniques matériellement libres sur lesquelles se trouve un 
-microcontrôleur (d’architecture Atmel AVR. comme l’Atmega328p, et d’architecture 
-ARM comme le Cortex-M3 pour l’Arduino due).
-
-Les schémas de ces cartes électroniques sont publiés en licence libre. 
-Cependant, certaines composantes, comme le microcontrôleur par exemple, ne 
-sont pas sous licence libre. Le microcontrôleur peut être programmé pour 
-analyser et produire des signaux électriques, de manière à effectuer des 
-tâches très diverses comme la domotique (le contrôle des appareils 
-domestiques — éclairage, chauffage…), le pilotage d’un robot, de l’informatique 
-embarquée, etc. Arduino peut être utilisé pour construire des objets 
-interactifs indépendants (prototypage rapide), ou bien peut être connecté à un 
-ordinateur pour communiquer avec ses logiciels (ex.: Max/MSP, Usine Hollyhock, 
-pure Data, SuperCollider).
-
-\subsection{Matériel}
-Un module Arduino est généralement construit autour d’un microcontrôleur Atmel 
-AVR. (ATmega328, ATmega32u4 ou ATmega2560 pour les versions récentes, ATmega168, 
-ATmega1280 ou ATmega8 pour les plus anciennes), et de composants complémentaires 
-qui facilitent la programmation et l’interfaçage avec d’autres circuits. 
-Le microcontrôleur est préprogrammé avec un Bootloader, de telle sorte qu’un 
-programmateur dédié ne soit pas nécessaire. Les modules sont programmés avec 
-une connexion série TTL, mais les connexions permettant cette programmation 
-diffèrent selon les modèles. Les premiers Arduino possédaient un port série 
-RS-232, puis l’USB est apparu sur les modèles Diecimila, tandis que certains 
-modules destinés à une utilisation portable comme le Lillypad ou le promini se 
-sont affranchis de l’interface de programmation, relocalisée sur un module 
-USB-série dédié (sous forme de carte ou de câble). Des modules d’extension 
-ont été conçus de sorte s’empiler sur l’Arduino. Plusieurs sortes d’extensions
-sont disponibles dans le commerce.
-
-Plusieurs cartes compatibles Arduino ont été produites par d’autres fabricants. 
-Il existe aussi des cartes Arduino ou compatibles modifiés pour un usage 
-spécifique: par exemple, des cartes de contrôle pour imprimantes 3D RepRap20, 
-des systèmes de pilote automatique pour drones comme les systèmes ArduPilot, 
-APM: Plane et APM:Copter, ou les cartes FlyDuino21, enfin des puces Wi-Fi 
-tierces comme l’ESP8266 compatible avec l’environnement Arduino22.\cite{30}
 
 \subsection{Logiciel}
 Le logiciel de programmation des modules Arduino, dont l’interface est appelée 
@@ -66,17 +26,16 @@ de commande. Le langage de programmation utilisé est le C++, compilé avec
 avr.-g++ 8, et lié à la bibliothèque de développement Arduino, permettant 
 d’utiliser la carte et ses entrées/sorties. La mise en place de ce langage 
 standard rend aisé le développement de programmes sur les plateformes Arduino à 
-toute personne maîtrisant le C ou le C++.\cite{31}
+toute personne maîtrisant le C ou le C++ \cite{31}.
 
 \section{ESP32}
 ESP32 est une série de microcontrôleurs de type système sur une puce (SoC)
-d’\emph{Espressif Systems}, basé sur l’architecture Xtensa LX6 de Tensilica
-(en), intégrant la gestion du Wi-Fi et du Bluetooth (jusqu’à LE 5.0 et 5.11) en
+d’\emph{Espressif Systems}, basé sur l’architecture Xtensa LX6 de Tensilica, intégrant la gestion du Wi-Fi et du Bluetooth (jusqu’à LE 5.0 et 5.11) en
 mode double, et un DSP. C’est une évolution d’ESP8266. Son support Wi-Fi et
 Bluetooth, en fait un système apprécié dans le domaine de l’internet des objets.
 Ce SoC rencontre un certain succès depuis quelques années à la fois pour son
 coût, ses capacités et son intégration dans un nombre croissant de
-systèmes.\cite{32}
+systèmes \cite{32}.
 
 \begin{figure}[h!]
     \centering
@@ -85,7 +44,7 @@ systèmes.\cite{32}
     \label{fig49}
 \end{figure}
 
-\subsection{Caractéristiques techniques}\cite{33}
+\subsection{Caractéristiques techniques}
 
 \begin{itemize}
     \item[\textbullet]\textbf{Processeurs:}
@@ -159,7 +118,7 @@ systèmes.\cite{32}
 
 Le choix du module ESP32 Devkit est justifié par sa petite taille 
 (57mm*28mm*3m), ainsi que ses caractéristiques techniques, notamment les
-connectivités sans-fil, la sécurité, et la gestion de l’énergie.
+connectivités sans-fil, la sécurité, et la gestion de l’énergie\cite{33}.
 
 \section{Capteur d'empreinte DY 50}
 Les techniques utilisées pour capter les images des empreintes digitales sont 
@@ -180,13 +139,15 @@ optique en raison de son coût, sa taille, et du fait d’avoir une image préci
 de l’empreinte tout en étant intrinsèquement protégé contre les décharges
 électrostatiques.
 
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[scale=0.7]{images/dy50.jpg}
+    \includegraphics[scale=0.66]{images/dy50.jpg}
+    \vspace{-36pt}
     \caption{Capteur optique DY50}
     \label{fig51}
 \end{figure}
-\clearpage
+
 \subsection{Principe de fonctionnement}
 Grâce au principe de l’imagerie optique, les lignes créées par l’irrégularité de 
 la peau sur la face interne du doigt formeront diverses images d’empreintes 
@@ -195,7 +156,7 @@ rupture et les intersections. Ils sont appelés dans le traitement de
 l’information « Points caractéristiques », les caractéristiques de chaque 
 doigt sont différentes, c’est-à-dire uniques, en s’appuyant sur cette unicité, 
 nous pouvons associer une personne à son empreinte digitale, en préstockant son 
-empreinte digitale.
+empreinte digitale \cite{34}.
 
 Le système d’identification d’empreintes digitales collecte, analyse et compare 
 les empreintes digitales grâce à un équipement de conversion photoélectrique 
@@ -204,7 +165,7 @@ automatiquement, rapidement et avec précision l’identité personnelle.
 Le système comprend principalement des processus tels que l’acquisition d’images 
 d’empreintes digitales, le traitement d’images d’empreintes digitales, 
 l’extraction de caractéristiques, ainsi que la comparaison et la correspondance 
-des valeurs des caractéristiques.\cite{34}
+des valeurs des caractéristiques.
 
 \begin{longtable}{|p{1.3cm}|p{1.8cm}|p{1.8cm}|p{10cm}|}
     % header and footer information
@@ -229,10 +190,10 @@ des valeurs des caractéristiques.\cite{34}
     6 & TouchVin & Dans & Entrée d'alimentation à détection tactile, alimentation 3.3v 
     \\
     \hline
-    \caption{Interface de connexion}\cite{34}\\
+    \caption{Interface de connexion \cite{34}}\\
 \end{longtable}   
 
-\subsection{Caractéristiques techniques }
+\subsection{Caractéristiques techniques du capteur optique}
 \begin{itemize}
     \item Tension d'alimentation: cc 3.6 ~ 6.0V / 3.3V fournissant.
     \item Courant d'alimentation: courant: <120mA.
@@ -268,16 +229,15 @@ des valeurs des caractéristiques.\cite{34}
 
  \begin{figure}[h!]
     \centering
-    \includegraphics[scale=0.19]{images/schema/montage_illustration.png}
+    \includegraphics[scale=0.24]{images/schema/montage_illustration.png}
     \caption{Schéma expliquant le montage préliminaire des différents modules  }
     \label{fig52}
 \end{figure}
-
-Le schéma ci-dessus révèle la manière dont le module ESP32 Devkit ainsi que le 
+\clearpage
+Le schéma \ref{fig52} révèle la manière dont le module ESP32 Devkit ainsi que le 
 capteur d’empreinte DY50 ont été connectés, ainsi qu’une LED pour signaler à 
 l’utilisateur la réussite ou l’échec des différentes opérations.
-
-\clearpage  
+ 
 Branchement: 
 
 \begin{itemize}
@@ -306,18 +266,11 @@ Branchement:
     \item [\textbullet]3.3v (ESP32) -> VCC (OLED Display)
 \end{itemize}    
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.2]{images/schema/schemat_globale.png}
-    \caption{Schéma expliquant le montage préliminaire des différents modules}
-    \label{fig54}
-\end{figure}
-
 Compte tenu du contexte actuel (crise sanitaire due au virus COVID-19) et afin 
-de limiter la propagation du virus des gestes barrières sont recommandé. Par 
+de limiter la propagation du virus des gestes barrières sont recommandés. Par 
 ailleurs, le fait de toucher une surface ayant était en contact avec plusieurs 
 individus sans que cette dernière ne soit désinfectée au préalable constitue un 
-risque sanitaire. Pour remédier à ce problème, nous avons décidé d’équiper 
+risque sanitaire. Pour remédier à ce problème, nous avons eu l'idée d’équiper 
 notre pointeuse d’une LED UV-C (lampe germicide). Néanmoins, ce composant doit 
 faire l’objet d’une recherche plus approfondie pour confirmer la possibilité 
 de l’installer, car la longueur d’onde de ce type de lumière peut avoir des 
@@ -337,9 +290,8 @@ démontrer ou infirmer le bien-fondé d’un ou plusieurs concepts mis en jeu da
 ce projet avant toute valorisation commerciale.
 
 Nous avons décidé de réaliser un prototype en 3D du dispositif de pointage afin 
-d’avoir une idée du résultat final.
+d’avoir une idée du résultat final.\\
 
-\clearpage
 
 \begin{figure}[!htb]
     \begin{minipage}{0.5\textwidth}
@@ -353,6 +305,8 @@ d’avoir une idée du résultat final.
         \caption{Pointeuse vue de haut}\label{ }
     \end{minipage}
 \end{figure}
+
+\clearpage
 
 \begin{figure}[!htb]
     \begin{minipage}{0.5\textwidth}
@@ -368,7 +322,7 @@ d’avoir une idée du résultat final.
         \caption{Côté gauche intérieure}\label{ }
     \end{minipage}
 \end{figure}
-\clearpage    
+   
 
 \begin{figure}[!htb]
     \vspace{-40pt}
@@ -385,6 +339,7 @@ d’avoir une idée du résultat final.
         \caption{Pointeuse fermée}\label{ }
     \end{minipage}
 \end{figure}
+\clearpage
 
 Les images précédentes représentent la disposition des différents composants 
 dans un boîtier. Elles nous donnent un aperçu sur l’aspect extérieur de la 
@@ -412,7 +367,7 @@ le rôle de chaque composant ainsi que son champ d’action.
         lui. Il sera responsable de la communication entre la pointeuse et
         l’application. Il exécutera les différentes commandes exigées par
         l’administrateur (changement de mode
-        enregistrement/suppression/pointage, suppression de la base de donnés
+        enregistrement/suppression/pointage, suppression de la base de données
         des empreintes au niveau du capteur d’empreinte).  
     \item[\textbullet] \textbf{Le capteur d'empreinte DY50:} Ce dernier
         représente un périphérique d’entrée d’empreinte. À l’aide de sa mémoire
@@ -445,7 +400,7 @@ et de compiler les programmes via l'interface en ligne de commande.
 \end{figure}
 
 \subsubsection{Langage de programmation C}
-le C est un langage de programmation impératif généraliste de bas niveau. Inventé 
+Le C est un langage de programmation impératif généraliste de bas niveau. Inventé 
 au début des années 1970 pour réécrire UNIX. C’est devenu un des langages les 
 plus utilisés, encore de nos jours. De nombreux langages plus modernes comme 
 C++, C\#\\, Java et PHP ou JavaScript ont repris une syntaxe similaire et 
@@ -473,8 +428,8 @@ l’utilisateur de programmer certains traitements (libération de la mémoire,
 vérification de la validité des indices sur les tableaux…) qui sont pris en 
 charge automatiquement dans les langages de haut niveau\cite{35}.
 
-\subsubsection{esspresif/arduino-esp32 library}
-Une librairie écrite et maintenue par le constructeur ESSPRISIF. Cette dernière 
+\subsubsection{Esspresif/arduino-esp32 library}
+Une librairie écrite et maintenue par le constructeur Esspresif. Cette dernière 
 doit être installée au niveau de l'IDE Arduino pour pouvoir téléverser les 
 programmes écrits sur le module ESP32 Devkit. Elle est disponible sur: 
 <https://github.com/espressif/arduino-esp32>
@@ -497,7 +452,7 @@ régissent le fonctionnement de capteur d'empreinte DY50 on peut citer:
         supprimer un modèle d'empreinte de la mémoire flash apres l'avoir
         sélectionné grâce à l'argument 'localisation'. Retourne l'erreur ou OK.
     \item[\textbullet] empety\_librery(): qui demande au capteur de
-        réinitialiser toute la mémoire flash ainsi qeu de supprimer tous les
+        réinitialiser toute la mémoire flash ainsi que de supprimer tous les
         modèles précédemment enregistrer. 
     \item[\textbullet] get\_image(): qui demande au capteur de capturer une
         image et de l'enregistrer dans la mémoire. Retourne l'erreur ou OK. 
@@ -512,7 +467,7 @@ Comme la plupart des programmes destinés ont des modules qui sont compatibles
 avec Arduino, le programme à téléverser est constitué de: 
 
 \begin{itemize}
-    \item [\textbullet] une partie pour déclarations des librairies utilisées et
+    \item [\textbullet] une partie pour la déclaration des librairies utilisées et
         des variables globales
 \end{itemize}
 
@@ -613,7 +568,7 @@ nombre d’empreintes enregistrer dans le capteur (lors de la phase de test).
 \end{minted}
 
 Cette partie qui sera exécutée en boucle, englobe le comportement que va adopter
-la pointeuse une fois en service. Une fois la connexion au point d’accès établie
+la pointeuse Aprés la connexion au point d’accès établie
 et le capteur correctement connecté.
 
 \begin{itemize}
@@ -664,7 +619,7 @@ décidé de présenter celle-ci à titre d’exemple.
 
 \section{Conclusion}
 Dans ce chapitre, nous avons présenté les différentes phases de la réalisation
-de la pointeuse ainsi que les différents composants la constituent et les outils
+de la pointeuse ainsi que les différents composants la constituant et les outils
 utilisés. Après avoir brièvement présenté la plateforme Arduino, nous avons
 exposé les caractéristiques du module ESP32 Devkit ainsi que du capteur
 d’empreinte DY50. Ensuite, nous avons illustré le branchement des différentes

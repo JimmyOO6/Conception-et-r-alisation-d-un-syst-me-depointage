@@ -6,11 +6,11 @@
 
 \section{Introduction}
 Ce chapitre sera consacré à la phase de spécification et d’analyse des besoins.
-dans cette étape, nous allons tout d’abord identifier les différents acteurs du
-système, ainsi que leurs actions qui sont représentées en cas d’utilisation,
+Dans cette étape, nous allons tout d’abord identifier les différents acteurs du
+système, ainsi que leurs actions qui seront représentées en cas d’utilisation,
 puis nous allons décrire les spécifications des exigences fonctionnelles et non
-fonctionnelles, ainsi que leurs contraintes. Ceci nous permettra de modéliser le
-diagramme de cas d’utilisation. 
+fonctionnelles, ainsi que leurs contraintes. Ceci nous permettra de modéliser les
+diagrammes de cas d’utilisation. 
 
 \section{Identification des acteurs}
 Un acteur représente une entité extérieure au système modélisé, qui interagit
@@ -20,13 +20,13 @@ système, on peut identifier 4 acteurs humains :
     
 \begin{itemize}
     \item[\textbullet] \textbf{L’Employé :} Joue le rôle d’une personne 			qui occupe un emploi dans l’entreprise et qui interagit avec le 			système, pour un pointage des horaires de travail réalisé, ainsi 			que la possibilité de s’authentifier sur la plateforme pour 				consulter les informations qui le concernent.
-    \item[\textbullet] \textbf{Le Manager :} Joue le rôle d’un employé 				très important qui est le lien entre la direction et les autres 			employés. Les managers s’occupent de l’organisation et du contrôle 		de leurs équipes et employés à travers la plateforme.
+    \item[\textbullet] \textbf{Le Manager :} Joue le rôle d’un employé 				très important qui est le lien entre la direction et les autres 			employés. Les managers s’occupent de l’organisation et du contrôle 		de leurs équipes et employés à travers l'application web.
     \item[\textbullet] \textbf{Le Responsable :} Joue le rôle d’un 					responsable qui gère les employés ainsi que les différentes 				équipes de l’entreprise.
     \item[\textbullet] \textbf{L’administrateur :} Joue le rôle d’une 				personne vitale pour le bon fonctionnement du système via l’espace 		d’administration.
 \end{itemize}
     
     
-\section{Identifications des cas d'utilisation}
+\section{Identification des cas d'utilisation}
 Un cas d’utilisation représente une série d’interactions d’un acteur avec un
 système. Cette interaction est destinée à fournir des résultats à l’acteur. Le
 tableau ci-dessous présente les différents cas d’utilisations avec leurs acteurs
@@ -78,10 +78,10 @@ respectifs.
      13 & \multicolumn{2}{c|} {Consulter liste de mes équipes} &
      \\
      \cline{1-3}
-     14 & \multicolumn{2}{c|} {Consulter résumer de mon équipe} &
+     14 & \multicolumn{2}{c|} {Consulter résumé de mon équipe} &
      \\
      \cline{1-3}
-     15 & \multicolumn{2}{c|} {Consulter résumer de pointage des collaborateurs} &
+     15 & \multicolumn{2}{c|} {Consulter résumé de pointage des collaborateurs} &
      \\
      \cline{1-3}
      16 & \multicolumn{2}{c|} {Consulter feuille de pointage d’un collaborateurs} &
@@ -97,7 +97,7 @@ respectifs.
      19 & \multicolumn{2}{c|} {Consulter liste des équipes} & 
      \\
      \cline{1-3}
-     20 & \multicolumn{2}{c|} {Consulter résumer d’une équipe} & 
+     20 & \multicolumn{2}{c|} {Consulter résumé d’une équipe} & 
      \\
      \cline{1-3}
      21 & \multicolumn{2}{c|} {Consulter liste des employés} & 
@@ -111,7 +111,7 @@ respectifs.
      \cline{1-3}
      24 & \multicolumn{2}{c|} {Consulter planning d'un employé} & \\
      \cline{1-3}
-     25 & \multicolumn{2}{c|} {Consulter résumer de pointage des employés} & \\
+     25 & \multicolumn{2}{c|} {Consulter résumé de pointage des employés} & \\
      \cline{1-3}
      26 & \multicolumn{2}{c|} {Consulter feuille de pointage d’un employé} & \\
      \cline{1-3}
@@ -138,6 +138,10 @@ respectifs.
      & & {Modifier un employé} & \\
      & & {Supprimer un employé} & \\
      \hline
+     34 & \multicolumn{2}{c|} {S'authentifier} 	 & 	\multirow{1}{*}{Administrateur}
+     \\
+     \hline
+     \caption{Identification des cas d'utilisation}\\
 \end{longtable}
 
 
@@ -228,7 +232,7 @@ besoins non fonctionnels de notre système :
 \end{itemize}
                 
 
-\section{Diagramme des cas d'utilisation}
+\section{Diagrammes des cas d'utilisation}
 Les diagrammes de cas d’utilisation représentent la structure des
 fonctionnalités nécessaires aux utilisateurs du système \cite{6}, nous allons
 ici modéliser les diagrammes de cas d’utilisation des 4 acteurs du système pour
@@ -256,7 +260,7 @@ avoir une vue globale de ce dernier.
 \subsection{Diagramme de cas d'utilisation du responsable}
     \begin{figure}[h!]
          \centering
-         \includegraphics[width=17cm,height=21cm]{images/uc_responsable.png}
+         \includegraphics[width=17.5cm,height=21cm]{images/uc_responsable.png}
          \caption{Diagramme de cas d'utilisation associé à l'acteur «Responsable»}
          \label{fig4}
     \end{figure}
@@ -282,7 +286,7 @@ modifier. Le troisième est utilisé par un administrateur pour consulter le
 profil d’un employé (quel que soit son rôle) avec la possibilité de modifier
 toutes les informations. 
 
-\section{Descriptions de cas d'utilisation}
+\section{Descriptions des cas d'utilisation}
 Les cas d’utilisation ne représentent pas uniquement les interactions avec les
 acteurs, mais ils ajoutent également les prés et post conditions ainsi que les
 enchaînements alternatifs. Dans cette partie, nous allons décrire les diagrammes
@@ -302,7 +306,7 @@ de cas d’utilisation des différents acteurs.
     \hline
     Acteur & Employé, Manager, Responsable, Administrateur \\
     \hline
-    Résumé & L’acteur doit s’identifier en saisissant son nom d'utilisateur et mot de passe pour accéder a son espace personnel. \\
+    Résumé & L’acteur doit s’identifier en saisissant son nom d'utilisateur et mot de passe pour accéder à son espace personnel. \\
     \hline
     \multicolumn{2}{|c|}{Description des scénarios} \\
     \hline
@@ -351,7 +355,7 @@ de cas d’utilisation des différents acteurs.
     \hline
     \multicolumn{2}{|c|}{Description des scénarios} \\
     \hline
-    Pré-conditions & Être enregistrer dans le système (empreinte et profile)  \\
+    Pré-conditions & Être enregistré dans le système (empreinte et profil)  \\
     \hline
     Scénario nominal &   
 
@@ -375,7 +379,7 @@ de cas d’utilisation des différents acteurs.
     \end{minipage}
     \\
     \hline
-    Postconditions &  Le système enregistrent l’heure et l’ID de l’employé responsable de l’événement. \\
+    Postconditions &  Le système enregistre l’heure et l’ID de l’employé responsable de l’événement. \\
     \hline
     \caption{Description du cas d'utilisation « Se pointer »}\\
 \end{longtable}        
@@ -401,7 +405,7 @@ de cas d’utilisation des différents acteurs.
         \hline
         Scénario nominal & 
         \begin{minipage}[t]{\linewidth} \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,after=\vspace{-\baselineskip},before=\vspace{-0.5\baselineskip}]
-            \item Les différentes informations du profile son afficher.
+            \item Les différentes informations du profil sont affichées.
         \end{enumerate}
         \end{minipage}
          \\
@@ -459,7 +463,7 @@ de cas d’utilisation des différents acteurs.
             \hline
         \caption{Description du cas d'utilisation « Consulter ma fiche de pointage »}\\
 \end{longtable}
-            
+ \vspace{-14pt}          
 \subsection*{Cas d'utilisation « Consulter tableau de bord manager »}
 \begin{longtable}{|p{4cm}|p{12cm}|}
     % header and footer information
@@ -473,7 +477,7 @@ de cas d’utilisation des différents acteurs.
      \hline
         Acteur & Manager \\
         \hline
-        Résumé & Le manager consulte son tableau de bord, qui est constitué de deux parties. La première représente le tableau de bord du manager en tant que employé tandis que la deuxième est un récapitulatif des informations de pointage de son/ses équipes et de tous ses collaborateurs. \\
+        Résumé & Le manager consulte son tableau de bord, qui est constitué de deux parties. La première représente le tableau de bord du manager en tant qu'employé tandis que la deuxième est un récapitulatif des informations de pointage de son/ses équipes et de tous ses collaborateurs. \\
         \hline
         \multicolumn{2}{|c|}{Description des scénarios} \\
         \hline
@@ -554,7 +558,7 @@ de cas d’utilisation des différents acteurs.
         \hline
         \multicolumn{2}{|c|}{\textbf{Sommaire d’identification}} \\
          \hline
-         Titre & \textbf{Ajouter équipe} \\
+         Titre & \textbf{Ajouter planning} \\
          \hline
             Acteur & Responsable, Administrateur \\
             \hline
@@ -668,7 +672,7 @@ de cas d’utilisation des différents acteurs.
                 \begin{minipage}[t]{\linewidth}
                         2a Les informations saisies ne sont pas valides.
                         \begin{enumerate}[nosep,after=\strut, leftmargin=*]
-                            \item Le système affiche un message qui spécifie les informations incorrectes et demande au responsable de les corriger.
+                            \item Le système affiche un message qui spécifie les informations incorrectes et demande à l'administrateur de les corriger.
                             \item Le cas d’utilisation reprend de l’étape 1 du scénario nominal.
                         \end{enumerate}
                 \end{minipage}
@@ -704,7 +708,7 @@ de cas d’utilisation des différents acteurs.
                         \begin{minipage}[t]{\linewidth}
                             \begin{enumerate}[itemindent=0pt, leftmargin=*, nosep,before=\vspace{-0.5\baselineskip},after=\vspace{0.2\baselineskip}]
                                 \item L’acteur sélectionne un employé (Cas d’utilisation \underline{Consulter liste des employés}).
-                                \item Le système affiche le profil de l'employé sélectionner.
+                                \item Le système affiche le profil de l'employé sélectionné.
                                 \item L'acteur peut modifier le profil (Cas d’utilisation \underline{Modifier profil}).
                             \end{enumerate}
                         \end{minipage}
@@ -720,11 +724,11 @@ de cas d’utilisation des différents acteurs.
         
             
 Nous avons établi la totalité des descriptions des cas d’utilisation, mais nous
-avons décidé de ne pas inclure tous des tableaux afin de ne pas encombrer le
+avons décidé de ne pas inclure tous les tableaux afin de ne pas encombrer le
 lecteur. Néanmoins, le reste des descriptions est cité dans l’annexe A.  
     
                 
-\section{Diagramme de séquence système DSS}
+\section{Diagrammes de séquence système DSS}
 Nous utilisons le terme de diagramme de séquence « système » pour souligner le
 fait que nous considérons le système informatique comme une boîte noire, nous
 ouvrirons la boîte noire seulement en conception.\cite{5}
@@ -821,7 +825,7 @@ ajouter des membres à cette équipe.
 \end{figure}
     
 \subsection{Cas d'utilisation « Ajouter employé »}
-Un responsable peut créer un employé, il doit saisir les informations le
+L'administrateur peut créer un employé, il doit saisir les informations le
 concernant. Une fois l’employé crée, il doit ajouter son empreinte.   
 
 \clearpage
@@ -887,10 +891,10 @@ planning à partir de cette interface directement.
 \end{figure}
         
 \subsection{Manager}
-La figure \ref{fig8} : ici, on représente le tableau de bord du manager qui est
+La figure \ref{fig8} : représente le tableau de bord du manager qui est
 composé de deux onglets. Le premier onglet est identique au tableau de bord de
 l’employé simple, tandis que l’onglet « Mes équipes » récapitule l’ensemble des
-informations concernant les équipes sous la responsabilité d’un manager. Il met
+informations concernant les équipes sous sa responsabilité. Il met
 en évidence le nombre total des équipes et des collaborateurs, le récapitulatif
 de présence de ces derniers sous forme de graphe, ainsi qu’une liste des
 employés avec leurs derniers pointages
@@ -913,7 +917,7 @@ d’un accès direct vers le profil de chacun d’eux.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=18cm]{images/my_team.png}
-    \caption{Maquette les équipes d'un Manager}
+    \caption{Maquette des équipes d'un Manager}
     \label{fig9}
 \end{figure}
 

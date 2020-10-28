@@ -21,10 +21,10 @@ concurrence, l’extrême évolution des marchés et leurs imprévisibilité ain
 la mondialisation du secteur économique. 
 
 Toute entreprise voulant être prospère se doit de garder les coûts au minimum et
-les profils au maximum, tout en ayant une administration qui veille à son bon
+les profits au maximum, tout en ayant une administration qui veille à son bon
 fonctionnement. Cependant, certaines tâches sont répétitives et chronophages,
 mais ne peuvent pas être négligées. Ceci pousse l’entreprise à déployer des
-ressources humaines et matérielles considérables dans ses tâches, ce qui ne
+ressources humaines et matérielles considérables dans ces tâches, ce qui ne
 représente pas la valeur ajoutée réelle que génère l’entreprise pour son
 environnement dans son domaine d’expertise. 
 
@@ -43,15 +43,14 @@ Le contexte du projet étant établi, dans cette section nous allons décrire la
 problématique de notre projet afin de poser les conditions-cadres ainsi que les
 attentes de ce dernier.
 
-Le but étant de concevoir et de réaliser une application Web qui permet une
-gestion précise du pointage des employés et de leurs temps de travail au sein
-d’une PME, grâce à une pointeuse biométrique que nous allons réaliser et qui sera
+Afin de répondre aux besoins des différentes PME et offrir une solution adapter à ces dernières, nous avons pour but de concevoir et de réaliser une application Web qui permet une
+gestion précise du pointage des employés et de leurs temps de travail, grâce à une pointeuse biométrique que nous allons réaliser et qui sera
 capable d’identifier de manière unique un individu déjà enregistré et de
 communiquer avec l’application Web.
 
 Nous espérons une fois ce projet à terme, inciter les entreprises à abandonner
 leurs anciennes méthodes de pointage et de gestion des plannings pour gagner en
-efficacité et réduire les ressources allouées à ces tâches. En offrant un outil
+efficacité et réduire les ressources allouées à ces tâches. Cela en offrant, un outil
 de supervision simple et ergonomique et en collectant les informations qui sont
 primordiales pour faciliter l’utilisation aux responsables, ainsi qu’un espace
 individuel dédié à chaque employé dans le but d’avoir son planning et ses
@@ -66,13 +65,13 @@ serveur et accessible depuis un navigateur Web (Google Chrome, Mozilla Firefox,
 Safari…). Contrairement à une application native, aucune installation n’est
 nécessaire ouvrant la porte à de nombreux avantages.
         
-\subsection{Quelle est la différence avec les applications Web et les applications natives?}
+\subsection{Quelle est la différence entre les applications Web et les applications natives?}
 Une application Web fonctionne généralement comme une application native
 installée sur votre machine à la différence que celle-ci s’exécute directement
 sur le navigateur Web, ce qui lui permet d’être disponible partout avec des
 données synchronisées, le tableau \ref{tab1} présente une
 comparaison entre les deux types d’application \cite{1} :
-        
+ \clearpage       
 \begin{table}[!h]
   \small
   \centering
@@ -101,11 +100,11 @@ comparaison entre les deux types d’application \cite{1} :
 \end{table}
     
 \subsection{Pourquoi une application Web ?}
-Les applications Web ont considérablement évolué au cours des dernières années
+Les applications Web ont considérablement évolués au cours des dernières années
 avec des améliorations en matière de sécurité avec des technologies de plus en
 plus flexibles, ce qui permet de développer presque toutes les applications
 natives en tant qu’applications Web et de bénéficier des nombreux avantages
-offerts par le Web :
+offerts par le Web \cite{2} :
         
 \begin{itemize}
     \item[\textbullet] \textbf{Accessibilité optimisée :} Les
@@ -126,7 +125,7 @@ offerts par le Web :
     \item[\textbullet] \textbf{Technologies de base flexibles :} Chacune
         des technologies de base peut être utilisée pour créer des
         applications Web, en fonction des exigences de
-        l'application.\cite{2}
+        l'application.
 \end{itemize}
         
    
@@ -140,7 +139,7 @@ Les caractéristiques topologiques de l’empreinte restent constantes tout au l
 de la vie d’un individu et ne peuvent être que partiellement altérées par de
 profondes coupures laissant apparaître des cicatrices. Le caractère permanent de
 l’empreinte digitale permet ainsi d’extraire une signature mathématique donnant
-la possibilité de l’identifier de manière extrêmement fiable.\cite{3}
+la possibilité de l’identifier de manière extrêmement fiable\cite{3}.
         
 \subsection{Pourquoi l’empreinte digitale ?}
 Dans un monde en constante évolution en matière d’innovation technologique, la
@@ -149,22 +148,21 @@ et authentifier les personnes de manière fiable et rapide en fonction de leurs
 caractéristiques biologiques uniques.
 
 Dans la perspective de réaliser un système de pointage fiable pour mesurer le
-temps de travail et gérer la présence des employés, ainsi que de maximiser et de
-motiver la productivité de ces derniers tout en minimisant les pertes de
+temps de travail et gérer la présence des employés, tout en minimisant les pertes de
 l’entreprise, il est nécessaire d’avoir un bon système de reconnaissance fiable
 et simple d’utilisation. Ainsi, nous considérons que l’empreinte biométrique est
 la solution la plus intéressante, tant du point de vue technique et économique. 
 
-\section{Processus du développement}
+\section{Processus de développement}
 Un processus définit une séquence d’étapes, partiellement ordonnées, qui
 concourent à l’obtention d’un système logiciel ou à l’évolution d’un système
-existant. L’objet d’un processus de développement est de produire des logiciels
+existant. L’objectif d’un processus de développement est de produire des logiciels
 de qualité qui répondent aux besoins de leurs utilisateurs dans des temps et des
-coûts prévisibles. \cite{5}
+coûts prévisibles. 
 
 Après avoir analysé de manière globale notre projet, nous avons décidé de
 travailler selon le processus de développement proposé dans le livre qui
-s’intitule « UML 2 modéliser une application Web » de Pascal Roques. Un
+s’intitule « UML 2 modéliser une application Web » de Pascal Roques \cite{5}. Un
 processus que décrit l’auteur à mi-chemin entre UP (Unified Process) et les
 méthodes agiles telles que XP et Scrum, et qui s’inspire également des bonnes
 pratiques prônées par les tenants de la modélisation agile.
@@ -172,7 +170,7 @@ pratiques prônées par les tenants de la modélisation agile.
 \subsection{Processus unifié (UP)}
 Le processus unifié est un processus de développement logiciel « itératif et
 incrémental, centré sur l’architecture, conduit par les cas d’utilisation et
-piloté par les risques » :
+piloté par les risques » \cite{5}:
     
 \begin{itemize}
     \item [\textbullet] \textbf{Itératif et incrémental :} le projet est découpé
@@ -192,15 +190,15 @@ piloté par les risques » :
         est mené en tenant compte des besoins et des exigences des utilisateurs.
         Les cas d’utilisation du futur système sont identifiés, décrits avec
         précision et priorisés.
-        \cite{5}
+        
 \end{itemize}
     
 \subsection{Les méthodes agiles}
 La notion de méthode agile est née à travers un manifeste signé en 2001 par 17
 personnalités du développement logiciel dont Ward Cunningham, Alistair
 Cockburn, Kent Beck, Martin Fowler, Ron Jeffries, Steve Mellor, Robert C.
-Martin, Ken Schwaber, Jeff Sutherland, etc. Ce manifeste prône quatre valeurs
-fondamentales: 
+Martin, Ken Schwaber, Jeff Sutherland, etc \cite{5}. Ce manifeste prône quatre valeurs
+fondamentales \cite{5}: 
 
 \begin{itemize}
         \item [\textbullet] \textbf{« Personnes et interactions plutôt que
@@ -229,12 +227,12 @@ fondamentales:
             plan » :} la planification initiale et la structure du logiciel
             doivent être flexibles afin de permettre l’évolution de la demande
             du client tout au long du projet. Les premières releases du logiciel
-            vont souvent provoquer des demandes d’évolution\cite{5}. 
+            vont souvent provoquer des demandes d’évolution. 
 \end{itemize}
     
 \subsection{Le processus choisi }
 Après une brève présentation des concepts majeurs dont s’inspire le processus
-choisi, nous allons le décrire d’une manière plus détaillée et citer d’où viens
+choisi, nous allons le décrire d’une manière plus détaillée et citer d’où vient
 chaque caractéristique.
 
 \begin{itemize}
@@ -250,7 +248,7 @@ chaque caractéristique.
 Les besoins sont modélisés en cas d’utilisation UML pour être représentés de
 façon plus concrète par des maquettes IHM, dans le but de les présenter aux
 futurs utilisateurs. Puis nous allons produire des digrammes de séquence système
-pour décrire le système comme une boite noire toute en représentant
+pour décrire le système comme une boite noire tout en représentant
 graphiquement la chronologie des interactions entre les acteurs et le système
 dans le cadre d’un scénario nominal. Grâce aux diagrammes de cas d’utilisation
 ainsi qu’aux maquettes, on pourra modéliser les diagrammes de classes
@@ -267,7 +265,7 @@ conception qui représentent la structure statique du code par le biais des
 attributs et des relations entre classes, ainsi que des opérations décrivant la
 responsabilité dynamique des classes logicielle.  La figure \ref{fig1} suivante
 résume la totalité des diagrammes à modéliser dans le processus choisi.
-
+\clearpage
 \begin{figure}[h!]
   \centering
   \includegraphics[width=12cm]{images/processus_dev.png}
@@ -276,7 +274,6 @@ résume la totalité des diagrammes à modéliser dans le processus choisi.
   \label{fig1}
 \end{figure}
 
-\vspace{-30pt}
 \section{Conclusion}
 Ce premier chapitre nous a permis de présenter le cadre général du projet, à
 savoir le contexte et la problématique en élaborant une solution à cette

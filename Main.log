@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  22 OCT 2020 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  28 OCT 2020 11:08
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -838,7 +838,7 @@ LaTeX Info: Redefining \nameref on input line 58.
 \openout5 = `Main.out'.
 
  (Page_de_garde.tex
-<images/logo.jpg, id=518, 312.41719pt x 133.24782pt>
+<images/logo.jpg, id=506, 312.41719pt x 133.24782pt>
 File: images/logo.jpg Graphic file (type jpg)
 <use images/logo.jpg>
 Package pdftex.def Info: images/logo.jpg  used on input line 18.
@@ -1215,34 +1215,35 @@ l.52 \clearpage
 Chapitre 1.
 [3
 
-]
+] [4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 80.
+(Font)              <5> on input line 79.
 
-Underfull \hbox (badness 1931) in paragraph at lines 84--84
+Underfull \hbox (badness 1931) in paragraph at lines 83--83
 []|\T1/cmr/m/n/10 D�pendant de la pla-te-
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 88--88
+Underfull \hbox (badness 3492) in paragraph at lines 87--87
 []|\T1/cmr/bx/n/10 Utilisation des fonc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 []|\T1/cmr/m/n/10 T�l�chargement via le
  []
 
+[5
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] [5] [6] [7]
-<images/processus_dev.png, id=1088, 788.9475pt x 539.01375pt>
+] [6] [7] [8]
+<images/processus_dev.png, id=1083, 788.9475pt x 539.01375pt>
 File: images/processus_dev.png Graphic file (type png)
 <use images/processus_dev.png>
-Package pdftex.def Info: images/processus_dev.png  used on input line 273.
+Package pdftex.def Info: images/processus_dev.png  used on input line 271.
 (pdftex.def)             Requested size: 341.43306pt x 233.26828pt.
-) [8 <./images/processus_dev.png>] (Chapitre_2.tex [9]
+) (Chapitre_2.tex [9
+
+ <./images/processus_dev.png>]
 Chapitre 2.
 
 Underfull \vbox (badness 10000) detected at line 99
@@ -1251,204 +1252,204 @@ Underfull \vbox (badness 10000) detected at line 99
 [10
 
 ] [11] [12] [13]
-<images/uc_employe.png, id=1122, 593.3367pt x 415.5525pt>
+<images/uc_employe.png, id=1112, 593.3367pt x 415.5525pt>
 File: images/uc_employe.png Graphic file (type png)
 <use images/uc_employe.png>
-Package pdftex.def Info: images/uc_employe.png  used on input line 241.
+Package pdftex.def Info: images/uc_employe.png  used on input line 245.
 (pdftex.def)             Requested size: 593.33525pt x 415.55148pt.
-<images/uc_manager.png, id=1123, 687.2877pt x 716.1957pt>
+<images/uc_manager.png, id=1113, 687.2877pt x 715.473pt>
 File: images/uc_manager.png Graphic file (type png)
 <use images/uc_manager.png>
-Package pdftex.def Info: images/uc_manager.png  used on input line 249.
-(pdftex.def)             Requested size: 455.2368pt x 597.51312pt.
+Package pdftex.def Info: images/uc_manager.png  used on input line 253.
+(pdftex.def)             Requested size: 455.2368pt x 597.53247pt.
  [14
 
  <./images/uc_employe.png (PNG copy)>] [15 <./images/uc_manager.png (PNG copy)>
 ]
-<images/uc_responsable.png, id=1132, 1017.5616pt x 1279.9017pt>
+<images/uc_responsable.png, id=1122, 1017.5616pt x 1279.9017pt>
 File: images/uc_responsable.png Graphic file (type png)
 <use images/uc_responsable.png>
-Package pdftex.def Info: images/uc_responsable.png  used on input line 259.
-(pdftex.def)             Requested size: 483.7039pt x 597.51125pt.
+Package pdftex.def Info: images/uc_responsable.png  used on input line 263.
+(pdftex.def)             Requested size: 497.92638pt x 597.51125pt.
  [16
 
  <./images/uc_responsable.png (PNG copy)>]
-<images/uc_admin.png, id=1137, 755.9442pt x 580.3281pt>
+<images/uc_admin.png, id=1127, 755.9442pt x 580.3281pt>
 File: images/uc_admin.png Graphic file (type png)
 <use images/uc_admin.png>
-Package pdftex.def Info: images/uc_admin.png  used on input line 269.
+Package pdftex.def Info: images/uc_admin.png  used on input line 273.
 (pdftex.def)             Requested size: 755.94235pt x 580.32668pt.
  [17
 
  <./images/uc_admin.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 335
+Underfull \vbox (badness 10000) detected at line 339
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 [18
 
 ]
-Underfull \vbox (badness 10000) detected at line 381
+Underfull \vbox (badness 10000) detected at line 385
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 417
+Underfull \vbox (badness 10000) detected at line 421
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--448
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 [19]
-Underfull \vbox (badness 10000) detected at line 461
+Underfull \vbox (badness 10000) detected at line 465
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--490
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 503
+Underfull \vbox (badness 10000) detected at line 507
  []
 
+
+Overfull \vbox (6.0647pt too high) has occurred while \output is active []
+
+
 [20]
-Underfull \hbox (badness 2460) in paragraph at lines 526--527
+Underfull \hbox (badness 2460) in paragraph at lines 530--531
 []\T1/cmr/m/n/12 L'acteur re-cherche un em-ploy� (voir le cas d'uti-li-sa-tions
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--534
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
 []|\T1/cmr/m/n/12 Encha�nement d'er-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 546
+Underfull \vbox (badness 10000) detected at line 550
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--573
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 591
+Underfull \vbox (badness 10000) detected at line 595
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--622
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 636
+Underfull \vbox (badness 10000) detected at line 640
  []
 
 
-Overfull \vbox (13.37358pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 671--671
+[]|\T1/cmr/m/n/12 Encha�nement al-ter-
+ []
 
+
+Underfull \vbox (badness 10000) detected at line 686
+ []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 667--667
-[]|\T1/cmr/m/n/12 Encha�nement al-ter-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 682
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 []\T1/cmr/m/n/12 L'acteur s�-lec-tionne un em-ploy� (Cas d'uti-li-sa-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--709
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
 []\T1/cmr/m/n/12 L'acteur peut mo-di-fier le pro-fil (Cas d'uti-li-sa-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 717--717
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 719
+Underfull \vbox (badness 10000) detected at line 723
  []
 
 [23]
-<images/DSS/DSS Se pointer.png, id=1220, 509.5035pt x 200.9106pt>
+<images/DSS/DSS Se pointer.png, id=1210, 553.5882pt x 273.1806pt>
 File: images/DSS/DSS Se pointer.png Graphic file (type png)
 <use images/DSS/DSS Se pointer.png>
-Package pdftex.def Info: images/DSS/DSS Se pointer.png  used on input line 739.
+Package pdftex.def Info: images/DSS/DSS Se pointer.png  used on input line 743.
 
-(pdftex.def)             Requested size: 458.5489pt x 180.81786pt.
+(pdftex.def)             Requested size: 498.22476pt x 245.86024pt.
  [24 <./images/DSS/DSS Se pointer.png (PNG copy)>]
-<images/DSS/DSS Consulter mon profil.png, id=1226, 387.3672pt x 359.9046pt>
+<images/DSS/DSS Consulter mon profil.png, id=1216, 387.3672pt x 367.1316pt>
 File: images/DSS/DSS Consulter mon profil.png Graphic file (type png)
 <use images/DSS/DSS Consulter mon profil.png>
 Package pdftex.def Info: images/DSS/DSS Consulter mon profil.png  used on input
- line 752.
-(pdftex.def)             Requested size: 457.08934pt x 424.68375pt.
+ line 756.
+(pdftex.def)             Requested size: 457.08934pt x 433.21152pt.
  [25
 
  <./images/DSS/DSS Consulter mon profil.png (PNG copy)>]
-<images/DSS/DSS Consulter ma fiche de pointage.png, id=1231, 351.2322pt x 417.7
+<images/DSS/DSS Consulter ma fiche de pointage.png, id=1221, 351.2322pt x 417.7
 206pt>
 File: images/DSS/DSS Consulter ma fiche de pointage.png Graphic file (type png)
 
 <use images/DSS/DSS Consulter ma fiche de pointage.png>
 Package pdftex.def Info: images/DSS/DSS Consulter ma fiche de pointage.png  use
-d on input line 764.
+d on input line 768.
 (pdftex.def)             Requested size: 386.35661pt x 459.49408pt.
-<images/DSS/DSS Consulter tableau de bord manager.png, id=1232, 307.8702pt x 25
+<images/DSS/DSS Consulter tableau de bord manager.png, id=1222, 307.8702pt x 25
 1.4996pt>
 File: images/DSS/DSS Consulter tableau de bord manager.png Graphic file (type p
 ng)
 <use images/DSS/DSS Consulter tableau de bord manager.png>
 Package pdftex.def Info: images/DSS/DSS Consulter tableau de bord manager.png  
-used on input line 779.
+used on input line 783.
 (pdftex.def)             Requested size: 307.86943pt x 251.49898pt.
 
 
@@ -1457,121 +1458,121 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [26
 
  <./images/DSS/DSS Consulter ma fiche de pointage.png (PNG copy)>]
-<images/DSS/DSS Ajouter membre.png, id=1237, 400.3758pt x 244.2726pt>
+<images/DSS/DSS Ajouter membre.png, id=1227, 400.3758pt x 244.2726pt>
 File: images/DSS/DSS Ajouter membre.png Graphic file (type png)
 <use images/DSS/DSS Ajouter membre.png>
 Package pdftex.def Info: images/DSS/DSS Ajouter membre.png  used on input line 
-792.
+796.
 (pdftex.def)             Requested size: 400.3748pt x 244.272pt.
  [27 <./images/DSS/DSS Consulter tableau de bord manager.png (PNG copy)> <./ima
 ges/DSS/DSS Ajouter membre.png (PNG copy)>]
-<images/DSS/DSS Ajouter planning.png, id=1242, 425.6703pt x 453.8556pt>
+<images/DSS/DSS Ajouter planning.png, id=1232, 425.6703pt x 453.8556pt>
 File: images/DSS/DSS Ajouter planning.png Graphic file (type png)
 <use images/DSS/DSS Ajouter planning.png>
 Package pdftex.def Info: images/DSS/DSS Ajouter planning.png  used on input lin
-e 805.
+e 809.
 (pdftex.def)             Requested size: 425.66925pt x 453.85449pt.
  [28 <./images/DSS/DSS Ajouter planning.png (PNG copy)>]
-<images/DSS/DSS Ajouter une équipe.png, id=1247, 418.4433pt x 461.0826pt>
+<images/DSS/DSS Ajouter une équipe.png, id=1237, 418.4433pt x 461.0826pt>
 File: images/DSS/DSS Ajouter une équipe.png Graphic file (type png)
 <use images/DSS/DSS Ajouter une équipe.png>
 Package pdftex.def Info: images/DSS/DSS Ajouter une équipe.png  used on input 
-line 818.
+line 822.
 (pdftex.def)             Requested size: 418.44228pt x 461.08147pt.
  [29
 
  <./images/DSS/DSS Ajouter une équipe.png (PNG copy)>]
-<images/DSS/DSS Ajouter employé.png, id=1252, 445.9059pt x 417.7206pt>
+<images/DSS/DSS Ajouter employé.png, id=1242, 432.8973pt x 403.2666pt>
 File: images/DSS/DSS Ajouter employé.png Graphic file (type png)
 <use images/DSS/DSS Ajouter employé.png>
 Package pdftex.def Info: images/DSS/DSS Ajouter employé.png  used on input lin
-e 830.
-(pdftex.def)             Requested size: 490.49802pt x 459.49408pt.
+e 834.
+(pdftex.def)             Requested size: 476.18849pt x 443.59462pt.
  [30
 
  <./images/DSS/DSS Ajouter employé.png (PNG copy)>]
-<images/DSS/DSS Consulter profil d'un employé.png, id=1258, 358.4592pt x 309.3
+<images/DSS/DSS Consulter profil d'un employé.png, id=1248, 358.4592pt x 309.3
 156pt>
 File: images/DSS/DSS Consulter profil d'un employé.png Graphic file (type png)
 
 <use images/DSS/DSS Consulter profil d'un employé.png>
 Package pdftex.def Info: images/DSS/DSS Consulter profil d'un employé.png  use
-d on input line 843.
+d on input line 847.
 (pdftex.def)             Requested size: 358.45831pt x 309.31483pt.
  [31
 
  <./images/DSS/DSS Consulter profil d'un employé.png (PNG copy)>]
-<images/dash_emp.png, id=1265, 1927.2pt x 1084.05pt>
+<images/dash_emp.png, id=1255, 1927.2pt x 1084.05pt>
 File: images/dash_emp.png Graphic file (type png)
 <use images/dash_emp.png>
-Package pdftex.def Info: images/dash_emp.png  used on input line 877.
+Package pdftex.def Info: images/dash_emp.png  used on input line 881.
 (pdftex.def)             Requested size: 512.1496pt x 288.0824pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 877--878
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 881--882
  [][] 
  []
 
-<images/profil.png, id=1267, 1927.2pt x 1084.05pt>
+<images/profil.png, id=1257, 1927.2pt x 1084.05pt>
 File: images/profil.png Graphic file (type png)
 <use images/profil.png>
-Package pdftex.def Info: images/profil.png  used on input line 884.
+Package pdftex.def Info: images/profil.png  used on input line 888.
 (pdftex.def)             Requested size: 512.1496pt x 288.0824pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 884--885
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 888--889
  [][] 
  []
 
 [32
 
  <./images/dash_emp.png> <./images/profil.png>]
-<images/dash_man_my_teams.png, id=1276, 1927.2pt x 1084.05pt>
+<images/dash_man_my_teams.png, id=1266, 1927.2pt x 1084.05pt>
 File: images/dash_man_my_teams.png Graphic file (type png)
 <use images/dash_man_my_teams.png>
-Package pdftex.def Info: images/dash_man_my_teams.png  used on input line 906.
+Package pdftex.def Info: images/dash_man_my_teams.png  used on input line 910.
 (pdftex.def)             Requested size: 512.1496pt x 288.0824pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 906--907
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 910--911
  [][] 
  []
 
 [33 <./images/dash_man_my_teams.png>]
-<images/my_team.png, id=1282, 1927.2pt x 1084.05pt>
+<images/my_team.png, id=1272, 1927.2pt x 1084.05pt>
 File: images/my_team.png Graphic file (type png)
 <use images/my_team.png>
-Package pdftex.def Info: images/my_team.png  used on input line 915.
+Package pdftex.def Info: images/my_team.png  used on input line 919.
 (pdftex.def)             Requested size: 512.1496pt x 288.0824pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 915--916
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 919--920
  [][] 
  []
 
 [34
 
  <./images/my_team.png>]
-<images/add_panning.png, id=1290, 1927.2pt x 1080.035pt>
+<images/add_panning.png, id=1280, 1927.2pt x 1080.035pt>
 File: images/add_panning.png Graphic file (type png)
 <use images/add_panning.png>
-Package pdftex.def Info: images/add_panning.png  used on input line 938.
+Package pdftex.def Info: images/add_panning.png  used on input line 942.
 (pdftex.def)             Requested size: 512.1496pt x 287.01543pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 938--939
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 942--943
  [][] 
  []
 
-<images/add_member.png, id=1291, 1927.2pt x 1084.05pt>
+<images/add_member.png, id=1281, 1927.2pt x 1084.05pt>
 File: images/add_member.png Graphic file (type png)
 <use images/add_member.png>
-Package pdftex.def Info: images/add_member.png  used on input line 947.
+Package pdftex.def Info: images/add_member.png  used on input line 951.
 (pdftex.def)             Requested size: 512.1496pt x 288.0824pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 947--948
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 951--952
  [][] 
  []
 
 [35
 
  <./images/add_panning.png> <./images/add_member.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 959--963
+Underfull \hbox (badness 10000) in paragraph at lines 963--967
 
  []
 
@@ -1582,13 +1583,13 @@ Chapitre 3.
 [37
 
 ]
-<images/MDD/MDD Se pointer.png, id=1312, 380.1402pt x 265.9536pt>
+<images/MDD/MDD Se pointer.png, id=1302, 380.1402pt x 265.9536pt>
 File: images/MDD/MDD Se pointer.png Graphic file (type png)
 <use images/MDD/MDD Se pointer.png>
 Package pdftex.def Info: images/MDD/MDD Se pointer.png  used on input line 51.
 (pdftex.def)             Requested size: 494.18217pt x 345.73962pt.
  [38 <./images/MDD/MDD Se pointer.png (PNG copy)>]
-<images/MDD/MDD Consulter ma fiche de pointage.png, id=1319, 372.9132pt x 265.9
+<images/MDD/MDD Consulter ma fiche de pointage.png, id=1309, 372.9132pt x 265.9
 536pt>
 File: images/MDD/MDD Consulter ma fiche de pointage.png Graphic file (type png)
 
@@ -1596,7 +1597,7 @@ File: images/MDD/MDD Consulter ma fiche de pointage.png Graphic file (type png)
 Package pdftex.def Info: images/MDD/MDD Consulter ma fiche de pointage.png  use
 d on input line 67.
 (pdftex.def)             Requested size: 435.56126pt x 310.63283pt.
-<images/MDD/MDD Ajouter planning.png, id=1320, 401.8212pt x 135.8676pt>
+<images/MDD/MDD Ajouter planning.png, id=1310, 401.8212pt x 135.8676pt>
 File: images/MDD/MDD Ajouter planning.png Graphic file (type png)
 <use images/MDD/MDD Ajouter planning.png>
 Package pdftex.def Info: images/MDD/MDD Ajouter planning.png  used on input lin
@@ -1606,14 +1607,14 @@ e 79.
 
  <./images/MDD/MDD Consulter ma fiche de pointage.png (PNG copy)> <./images/MDD
 /MDD Ajouter planning.png (PNG copy)>]
-<images/MDD/MDD Ajouter équipe.png, id=1326, 358.4592pt x 265.9536pt>
+<images/MDD/MDD Ajouter équipe.png, id=1316, 358.4592pt x 265.9536pt>
 File: images/MDD/MDD Ajouter équipe.png Graphic file (type png)
 <use images/MDD/MDD Ajouter équipe.png>
 Package pdftex.def Info: images/MDD/MDD Ajouter équipe.png  used on input line
  95.
 (pdftex.def)             Requested size: 494.67421pt x 367.01636pt.
  [40 <./images/MDD/MDD Ajouter équipe.png (PNG copy)>]
-<images/MDD/MDD Ajouter employé.png, id=1333, 351.2322pt x 265.9536pt>
+<images/MDD/MDD Ajouter employé.png, id=1323, 351.2322pt x 265.9536pt>
 File: images/MDD/MDD Ajouter employé.png Graphic file (type png)
 <use images/MDD/MDD Ajouter employé.png>
 Package pdftex.def Info: images/MDD/MDD Ajouter employé.png  used on input lin
@@ -1623,7 +1624,7 @@ e 109.
 [41
 
  <./images/MDD/MDD Ajouter employé.png (PNG copy)>]
-<images/MDD/MDD Ajouter membre.png, id=1339, 401.8212pt x 264.5082pt>
+<images/MDD/MDD Ajouter membre.png, id=1329, 401.8212pt x 264.5082pt>
 File: images/MDD/MDD Ajouter membre.png Graphic file (type png)
 <use images/MDD/MDD Ajouter membre.png>
 Package pdftex.def Info: images/MDD/MDD Ajouter membre.png  used on input line 
@@ -1632,7 +1633,7 @@ Package pdftex.def Info: images/MDD/MDD Ajouter membre.png  used on input line
  [42
 
  <./images/MDD/MDD Ajouter membre.png (PNG copy)>]
-<images/MDD/MDD Consulter profil d'un employé.png, id=1346, 372.9132pt x 309.3
+<images/MDD/MDD Consulter profil d'un employé.png, id=1336, 372.9132pt x 309.3
 156pt>
 File: images/MDD/MDD Consulter profil d'un employé.png Graphic file (type png)
 
@@ -1640,7 +1641,7 @@ File: images/MDD/MDD Consulter profil d'un employé.png Graphic file (type png)
 Package pdftex.def Info: images/MDD/MDD Consulter profil d'un employé.png  use
 d on input line 140.
 (pdftex.def)             Requested size: 492.24693pt x 408.29784pt.
-<images/MDD/MDD Consulter tableu de bord manger.png, id=1347, 445.1832pt x 424.
+<images/MDD/MDD Consulter tableu de bord manger.png, id=1337, 445.1832pt x 424.
 9476pt>
 File: images/MDD/MDD Consulter tableu de bord manger.png Graphic file (type png
 )
@@ -1656,23 +1657,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <./images/MDD/MDD Consulter profil d'un employé.png (PNG copy)>] [44 <./image
 s/MDD/MDD Consulter tableu de bord manger.png (PNG copy)>]
-<images/dialogue.png, id=1361, 127.1952pt x 83.8332pt>
+<images/dialogue.png, id=1351, 127.1952pt x 83.8332pt>
 File: images/dialogue.png Graphic file (type png)
 <use images/dialogue.png>
 Package pdftex.def Info: images/dialogue.png  used on input line 180.
 (pdftex.def)             Requested size: 190.79233pt x 125.74947pt.
-<images/Controle.png, id=1363, 127.1952pt x 62.1522pt>
+<images/Controle.png, id=1353, 127.1952pt x 62.1522pt>
 File: images/Controle.png Graphic file (type png)
 <use images/Controle.png>
 Package pdftex.def Info: images/Controle.png  used on input line 195.
 (pdftex.def)             Requested size: 190.79233pt x 93.22806pt.
  [45 <./images/dialogue.png (PNG copy)> <./images/Controle.png (PNG copy)>]
-<images/Entité.png, id=1369, 127.1952pt x 83.8332pt>
+<images/Entité.png, id=1359, 127.1952pt x 83.8332pt>
 File: images/Entité.png Graphic file (type png)
 <use images/Entité.png>
 Package pdftex.def Info: images/Entité.png  used on input line 212.
 (pdftex.def)             Requested size: 190.79233pt x 125.74947pt.
-<images/DCP_exemple.png, id=1371, 654.7662pt x 273.1806pt>
+<images/DCP_exemple.png, id=1361, 654.7662pt x 273.1806pt>
 File: images/DCP_exemple.png Graphic file (type png)
 <use images/DCP_exemple.png>
 Package pdftex.def Info: images/DCP_exemple.png  used on input line 235.
@@ -1680,13 +1681,13 @@ Package pdftex.def Info: images/DCP_exemple.png  used on input line 235.
  [46
 
  <./images/Entité.png (PNG copy)> <./images/DCP_exemple.png (PNG copy)>]
-<images/DCP/DCP Se pointer.png, id=1376, 547.8066pt x 511.6716pt>
+<images/DCP/DCP Se pointer.png, id=1366, 547.8066pt x 511.6716pt>
 File: images/DCP/DCP Se pointer.png Graphic file (type png)
 <use images/DCP/DCP Se pointer.png>
 Package pdftex.def Info: images/DCP/DCP Se pointer.png  used on input line 250.
 
 (pdftex.def)             Requested size: 460.1544pt x 429.80121pt.
-<images/DCP/DCP consulter_mon_profil.png, id=1377, 582.4962pt x 265.9536pt>
+<images/DCP/DCP consulter_mon_profil.png, id=1367, 582.4962pt x 265.9536pt>
 File: images/DCP/DCP consulter_mon_profil.png Graphic file (type png)
 <use images/DCP/DCP consulter_mon_profil.png>
 Package pdftex.def Info: images/DCP/DCP consulter_mon_profil.png  used on input
@@ -1699,7 +1700,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [47
 
  <./images/DCP/DCP Se pointer.png (PNG copy)>]
-<images/DCP/DCP Consulter ma fiche de pointage.png, id=1384, 611.4042pt x 396.0
+<images/DCP/DCP Consulter ma fiche de pointage.png, id=1374, 611.4042pt x 396.0
 396pt>
 File: images/DCP/DCP Consulter ma fiche de pointage.png Graphic file (type png)
 
@@ -1709,7 +1710,7 @@ d on input line 277.
 (pdftex.def)             Requested size: 440.21068pt x 285.14828pt.
  [48 <./images/DCP/DCP consulter_mon_profil.png (PNG copy)> <./images/DCP/DCP C
 onsulter ma fiche de pointage.png (PNG copy)>]
-<images/DCP/DCP Consulter tableau de bord manager.png, id=1391, 771.8436pt x 43
+<images/DCP/DCP Consulter tableau de bord manager.png, id=1381, 771.8436pt x 43
 9.4016pt>
 File: images/DCP/DCP Consulter tableau de bord manager.png Graphic file (type p
 ng)
@@ -1718,7 +1719,7 @@ Package pdftex.def Info: images/DCP/DCP Consulter tableau de bord manager.png
 used on input line 290.
 (pdftex.def)             Requested size: 524.84671pt x 298.78912pt.
  [49 <./images/DCP/DCP Consulter tableau de bord manager.png (PNG copy)>]
-<images/DCP/DCP Ajouter planning.png, id=1397, 577.4373pt x 294.8616pt>
+<images/DCP/DCP Ajouter planning.png, id=1387, 577.4373pt x 294.8616pt>
 File: images/DCP/DCP Ajouter planning.png Graphic file (type png)
 <use images/DCP/DCP Ajouter planning.png>
 Package pdftex.def Info: images/DCP/DCP Ajouter planning.png  used on input lin
@@ -1732,7 +1733,7 @@ Overfull \hbox (7.6624pt too wide) in paragraph at lines 306--307
 [50
 
  <./images/DCP/DCP Ajouter planning.png (PNG copy)>]
-<images/DCP/DCP Ajouter équipe.png, id=1404, 583.9416pt x 403.2666pt>
+<images/DCP/DCP Ajouter équipe.png, id=1394, 583.9416pt x 403.2666pt>
 File: images/DCP/DCP Ajouter équipe.png Graphic file (type png)
 <use images/DCP/DCP Ajouter équipe.png>
 Package pdftex.def Info: images/DCP/DCP Ajouter équipe.png  used on input line
@@ -1747,7 +1748,7 @@ Overfull \hbox (8.11868pt too wide) in paragraph at lines 331--331
 [51
 
  <./images/DCP/DCP Ajouter équipe.png>]
-<images/DCP/DCP Ajouter membre.png, id=1411, 689.4558pt x 410.4936pt>
+<images/DCP/DCP Ajouter membre.png, id=1401, 689.4558pt x 410.4936pt>
 File: images/DCP/DCP Ajouter membre.png Graphic file (type png)
 <use images/DCP/DCP Ajouter membre.png>
 Package pdftex.def Info: images/DCP/DCP Ajouter membre.png  used on input line 
@@ -1756,13 +1757,13 @@ Package pdftex.def Info: images/DCP/DCP Ajouter membre.png  used on input line
  [52
 
  <./images/DCP/DCP Ajouter membre.png (PNG copy)>]
-<images/DCP/DCP Ajouter employé.png, id=1417, 612.8496pt x 374.3586pt>
+<images/DCP/DCP Ajouter employé.png, id=1407, 612.8496pt x 374.3586pt>
 File: images/DCP/DCP Ajouter employé.png Graphic file (type png)
 <use images/DCP/DCP Ajouter employé.png>
 Package pdftex.def Info: images/DCP/DCP Ajouter employé.png  used on input lin
 e 361.
 (pdftex.def)             Requested size: 428.99178pt x 262.04922pt.
-<images/DCP/DCP_consulter_profil_d'un_employe.png, id=1418, 635.2533pt x 265.95
+<images/DCP/DCP_consulter_profil_d'un_employe.png, id=1408, 635.2533pt x 265.95
 36pt>
 File: images/DCP/DCP_consulter_profil_d'un_employe.png Graphic file (type png)
 <use images/DCP/DCP_consulter_profil_d'un_employe.png>
@@ -1777,13 +1778,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
-<images/exemple ds.png, id=1427, 394.5942pt x 244.2726pt>
+<images/exemple ds.png, id=1417, 394.5942pt x 244.2726pt>
 File: images/exemple ds.png Graphic file (type png)
 <use images/exemple ds.png>
 Package pdftex.def Info: images/exemple ds.png  used on input line 404.
 (pdftex.def)             Requested size: 485.34796pt x 300.4535pt.
 [54 <./images/exemple ds.png (PNG copy)>]
-<images/DS/DI Se pointer.png, id=1434, 862.9038pt x 685.1196pt>
+<images/DS/DI Se pointer.png, id=1424, 862.9038pt x 685.1196pt>
 File: images/DS/DI Se pointer.png Graphic file (type png)
 <use images/DS/DI Se pointer.png>
 Package pdftex.def Info: images/DS/DI Se pointer.png  used on input line 425.
@@ -1791,7 +1792,7 @@ Package pdftex.def Info: images/DS/DI Se pointer.png  used on input line 425.
  [55
 
  <./images/DS/DI Se pointer.png (PNG copy)>]
-<images/DS/consulter_mon_profile.png, id=1440, 510.2262pt x 555.0336pt>
+<images/DS/consulter_mon_profile.png, id=1430, 510.2262pt x 555.0336pt>
 File: images/DS/consulter_mon_profile.png Graphic file (type png)
 <use images/DS/consulter_mon_profile.png>
 Package pdftex.def Info: images/DS/consulter_mon_profile.png  used on input lin
@@ -1800,7 +1801,7 @@ e 444.
  [56
 
  <./images/DS/consulter_mon_profile.png (PNG copy)>]
-<images/DS/DI Consulter ma fiche de pointage.png, id=1446, 531.9072pt x 410.493
+<images/DS/DI Consulter ma fiche de pointage.png, id=1436, 531.9072pt x 410.493
 6pt>
 File: images/DS/DI Consulter ma fiche de pointage.png Graphic file (type png)
 <use images/DS/DI Consulter ma fiche de pointage.png>
@@ -1810,7 +1811,7 @@ on input line 460.
  [57
 
  <./images/DS/DI Consulter ma fiche de pointage.png (PNG copy)>]
-<images/DS/DI Consulter tableu de bord manager.png, id=1453, 784.8522pt x 446.6
+<images/DS/DI Consulter tableu de bord manager.png, id=1443, 784.8522pt x 446.6
 286pt>
 File: images/DS/DI Consulter tableu de bord manager.png Graphic file (type png)
 
@@ -1821,7 +1822,7 @@ d on input line 477.
  [58
 
  <./images/DS/DI Consulter tableu de bord manager.png (PNG copy)>]
-<images/DS/DI Ajouter une équipe.png, id=1459, 618.6312pt x 641.7576pt>
+<images/DS/DI Ajouter une équipe.png, id=1449, 618.6312pt x 641.7576pt>
 File: images/DS/DI Ajouter une équipe.png Graphic file (type png)
 <use images/DS/DI Ajouter une équipe.png>
 Package pdftex.def Info: images/DS/DI Ajouter une équipe.png  used on input li
@@ -1830,13 +1831,13 @@ ne 495.
  [59
 
  <./images/DS/DI Ajouter une équipe.png (PNG copy)>]
-<images/DS/DI Ajouter un planning.png, id=1465, 647.5392pt x 714.0276pt>
+<images/DS/DI Ajouter un planning.png, id=1455, 647.5392pt x 714.0276pt>
 File: images/DS/DI Ajouter un planning.png Graphic file (type png)
 <use images/DS/DI Ajouter un planning.png>
 Package pdftex.def Info: images/DS/DI Ajouter un planning.png  used on input li
 ne 514.
 (pdftex.def)             Requested size: 479.18138pt x 528.38306pt.
-<images/DS/DI Ajouter un membre.png, id=1466, 712.5822pt x 410.4936pt>
+<images/DS/DI Ajouter un membre.png, id=1456, 712.5822pt x 410.4936pt>
 File: images/DS/DI Ajouter un membre.png Graphic file (type png)
 <use images/DS/DI Ajouter un membre.png>
 Package pdftex.def Info: images/DS/DI Ajouter un membre.png  used on input line
@@ -1850,232 +1851,222 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <./images/DS/DI Ajouter un planning.png (PNG copy)>] [61 <./images/DS/DI Ajout
 er un membre.png (PNG copy)>]
-<images/DS/DI Ajouter employé.png, id=1478, 712.5822pt x 453.8556pt>
+<images/DS/DI Ajouter employé.png, id=1468, 712.5822pt x 453.8556pt>
 File: images/DS/DI Ajouter employé.png Graphic file (type png)
 <use images/DS/DI Ajouter employé.png>
 Package pdftex.def Info: images/DS/DI Ajouter employé.png  used on input line 
-546.
+545.
 (pdftex.def)             Requested size: 498.80414pt x 317.69675pt.
  [62
 
  <./images/DS/DI Ajouter employé.png (PNG copy)>]
-<images/DS/consulter_profil_d'un_employé.png, id=1484, 606.3453pt x 374.3586pt
+<images/DS/consulter_profil_d'un_employé.png, id=1474, 606.3453pt x 374.3586pt
 >
 File: images/DS/consulter_profil_d'un_employé.png Graphic file (type png)
 <use images/DS/consulter_profil_d'un_employé.png>
 Package pdftex.def Info: images/DS/consulter_profil_d'un_employé.png  used on 
-input line 563.
+input line 562.
 (pdftex.def)             Requested size: 497.20638pt x 306.97603pt.
  [63
 
  <./images/DS/consulter_profil_d'un_employé.png (PNG copy)>]
-Overfull \hbox (13.68042pt too wide) in paragraph at lines 585--585
+Overfull \hbox (13.68042pt too wide) in paragraph at lines 584--584
 [][]\T1/cmr/bx/n/14.4 Diagramme de classes concep-tion pr�-li-mi-naire du cas d
 'uti-li-sa-tion  Consul-
  []
 
-<images/DCC/DCC Consulter ma fiche de pointage.png, id=1490, 662.7159pt x 403.2
+<images/DCC/DCC Consulter ma fiche de pointage.png, id=1480, 662.7159pt x 403.2
 666pt>
 File: images/DCC/DCC Consulter ma fiche de pointage.png Graphic file (type png)
 
 <use images/DCC/DCC Consulter ma fiche de pointage.png>
 Package pdftex.def Info: images/DCC/DCC Consulter ma fiche de pointage.png  use
-d on input line 589.
+d on input line 588.
 (pdftex.def)             Requested size: 490.4122pt x 298.41876pt.
 [64
 
  <./images/DCC/DCC Consulter ma fiche de pointage.png>]
-<images/DCC/DCC Ajouter une équipe.png, id=1498, 693.0693pt x 457.4691pt>
+<images/DCC/DCC Ajouter une équipe.png, id=1488, 693.0693pt x 457.4691pt>
 File: images/DCC/DCC Ajouter une équipe.png Graphic file (type png)
 <use images/DCC/DCC Ajouter une équipe.png>
 Package pdftex.def Info: images/DCC/DCC Ajouter une équipe.png  used on input 
-line 600.
+line 599.
 (pdftex.def)             Requested size: 485.1452pt x 320.22618pt.
-<images/DCC/DCC Ajoutert un planning.png, id=1499, 587.5551pt x 265.9536pt>
+<images/DCC/DCC Ajoutert un planning.png, id=1489, 587.5551pt x 265.9536pt>
 File: images/DCC/DCC Ajoutert un planning.png Graphic file (type png)
 <use images/DCC/DCC Ajoutert un planning.png>
 Package pdftex.def Info: images/DCC/DCC Ajoutert un planning.png  used on input
- line 609.
+ line 608.
 (pdftex.def)             Requested size: 411.28577pt x 186.16624pt.
  [65
 
  <./images/DCC/DCC Ajouter une équipe.png (PNG copy)> <./images/DCC/DCC Ajoute
 rt un planning.png (PNG copy)>]
-<images/DCC/DCC Ajouter employé.png, id=1505, 694.5147pt x 374.3586pt>
+<images/DCC/DCC Ajouter employé.png, id=1495, 694.5147pt x 374.3586pt>
 File: images/DCC/DCC Ajouter employé.png Graphic file (type png)
 <use images/DCC/DCC Ajouter employé.png>
 Package pdftex.def Info: images/DCC/DCC Ajouter employé.png  used on input lin
-e 620.
+e 619.
 (pdftex.def)             Requested size: 486.15697pt x 262.04922pt.
 
-Overfull \hbox (13.68042pt too wide) in paragraph at lines 625--625
+Overfull \hbox (13.68042pt too wide) in paragraph at lines 624--624
 [][]\T1/cmr/bx/n/14.4 Diagramme de classes concep-tion pr�-li-mi-naire du cas d
 'uti-li-sa-tion  Consul-
  []
 
-<images/DCC/DCC Consulter profil d'un employé.png, id=1506, 599.1183pt x 263.0
+<images/DCC/DCC Consulter profil d'un employé.png, id=1496, 599.1183pt x 263.0
 628pt>
 File: images/DCC/DCC Consulter profil d'un employé.png Graphic file (type png)
 
 <use images/DCC/DCC Consulter profil d'un employé.png>
 Package pdftex.def Info: images/DCC/DCC Consulter profil d'un employé.png  use
-d on input line 629.
+d on input line 628.
 (pdftex.def)             Requested size: 443.34975pt x 194.66743pt.
 [66
 
  <./images/DCC/DCC Ajouter employé.png (PNG copy)> <./images/DCC/DCC Consulter
  profil d'un employé.png (PNG copy)>]
-<images/DCC/Diagramme de classe.png, id=1515, 676.4472pt x 641.7576pt>
+<images/DCC/Diagramme de classe.png, id=1505, 676.4472pt x 641.7576pt>
 File: images/DCC/Diagramme de classe.png Graphic file (type png)
 <use images/DCC/Diagramme de classe.png>
 Package pdftex.def Info: images/DCC/Diagramme de classe.png  used on input line
- 647.
+ 646.
 (pdftex.def)             Requested size: 466.74908pt x 442.81322pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--656
+Underfull \hbox (badness 10000) in paragraph at lines 652--655
 
  []
 
 [67 <./images/DCC/Diagramme de classe.png (PNG copy)>]
-<images/pere_mr.PNG, id=1521, 247.67531pt x 140.77594pt>
+<images/pere_mr.PNG, id=1511, 247.67531pt x 140.77594pt>
 File: images/pere_mr.PNG Graphic file (type png)
 <use images/pere_mr.PNG>
-Package pdftex.def Info: images/pere_mr.PNG  used on input line 659.
+Package pdftex.def Info: images/pere_mr.PNG  used on input line 658.
 (pdftex.def)             Requested size: 247.6747pt x 140.77557pt.
 
-Overfull \hbox (18.67667pt too wide) in paragraph at lines 669--672
+Overfull \hbox (18.67667pt too wide) in paragraph at lines 668--671
 \T1/cmr/m/n/12 Un do-maine de va-leurs de-vrait �tre d�-fini ainsi que d'�ven-t
 uelles r�gles de va-li-da-tion (contraintes). 
  []
 
 
-Overfull \hbox (23.63084pt too wide) in paragraph at lines 685--689
+Overfull \hbox (23.63084pt too wide) in paragraph at lines 684--688
 []\T1/cmr/bx/n/12 Employ�\T1/cmr/m/n/12 ($[]$, nom, pr�-nom, genre, user-name, 
 email,pwd, date_naissance,lieu-naissance,
  []
 
 
-Overfull \hbox (31.01508pt too wide) in paragraph at lines 685--689
-\T1/cmr/m/n/12 adresse, pr�-sence, poste, ob-ser-va-tions, t�l_professionnel, t
-�l_personnel, photo, type,#ggid_�quipe,
+Overfull \hbox (55.81458pt too wide) in paragraph at lines 684--688
+\T1/cmr/m/n/12 adresse, pr�-sence, r�le, poste, ob-ser-va-tions, t�l_profession
+nel, t�l_personnel, photo, type,#ggid_�quipe,
  []
 
-[68 <./images/pere_mr.PNG>]) (Chapitre_4.tex [69]
+) [68 <./images/pere_mr.PNG>] (Chapitre_4.tex [69]
 Chapitre 4.
 [70
 
 ]
-<images/esp32.jpg, id=1542, 409.53pt x 608.2725pt>
+<images/esp32.jpg, id=1532, 409.53pt x 608.2725pt>
 File: images/esp32.jpg Graphic file (type jpg)
 <use images/esp32.jpg>
-Package pdftex.def Info: images/esp32.jpg  used on input line 83.
+Package pdftex.def Info: images/esp32.jpg  used on input line 42.
 (pdftex.def)             Requested size: 122.85994pt x 182.48315pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[71] [72 <./images/esp32.jpg>]
-<images/esp32_fun.png, id=1557, 1927.2pt x 788.9475pt>
+ [71 <./images/esp32.jpg>]
+<images/esp32_fun.png, id=1538, 1927.2pt x 788.9475pt>
 File: images/esp32_fun.png Graphic file (type png)
 <use images/esp32_fun.png>
-Package pdftex.def Info: images/esp32_fun.png  used on input line 155.
+Package pdftex.def Info: images/esp32_fun.png  used on input line 114.
 (pdftex.def)             Requested size: 501.0602pt x 205.1215pt.
 
-Overfull \hbox (0.5762pt too wide) in paragraph at lines 155--156
+Overfull \hbox (0.5762pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[73]
-<images/dy50.jpg, id=1563, 602.25pt x 351.3125pt>
+[72]
+<images/dy50.jpg, id=1547, 602.25pt x 351.3125pt>
 File: images/dy50.jpg Graphic file (type jpg)
 <use images/dy50.jpg>
-Package pdftex.def Info: images/dy50.jpg  used on input line 185.
-(pdftex.def)             Requested size: 421.57211pt x 245.91707pt.
- [74 <./images/esp32_fun.png> <./images/dy50.jpg>]
-Underfull \vbox (badness 10000) detected at line 233
+Package pdftex.def Info: images/dy50.jpg  used on input line 145.
+(pdftex.def)             Requested size: 397.48622pt x 231.86696pt.
+ [73 <./images/esp32_fun.png> <./images/dy50.jpg>]
+Underfull \vbox (badness 10000) detected at line 194
  []
 
-[75
-
-]
-<images/schema/montage_illustration.png, id=1576, 2077.7625pt x 680.5425pt>
+[74]
+<images/schema/montage_illustration.png, id=1560, 2077.7625pt x 680.5425pt>
 File: images/schema/montage_illustration.png Graphic file (type png)
 <use images/schema/montage_illustration.png>
 Package pdftex.def Info: images/schema/montage_illustration.png  used on input 
-line 271.
-(pdftex.def)             Requested size: 394.77898pt x 129.30441pt.
- [76 <./images/schema/montage_illustration.png>]
-<images/schema/schemat v3 sans uvc.png, id=1582, 1927.2pt x 1084.05pt>
+line 232.
+(pdftex.def)             Requested size: 498.67319pt x 163.33353pt.
+ [75 <./images/schema/montage_illustration.png>]
+<images/schema/schemat v3 sans uvc.png, id=1567, 1927.2pt x 1084.05pt>
 File: images/schema/schemat v3 sans uvc.png Graphic file (type png)
 <use images/schema/schemat v3 sans uvc.png>
 Package pdftex.def Info: images/schema/schemat v3 sans uvc.png  used on input l
-ine 296.
+ine 256.
 (pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
-<images/schema/schemat_globale.png, id=1583, 1927.2pt x 1084.05pt>
-File: images/schema/schemat_globale.png Graphic file (type png)
-<use images/schema/schemat_globale.png>
-Package pdftex.def Info: images/schema/schemat_globale.png  used on input line 
-311.
-(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+ [76
+
+ <./images/schema/schemat v3 sans uvc.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+
+ []
+
+<images/prototype/1.png, id=1573, 249.93375pt x 420.82219pt>
+File: images/prototype/1.png Graphic file (type png)
+<use images/prototype/1.png>
+Package pdftex.def Info: images/prototype/1.png  used on input line 299.
+(pdftex.def)             Requested size: 149.9614pt x 252.49525pt.
+<images/prototype/2.png, id=1574, 247.67531pt x 420.82219pt>
+File: images/prototype/2.png Graphic file (type png)
+<use images/prototype/2.png>
+Package pdftex.def Info: images/prototype/2.png  used on input line 304.
+(pdftex.def)             Requested size: 148.60632pt x 252.49525pt.
+[77 <./images/prototype/1.png (PNG copy)> <./images/prototype/2.png (PNG copy)>
+]
+<images/prototype/5.png, id=1579, 1451.4225pt x 1973.87437pt>
+File: images/prototype/5.png Graphic file (type png)
+<use images/prototype/5.png>
+Package pdftex.def Info: images/prototype/5.png  used on input line 314.
+(pdftex.def)             Requested size: 232.23235pt x 315.82635pt.
+<images/prototype/6.png, id=1580, 1457.445pt x 1973.87437pt>
+File: images/prototype/6.png Graphic file (type png)
+<use images/prototype/6.png>
+Package pdftex.def Info: images/prototype/6.png  used on input line 320.
+(pdftex.def)             Requested size: 233.19597pt x 315.82635pt.
+<images/prototype/3.png, id=1581, 1451.4225pt x 1973.87437pt>
+File: images/prototype/3.png Graphic file (type png)
+<use images/prototype/3.png>
+Package pdftex.def Info: images/prototype/3.png  used on input line 331.
+(pdftex.def)             Requested size: 232.23235pt x 315.82635pt.
+<images/prototype/4.png, id=1582, 1451.4225pt x 1973.87437pt>
+File: images/prototype/4.png Graphic file (type png)
+<use images/prototype/4.png>
+Package pdftex.def Info: images/prototype/4.png  used on input line 337.
+(pdftex.def)             Requested size: 232.23235pt x 315.82635pt.
+ [78
+
+ <./images/prototype/5.png> <./images/prototype/6.png (PNG copy)> <./images/pro
+totype/3.png> <./images/prototype/4.png>]
+<images/arduino_ide.PNG, id=1591, 1445.4pt x 790.45313pt>
+File: images/arduino_ide.PNG Graphic file (type png)
+<use images/arduino_ide.PNG>
+Package pdftex.def Info: images/arduino_ide.PNG  used on input line 397.
+(pdftex.def)             Requested size: 433.62335pt x 237.13776pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77
+[79
 
- <./images/schema/schemat v3 sans uvc.png>] [78 <./images/schema/schemat_global
-e.png>]
-<images/prototype/1.png, id=1595, 249.93375pt x 420.82219pt>
-File: images/prototype/1.png Graphic file (type png)
-<use images/prototype/1.png>
-Package pdftex.def Info: images/prototype/1.png  used on input line 347.
-(pdftex.def)             Requested size: 149.9614pt x 252.49525pt.
-<images/prototype/2.png, id=1596, 247.67531pt x 420.82219pt>
-File: images/prototype/2.png Graphic file (type png)
-<use images/prototype/2.png>
-Package pdftex.def Info: images/prototype/2.png  used on input line 352.
-(pdftex.def)             Requested size: 148.60632pt x 252.49525pt.
-<images/prototype/5.png, id=1597, 1451.4225pt x 1973.87437pt>
-File: images/prototype/5.png Graphic file (type png)
-<use images/prototype/5.png>
-Package pdftex.def Info: images/prototype/5.png  used on input line 360.
-(pdftex.def)             Requested size: 232.23235pt x 315.82635pt.
-<images/prototype/6.png, id=1598, 1457.445pt x 1973.87437pt>
-File: images/prototype/6.png Graphic file (type png)
-<use images/prototype/6.png>
-Package pdftex.def Info: images/prototype/6.png  used on input line 366.
-(pdftex.def)             Requested size: 233.19597pt x 315.82635pt.
- [79
-
- <./images/prototype/1.png (PNG copy)> <./images/prototype/2.png (PNG copy)> <.
-/images/prototype/5.png> <./images/prototype/6.png (PNG copy)>]
-<images/prototype/3.png, id=1604, 1451.4225pt x 1973.87437pt>
-File: images/prototype/3.png Graphic file (type png)
-<use images/prototype/3.png>
-Package pdftex.def Info: images/prototype/3.png  used on input line 377.
-(pdftex.def)             Requested size: 232.23235pt x 315.82635pt.
-<images/prototype/4.png, id=1605, 1451.4225pt x 1973.87437pt>
-File: images/prototype/4.png Graphic file (type png)
-<use images/prototype/4.png>
-Package pdftex.def Info: images/prototype/4.png  used on input line 383.
-(pdftex.def)             Requested size: 232.23235pt x 315.82635pt.
-
-[80
-
- <./images/prototype/3.png> <./images/prototype/4.png>]
-<images/arduino_ide.PNG, id=1612, 1445.4pt x 790.45313pt>
-File: images/arduino_ide.PNG Graphic file (type png)
-<use images/arduino_ide.PNG>
-Package pdftex.def Info: images/arduino_ide.PNG  used on input line 442.
-(pdftex.def)             Requested size: 433.62335pt x 237.13776pt.
- [81 <./images/arduino_ide.PNG>] [82]
+] [80 <./images/arduino_ide.PNG>]
 \openout3 = `Main.pyg'.
 
- (_minted-Main/default-pyg-prefix.pygstyle)
-(_minted-Main/default.pygstyle)
+ (_minted-Main/default-pyg-prefix.pygstyle) (_minted-Main/default.pygstyle)
 (_minted-Main/58B83EFE9E750E0D4FC866AEF737DDB8D191F341E1D8EA853DCAC76DD3385529.
 pygtex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
@@ -2085,12 +2076,12 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 7.
-)
+ [81])
 \openout3 = `Main.pyg'.
 
 
 (_minted-Main/3C240F94D5EDF122786B60C742D00675D191F341E1D8EA853DCAC76DD3385529.
-pygtex [83])
+pygtex [82])
 \openout3 = `Main.pyg'.
 
 
@@ -2100,103 +2091,103 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line
 3.
  (G:\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [84])
+)) [83]
 \openout3 = `Main.pyg'.
 
 
 (_minted-Main/DC58A9295F8FFD08DAD2AD1611E78147D191F341E1D8EA853DCAC76DD3385529.
-pygtex [85])) (Chapitre_5.tex [86]
+pygtex)) [84] (Chapitre_5.tex [85]
 Chapitre 5.
-<images/logo/slack.png, id=1646, 120.45pt x 120.45pt>
+<images/logo/slack.png, id=1629, 120.45pt x 120.45pt>
 File: images/logo/slack.png Graphic file (type png)
 <use images/logo/slack.png>
 Package pdftex.def Info: images/logo/slack.png  used on input line 29.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-[87
+[86
 
  <./images/logo/slack.png>]
-<images/logo/trello.png, id=1656, 120.45pt x 120.45pt>
+<images/logo/trello.png, id=1639, 120.45pt x 120.45pt>
 File: images/logo/trello.png Graphic file (type png)
 <use images/logo/trello.png>
 Package pdftex.def Info: images/logo/trello.png  used on input line 47.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/github.png, id=1658, 120.45pt x 120.45pt>
+<images/logo/github.png, id=1641, 120.45pt x 120.45pt>
 File: images/logo/github.png Graphic file (type png)
 <use images/logo/github.png>
 Package pdftex.def Info: images/logo/github.png  used on input line 65.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/discord.png, id=1660, 120.45pt x 120.45pt>
+<images/logo/discord.png, id=1643, 120.45pt x 120.45pt>
 File: images/logo/discord.png Graphic file (type png)
 <use images/logo/discord.png>
 Package pdftex.def Info: images/logo/discord.png  used on input line 82.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/VSCode logo.png, id=1662, 1204.5pt x 1204.5pt>
+<images/VSCode logo.png, id=1645, 1204.5pt x 1204.5pt>
 File: images/VSCode logo.png Graphic file (type png)
 <use images/VSCode logo.png>
 Package pdftex.def Info: images/VSCode logo.png  used on input line 98.
 (pdftex.def)             Requested size: 45.04172pt x 45.02895pt.
-<images/git logo.png, id=1665, 513.92pt x 513.92pt>
+<images/git logo.png, id=1648, 513.92pt x 513.92pt>
 File: images/git logo.png Graphic file (type png)
 <use images/git logo.png>
 Package pdftex.def Info: images/git logo.png  used on input line 116.
 (pdftex.def)             Requested size: 45.04172pt x 45.03532pt.
-<images/Conda logo.png, id=1667, 513.92pt x 513.92pt>
+<images/Conda logo.png, id=1650, 513.92pt x 513.92pt>
 File: images/Conda logo.png Graphic file (type png)
 <use images/Conda logo.png>
 Package pdftex.def Info: images/Conda logo.png  used on input line 132.
 (pdftex.def)             Requested size: 45.04172pt x 45.03532pt.
- [88
+ [87
 
  <./images/logo/trello.png> <./images/logo/github.png> <./images/logo/discord.p
 ng> <./images/VSCode logo.png> <./images/git logo.png> <./images/Conda logo.png
 >]
-<images/logo/adobexd.png, id=1696, 120.45pt x 120.45pt>
+<images/logo/adobexd.png, id=1679, 120.45pt x 120.45pt>
 File: images/logo/adobexd.png Graphic file (type png)
 <use images/logo/adobexd.png>
 Package pdftex.def Info: images/logo/adobexd.png  used on input line 148.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/html.png, id=1698, 120.45pt x 120.45pt>
+<images/logo/html.png, id=1681, 120.45pt x 120.45pt>
 File: images/logo/html.png Graphic file (type png)
 <use images/logo/html.png>
 Package pdftex.def Info: images/logo/html.png  used on input line 172.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/css.png, id=1700, 120.45pt x 120.45pt>
+<images/logo/css.png, id=1683, 120.45pt x 120.45pt>
 File: images/logo/css.png Graphic file (type png)
 <use images/logo/css.png>
 Package pdftex.def Info: images/logo/css.png  used on input line 189.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/sass.png, id=1702, 120.45pt x 120.45pt>
+<images/logo/sass.png, id=1685, 120.45pt x 120.45pt>
 File: images/logo/sass.png Graphic file (type png)
 <use images/logo/sass.png>
 Package pdftex.def Info: images/logo/sass.png  used on input line 204.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
- [89 <./images/logo/adobexd.png> <./images/logo/html.png> <./images/logo/css.pn
+ [88 <./images/logo/adobexd.png> <./images/logo/html.png> <./images/logo/css.pn
 g> <./images/logo/sass.png>]
-<images/logo/js.png, id=1722, 120.45pt x 120.45pt>
+<images/logo/js.png, id=1705, 120.45pt x 120.45pt>
 File: images/logo/js.png Graphic file (type png)
 <use images/logo/js.png>
 Package pdftex.def Info: images/logo/js.png  used on input line 223.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/python.png, id=1724, 120.45pt x 120.45pt>
+<images/logo/python.png, id=1707, 120.45pt x 120.45pt>
 File: images/logo/python.png Graphic file (type png)
 <use images/logo/python.png>
 Package pdftex.def Info: images/logo/python.png  used on input line 239.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/django.png, id=1726, 120.45pt x 120.45pt>
+<images/logo/django.png, id=1709, 120.45pt x 120.45pt>
 File: images/logo/django.png Graphic file (type png)
 <use images/logo/django.png>
 Package pdftex.def Info: images/logo/django.png  used on input line 257.
 (pdftex.def)             Requested size: 60.22484pt x 60.22484pt.
- [90
+ [89
 
  <./images/logo/js.png (PNG copy)> <./images/logo/python.png> <./images/logo/dj
 ango.png>]
-<images/logo/mysql.png, id=1747, 120.45pt x 120.45pt>
+<images/logo/mysql.png, id=1729, 120.45pt x 120.45pt>
 File: images/logo/mysql.png Graphic file (type png)
 <use images/logo/mysql.png>
 Package pdftex.def Info: images/logo/mysql.png  used on input line 300.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/ORM.png, id=1750, 652.4375pt x 208.78pt>
+<images/ORM.png, id=1732, 652.4375pt x 208.78pt>
 File: images/ORM.png Graphic file (type png)
 <use images/ORM.png>
 Package pdftex.def Info: images/ORM.png  used on input line 323.
@@ -2206,37 +2197,37 @@ Overfull \hbox (21.4667pt too wide) in paragraph at lines 323--325
  [][] 
  []
 
-[91 <./images/logo/mysql.png> <./images/ORM.png (PNG copy)>]
-<images/logo/bootstrap.png, id=1759, 120.45pt x 120.45pt>
+[90 <./images/logo/mysql.png> <./images/ORM.png (PNG copy)>]
+<images/logo/bootstrap.png, id=1744, 120.45pt x 120.45pt>
 File: images/logo/bootstrap.png Graphic file (type png)
 <use images/logo/bootstrap.png>
 Package pdftex.def Info: images/logo/bootstrap.png  used on input line 336.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/jquery.png, id=1761, 120.45pt x 120.45pt>
+<images/logo/jquery.png, id=1746, 120.45pt x 120.45pt>
 File: images/logo/jquery.png Graphic file (type png)
 <use images/logo/jquery.png>
 Package pdftex.def Info: images/logo/jquery.png  used on input line 351.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/pillow.png, id=1764, 120.45pt x 120.45pt>
+<images/logo/pillow.png, id=1749, 120.45pt x 120.45pt>
 File: images/logo/pillow.png Graphic file (type png)
 <use images/logo/pillow.png>
 Package pdftex.def Info: images/logo/pillow.png  used on input line 372.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/popper.png, id=1767, 120.45pt x 120.45pt>
+<images/logo/popper.png, id=1752, 120.45pt x 120.45pt>
 File: images/logo/popper.png Graphic file (type png)
 <use images/logo/popper.png>
 Package pdftex.def Info: images/logo/popper.png  used on input line 392.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
-<images/logo/fontawesome.png, id=1769, 120.45pt x 120.45pt>
+<images/logo/fontawesome.png, id=1754, 120.45pt x 120.45pt>
 File: images/logo/fontawesome.png Graphic file (type png)
 <use images/logo/fontawesome.png>
 Package pdftex.def Info: images/logo/fontawesome.png  used on input line 410.
 (pdftex.def)             Requested size: 43.36195pt x 43.36195pt.
- [92
+ [91
 
  <./images/logo/bootstrap.png> <./images/logo/jquery.png> <./images/logo/pillow
 .png> <./images/logo/popper.png>]
-<images/logo/chartjs.png, id=1789, 120.45pt x 120.45pt>
+<images/logo/chartjs.png, id=1774, 120.45pt x 120.45pt>
 File: images/logo/chartjs.png Graphic file (type png)
 <use images/logo/chartjs.png>
 Package pdftex.def Info: images/logo/chartjs.png  used on input line 425.
@@ -2265,7 +2256,7 @@ Overfull \hbox (4.76006pt too wide) in alignment at lines 446--456
 Underfull \vbox (badness 10000) detected at line 456
  []
 
-<images/Architecture du système.png, id=1791, 877.2775pt x 248.93pt>
+<images/Architecture du système.png, id=1776, 877.2775pt x 248.93pt>
 File: images/Architecture du système.png Graphic file (type png)
 <use images/Architecture du système.png>
 Package pdftex.def Info: images/Architecture du système.png  used on input lin
@@ -2276,58 +2267,58 @@ Overfull \hbox (8.33731pt too wide) in paragraph at lines 464--466
  [][] 
  []
 
-[93 <./images/logo/fontawesome.png> <./images/logo/chartjs.png> <./images/Archi
+[92 <./images/logo/fontawesome.png> <./images/logo/chartjs.png> <./images/Archi
 tecture du système.png>]
-<images/app_name_dark.png, id=1803, 678.535pt x 287.0725pt>
+<images/app_name_dark.png, id=1788, 678.535pt x 287.0725pt>
 File: images/app_name_dark.png Graphic file (type png)
 <use images/app_name_dark.png>
 Package pdftex.def Info: images/app_name_dark.png  used on input line 480.
 (pdftex.def)             Requested size: 271.40918pt x 114.82695pt.
-<images/applogo_bw.png, id=1804, 1268.74pt x 572.1375pt>
+<images/applogo_bw.png, id=1789, 1268.74pt x 572.1375pt>
 File: images/applogo_bw.png Graphic file (type png)
 <use images/applogo_bw.png>
 Package pdftex.def Info: images/applogo_bw.png  used on input line 492.
 (pdftex.def)             Requested size: 241.0631pt x 108.70724pt.
-<images/applogo_light.png, id=1805, 1272.755pt x 582.175pt>
+<images/applogo_light.png, id=1790, 1272.755pt x 582.175pt>
 File: images/applogo_light.png Graphic file (type png)
 <use images/applogo_light.png>
 Package pdftex.def Info: images/applogo_light.png  used on input line 497.
 (pdftex.def)             Requested size: 241.82596pt x 110.6144pt.
-<images/applogo_dark.png, id=1806, 1268.74pt x 573.14125pt>
+<images/applogo_dark.png, id=1791, 1268.74pt x 573.14125pt>
 File: images/applogo_dark.png Graphic file (type png)
 <use images/applogo_dark.png>
 Package pdftex.def Info: images/applogo_dark.png  used on input line 504.
 (pdftex.def)             Requested size: 279.12366pt x 126.09146pt.
- [94
+ [93
 
  <./images/app_name_dark.png> <./images/applogo_bw.png> <./images/applogo_light
 .png> <./images/applogo_dark.png>]
-<images/palette_couleurs.PNG, id=1815, 1445.4pt x 590.95781pt>
+<images/palette_couleurs.PNG, id=1800, 1445.4pt x 590.95781pt>
 File: images/palette_couleurs.PNG Graphic file (type png)
 <use images/palette_couleurs.PNG>
 Package pdftex.def Info: images/palette_couleurs.PNG  used on input line 517.
 (pdftex.def)             Requested size: 433.62335pt x 177.2887pt.
- [95 <./images/palette_couleurs.PNG>]
-<images/interface/arbre.png, id=1821, 1515.6625pt x 1020.81375pt>
+ [94 <./images/palette_couleurs.PNG>]
+<images/interface/arbre.png, id=1806, 1515.6625pt x 1020.81375pt>
 File: images/interface/arbre.png Graphic file (type png)
 <use images/interface/arbre.png>
 Package pdftex.def Info: images/interface/arbre.png  used on input line 542.
 (pdftex.def)             Requested size: 666.89357pt x 449.15944pt.
- [96
+ [95
 
 
  <./images/interface/arbre.png>]
-<images/interface/Espace employe.png, id=1828, 1102.1175pt x 1343.0175pt>
+<images/interface/Espace employe.png, id=1812, 1102.1175pt x 1343.0175pt>
 File: images/interface/Espace employe.png Graphic file (type png)
 <use images/interface/Espace employe.png>
 Package pdftex.def Info: images/interface/Espace employe.png  used on input lin
 e 563.
 (pdftex.def)             Requested size: 418.809pt x 510.35196pt.
- [97
+ [96
 
 
  <./images/interface/Espace employe.png>]
-<images/interface/dashbord_employe.png, id=1834, 1445.4pt x 840.13875pt>
+<images/interface/dashbord_employe.png, id=1819, 1445.4pt x 840.13875pt>
 File: images/interface/dashbord_employe.png Graphic file (type png)
 <use images/interface/dashbord_employe.png>
 Package pdftex.def Info: images/interface/dashbord_employe.png  used on input l
@@ -2338,7 +2329,7 @@ Overfull \hbox (5.41359pt too wide) in paragraph at lines 592--593
  [][] 
  []
 
-<images/interface/fiche_pointage.png, id=1835, 1445.4pt x 840.13875pt>
+<images/interface/fiche_pointage.png, id=1820, 1445.4pt x 840.13875pt>
 File: images/interface/fiche_pointage.png Graphic file (type png)
 <use images/interface/fiche_pointage.png>
 Package pdftex.def Info: images/interface/fiche_pointage.png  used on input lin
@@ -2347,39 +2338,39 @@ e 607.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[98
+[97
 
  <./images/interface/dashbord_employe.png (PNG copy)>]
-<images/interface/mon_profil.png, id=1842, 1445.4pt x 840.13875pt>
+<images/interface/mon_profil.png, id=1827, 1445.4pt x 840.13875pt>
 File: images/interface/mon_profil.png Graphic file (type png)
 <use images/interface/mon_profil.png>
 Package pdftex.def Info: images/interface/mon_profil.png  used on input line 62
 1.
 (pdftex.def)             Requested size: 442.29097pt x 257.08162pt.
- [99 <./images/interface/fiche_pointage.png (PNG copy)> <./images/interface/mon
+ [98 <./images/interface/fiche_pointage.png (PNG copy)> <./images/interface/mon
 _profil.png (PNG copy)>]
-<images/interface/Espace manager.png, id=1849, 1242.6425pt x 1511.6475pt>
+<images/interface/Espace manager.png, id=1834, 1242.6425pt x 1511.6475pt>
 File: images/interface/Espace manager.png Graphic file (type png)
 <use images/interface/Espace manager.png>
 Package pdftex.def Info: images/interface/Espace manager.png  used on input lin
 e 638.
 (pdftex.def)             Requested size: 472.20906pt x 574.43202pt.
- [100
+ [99
 
  <./images/interface/Espace manager.png>]
-<images/interface/dashbord_manager1.png, id=1855, 1445.4pt x 840.13875pt>
+<images/interface/dashbord_manager1.png, id=1840, 1445.4pt x 840.13875pt>
 File: images/interface/dashbord_manager1.png Graphic file (type png)
 <use images/interface/dashbord_manager1.png>
 Package pdftex.def Info: images/interface/dashbord_manager1.png  used on input 
 line 654.
 (pdftex.def)             Requested size: 471.20506pt x 273.88794pt.
-<images/interface/dashbord_manager.png, id=1856, 1445.4pt x 840.13875pt>
+<images/interface/dashbord_manager.png, id=1841, 1445.4pt x 840.13875pt>
 File: images/interface/dashbord_manager.png Graphic file (type png)
 <use images/interface/dashbord_manager.png>
 Package pdftex.def Info: images/interface/dashbord_manager.png  used on input l
 ine 655.
 (pdftex.def)             Requested size: 471.20506pt x 273.88794pt.
-<images/interface/team_view.png, id=1857, 1445.4pt x 840.13875pt>
+<images/interface/team_view.png, id=1842, 1445.4pt x 840.13875pt>
 File: images/interface/team_view.png Graphic file (type png)
 <use images/interface/team_view.png>
 Package pdftex.def Info: images/interface/team_view.png  used on input line 667
@@ -2390,12 +2381,12 @@ Overfull \hbox (5.41359pt too wide) in paragraph at lines 667--668
  [][] 
  []
 
-[101
+[100
 
  <./images/interface/dashbord_manager1.png (PNG copy)> <./images/interface/dash
-bord_manager.png (PNG copy)>] [102 <./images/interface/team_view.png (PNG copy)
+bord_manager.png (PNG copy)>] [101 <./images/interface/team_view.png (PNG copy)
 >]
-<images/interface/Espace responsable.png, id=1869, 1748.5325pt x 1616.0375pt>
+<images/interface/Espace responsable.png, id=1853, 1748.5325pt x 1616.0375pt>
 File: images/interface/Espace responsable.png Graphic file (type png)
 <use images/interface/Espace responsable.png>
 Package pdftex.def Info: images/interface/Espace responsable.png  used on input
@@ -2406,26 +2397,26 @@ Overfull \hbox (24.0798pt too wide) in paragraph at lines 681--682
  [][] 
  []
 
-[103
+[102
 
  <./images/interface/Espace responsable.png>]
-<images/interface/add_planning.png, id=1877, 1445.4pt x 840.13875pt>
+<images/interface/add_planning.png, id=1862, 1445.4pt x 840.13875pt>
 File: images/interface/add_planning.png Graphic file (type png)
 <use images/interface/add_planning.png>
 Package pdftex.def Info: images/interface/add_planning.png  used on input line 
 696.
 (pdftex.def)             Requested size: 440.83533pt x 256.23553pt.
-<images/interface/résumer_team.png, id=1879, 1445.4pt x 840.13875pt>
+<images/interface/résumer_team.png, id=1864, 1445.4pt x 840.13875pt>
 File: images/interface/résumer_team.png Graphic file (type png)
 <use images/interface/résumer_team.png>
 Package pdftex.def Info: images/interface/résumer_team.png  used on input line
  711.
 (pdftex.def)             Requested size: 440.83533pt x 256.23553pt.
- [104
+ [103
 
  <./images/interface/add_planning.png (PNG copy)> <./images/interface/résumer_
 team.png (PNG copy)>]
-<images/interface/admin_add_employe.png, id=1885, 1445.4pt x 840.13875pt>
+<images/interface/admin_add_employe.png, id=1870, 1445.4pt x 840.13875pt>
 File: images/interface/admin_add_employe.png Graphic file (type png)
 <use images/interface/admin_add_employe.png>
 Package pdftex.def Info: images/interface/admin_add_employe.png  used on input 
@@ -2436,12 +2427,12 @@ Overfull \hbox (5.41359pt too wide) in paragraph at lines 731--733
  [][] 
  []
 
-[105
+[104
 
- <./images/interface/admin_add_employe.png (PNG copy)>] [106])
-(Conclusion_Générale.tex [107]) [108
+ <./images/interface/admin_add_employe.png (PNG copy)>] [105])
+(Conclusion_Générale.tex [106]) [107
 
-] (Bibliographie.tex [109]
+] (Bibliographie.tex [108]
 Overfull \hbox (7.16257pt too wide) in paragraph at lines 7--8
 []\T1/cmr/m/it/12 The be-ne-fits of web-based ap-pli-ca-tions\T1/cmr/m/n/12 , D
 is-po-nible sur <https ://www.magicwebsolutions.co.uk>,
@@ -2465,7 +2456,7 @@ Underfull \hbox (badness 3343) in paragraph at lines 33--34
  (consul-ter le 6 mars
  []
 
-[110
+[109
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
@@ -2514,7 +2505,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 nsor.pdf> (consult� le
  []
 
-[111]
+[110]
 Overfull \hbox (6.2753pt too wide) in paragraph at lines 83--84
 \T1/cmr/m/n/12 <https ://readthedocs.org/projects/adafruit-circuitpython-finger
 print/downloads/pdf/latest/>
@@ -2526,7 +2517,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 ject.com/fr/3.1/topics/db/queries/>
  []
 
-) (AnnexeA.tex [112]
+
+Overfull \hbox (41.17795pt too wide) in paragraph at lines 119--120
+[]\T1/cmr/m/it/12 Les bases de don-n�es et Django\T1/cmr/m/n/12 , Dis-po-nible 
+sur <https ://zestedesavoir.com/tutoriels/598/developpez-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+\T1/cmr/m/n/12 votre-site-web-avec-le-framework-django/262_presentation-de-djan
+go/1519_les-bases-de-
+ []
+
+) (AnnexeA.tex [111]
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
@@ -2544,7 +2547,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--70
 Underfull \vbox (badness 10000) detected at line 83
  []
 
-[113
+[112
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 114--114
@@ -2569,7 +2572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
 Underfull \vbox (badness 10000) detected at line 170
  []
 
-[114]
+[113]
 Underfull \hbox (badness 10000) in paragraph at lines 202--202
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2582,7 +2585,7 @@ Underfull \vbox (badness 10000) detected at line 220
 Overfull \vbox (11.71323pt too high) has occurred while \output is active []
 
 
-[115]
+[114]
 Underfull \hbox (badness 10000) in paragraph at lines 244--245
 []\T1/cmr/m/n/12 L'acteur s�-lec-tionne un col-la-bo-ra-teur (cas d'uti-li-sa-t
 ion
@@ -2617,7 +2620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--331
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
 
-[116]
+[115]
 Underfull \vbox (badness 10000) detected at line 344
  []
 
@@ -2634,7 +2637,7 @@ Underfull \vbox (badness 10000) detected at line 386
 Overfull \vbox (5.04115pt too high) has occurred while \output is active []
 
 
-[117]
+[116]
 Underfull \hbox (badness 2913) in paragraph at lines 410--411
 []\T1/cmr/m/n/12 Le res-pon-sable s�-lec-tionne un em-ploy� (Cas d'uti-li-sa-ti
 on
@@ -2658,7 +2661,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--459
 Underfull \vbox (badness 10000) detected at line 478
  []
 
-[118]
+[117]
 Underfull \hbox (badness 10000) in paragraph at lines 507--507
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2677,7 +2680,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\T1/cmr/m/n/12 Encha�nement al-ter-
  []
 
-[119]
+[118]
 Underfull \vbox (badness 10000) detected at line 576
  []
 
@@ -2690,7 +2693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--610
 Underfull \vbox (badness 10000) detected at line 624
  []
 
-[120]
+[119]
 Underfull \hbox (badness 10000) in paragraph at lines 660--660
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2703,7 +2706,7 @@ Underfull \vbox (badness 10000) detected at line 675
 Overfull \vbox (6.24774pt too high) has occurred while \output is active []
 
 
-[121]
+[120]
 Underfull \hbox (badness 10000) in paragraph at lines 710--710
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2721,7 +2724,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 754--754
 Underfull \vbox (badness 10000) detected at line 769
  []
 
-[122]
+[121]
 Underfull \hbox (badness 10000) in paragraph at lines 801--801
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2739,7 +2742,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 840--840
 Underfull \vbox (badness 10000) detected at line 854
  []
 
-[123]
+[122]
 Underfull \hbox (badness 10000) in paragraph at lines 886--886
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2767,7 +2770,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 933--933
 Underfull \vbox (badness 10000) detected at line 951
  []
 
-[124]
+[123]
 Underfull \hbox (badness 10000) in paragraph at lines 978--979
 
  []
@@ -2781,7 +2784,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 983--983
 Underfull \vbox (badness 10000) detected at line 996
  []
 
-[125]
+[124]
 Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
 
  []
@@ -2804,7 +2807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
 Underfull \vbox (badness 10000) detected at line 1088
  []
 
-[126]
+[125]
 Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2822,7 +2825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1160--1160
 Underfull \vbox (badness 10000) detected at line 1169
  []
 
-[127]
+[126]
 Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
 
  []
@@ -2855,7 +2858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
 Underfull \vbox (badness 10000) detected at line 1262
  []
 
-[128]
+[127]
 Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
 
  []
@@ -2869,7 +2872,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1294--1294
 Underfull \vbox (badness 10000) detected at line 1307
  []
 
-[129]
+[128]
 Underfull \hbox (badness 10000) in paragraph at lines 1333--1334
 
  []
@@ -2883,7 +2886,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
 Underfull \vbox (badness 10000) detected at line 1345
  []
 
-[130]
+[129]
 Underfull \hbox (badness 10000) in paragraph at lines 1374--1374
 []|\T1/cmr/m/n/12 Enchainement al-ter-
  []
@@ -2901,10 +2904,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1413--1413
 Underfull \vbox (badness 10000) detected at line 1428
  []
 
-) (AnnexeB.tex [131
+) (AnnexeB.tex [130
 
 ]
-<images/DSS/DSS Consulter résumer de pointage des collaborateurs.png, id=2171,
+<images/DSS/DSS Consulter résumer de pointage des collaborateurs.png, id=2161,
  307.8702pt x 323.7696pt>
 File: images/DSS/DSS Consulter résumer de pointage des collaborateurs.png Grap
 hic file (type png)
@@ -2912,11 +2915,11 @@ hic file (type png)
 Package pdftex.def Info: images/DSS/DSS Consulter résumer de pointage des coll
 aborateurs.png  used on input line 13.
 (pdftex.def)             Requested size: 363.28366pt x 382.04482pt.
- [132
+ [131
 
  <./images/DSS/DSS Consulter résumer de pointage des collaborateurs.png (PNG c
 opy)>]
-<images/DSS/DSS Consulter la liste des collaborateurs.png, id=2178, 307.8702pt 
+<images/DSS/DSS Consulter la liste des collaborateurs.png, id=2167, 307.8702pt 
 x 265.9536pt>
 File: images/DSS/DSS Consulter la liste des collaborateurs.png Graphic file (ty
 pe png)
@@ -2924,32 +2927,32 @@ pe png)
 Package pdftex.def Info: images/DSS/DSS Consulter la liste des collaborateurs.p
 ng  used on input line 23.
 (pdftex.def)             Requested size: 246.29648pt x 212.76315pt.
-<images/DSS/DSS Consulter mes équipes.png, id=2179, 307.8702pt x 265.9536pt>
+<images/DSS/DSS Consulter mes équipes.png, id=2168, 307.8702pt x 265.9536pt>
 File: images/DSS/DSS Consulter mes équipes.png Graphic file (type png)
 <use images/DSS/DSS Consulter mes équipes.png>
 Package pdftex.def Info: images/DSS/DSS Consulter mes équipes.png  used on inp
 ut line 32.
 (pdftex.def)             Requested size: 246.29648pt x 212.76315pt.
- [133 <./images/DSS/DSS Consulter la liste des collaborateurs.png (PNG copy)> <
+ [132 <./images/DSS/DSS Consulter la liste des collaborateurs.png (PNG copy)> <
 ./images/DSS/DSS Consulter mes équipes.png (PNG copy)>]
 File: images/DSS/DSS Consulter mon profil.png Graphic file (type png)
 <use images/DSS/DSS Consulter mon profil.png>
 Package pdftex.def Info: images/DSS/DSS Consulter mon profil.png  used on input
  line 45.
-(pdftex.def)             Requested size: 387.36626pt x 359.90372pt.
- [134
+(pdftex.def)             Requested size: 387.36626pt x 367.13069pt.
+ [133
 
 ]
-<images/DSS/DSS Modifier mon profil.png, id=2192, 409.7709pt x 461.0826pt>
+<images/DSS/DSS Modifier mon profil.png, id=2182, 409.7709pt x 461.0826pt>
 File: images/DSS/DSS Modifier mon profil.png Graphic file (type png)
 <use images/DSS/DSS Modifier mon profil.png>
 Package pdftex.def Info: images/DSS/DSS Modifier mon profil.png  used on input 
 line 56.
 (pdftex.def)             Requested size: 409.7699pt x 461.08147pt.
- [135
+ [134
 
  <./images/DSS/DSS Modifier mon profil.png (PNG copy)>]
-<images/DSS/DSS Affectation d'un planning.png, id=2198, 387.3672pt x 352.6776pt
+<images/DSS/DSS Affectation d'un planning.png, id=2188, 387.3672pt x 352.6776pt
 >
 File: images/DSS/DSS Affectation d'un planning.png Graphic file (type png)
 <use images/DSS/DSS Affectation d'un planning.png>
@@ -2957,35 +2960,35 @@ Package pdftex.def Info: images/DSS/DSS Affectation d'un planning.png  used on
 input line 67.
 (pdftex.def)             Requested size: 329.26367pt x 299.77736pt.
 
-[136
+[135
 
  <./images/DSS/DSS Affectation d'un planning.png (PNG copy)>]
-<images/DSS/DSS Consulter liste des équipes.png, id=2204, 358.4592pt x 338.223
+<images/DSS/DSS Consulter liste des équipes.png, id=2194, 358.4592pt x 338.223
 6pt>
 File: images/DSS/DSS Consulter liste des équipes.png Graphic file (type png)
 <use images/DSS/DSS Consulter liste des équipes.png>
 Package pdftex.def Info: images/DSS/DSS Consulter liste des équipes.png  used 
 on input line 80.
 (pdftex.def)             Requested size: 430.14888pt x 405.86629pt.
- [137
+ [136
 
  <./images/DSS/DSS Consulter liste des équipes.png (PNG copy)>]
-<images/DSS/DSS Ajouter empreinte.png, id=2210, 553.5882pt x 475.5366pt>
+<images/DSS/DSS Ajouter empreinte.png, id=2200, 553.5882pt x 475.5366pt>
 File: images/DSS/DSS Ajouter empreinte.png Graphic file (type png)
 <use images/DSS/DSS Ajouter empreinte.png>
 Package pdftex.def Info: images/DSS/DSS Ajouter empreinte.png  used on input li
 ne 90.
 (pdftex.def)             Requested size: 470.55219pt x 404.20801pt.
- [138
+ [137
 
  <./images/DSS/DSS Ajouter empreinte.png (PNG copy)>]
-<images/DSS/DSS Supprimer empreinte.png, id=2217, 510.2262pt x 294.8616pt>
+<images/DSS/DSS Supprimer empreinte.png, id=2206, 510.2262pt x 294.8616pt>
 File: images/DSS/DSS Supprimer empreinte.png Graphic file (type png)
 <use images/DSS/DSS Supprimer empreinte.png>
 Package pdftex.def Info: images/DSS/DSS Supprimer empreinte.png  used on input 
 line 100.
 (pdftex.def)             Requested size: 484.71213pt x 280.11691pt.
- [139
+ [138
 
  <./images/DSS/DSS Supprimer empreinte.png (PNG copy)>]) (Résumé.texpdfTeX wa
 rning (ext4): destination with the same identifier (name{page.1}) has been alre
@@ -3002,7 +3005,7 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 
  (Main.aux)
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 5DCC7DB46C608FC9D818905886C8151B;9624.
+(rerunfilecheck)             Checksum: 221B31C10A9437D913576FA8CBF1313F;9466.
 
 
 LaTeX Warning: There were undefined references.
@@ -3014,13 +3017,13 @@ runsystem(del Main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 16101 strings out of 480198
- 271117 string characters out of 2895936
- 695426 words of memory out of 3000000
- 31363 multiletter control sequences out of 15000+200000
+ 16089 strings out of 480198
+ 270821 string characters out of 2895936
+ 696274 words of memory out of 3000000
+ 31355 multiletter control sequences out of 15000+200000
  553157 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,12n,111p,561b,718s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,12n,111p,561b,733s stack positions out of 5000i,500n,10000p,200000b,50000s
 {G:/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}{G:/MiKTeX/fonts/enc/dvip
 s/cm-super/cm-super-ts1.enc}<G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pf
 b><G:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><G:/MiKTeX/fonts/type1/p
@@ -3035,9 +3038,9 @@ iKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><G:/MiKTeX/fonts/type1/public/cm
 -super/sfrm1440.pfb><G:/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><G:/MiK
 TeX/fonts/type1/public/cm-super/sfti1200.pfb><G:/MiKTeX/fonts/type1/public/cm-s
 uper/sftt1200.pfb><G:/MiKTeX/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on Main.pdf (153 pages, 13294828 bytes).
+Output written on Main.pdf (152 pages, 13035216 bytes).
 PDF statistics:
- 2462 PDF objects out of 2487 (max. 8388607)
- 819 named destinations out of 1000 (max. 500000)
- 1638 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2451 PDF objects out of 2487 (max. 8388607)
+ 816 named destinations out of 1000 (max. 500000)
+ 1609 words of extra memory for PDF output out of 10000 (max. 10000000)
 
